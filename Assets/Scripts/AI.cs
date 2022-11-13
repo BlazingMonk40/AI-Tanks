@@ -43,31 +43,42 @@ public class AI
     }
     private float[] train(float distToEnemy)
     {
-        if (score <= 100)
+        /*        if (score <= 100)
+                {*/
+
+        if (distToEnemy != 0)
         {
-
-                if (distToEnemy != 0)
-                {
-                    score -= Mathf.Abs((int)distToEnemy);
-
-                    actions[0]  += Random.Range(-0.5f, 1f) * distToEnemy*(-1);
-                    actions[1]  += Random.Range(-0.5f, 1f) * distToEnemy*(-1);
-
-                    actions[0] = actions[0] > 100f ? actions[0] = 100 : actions[0];
-                    actions[0] = actions[0] < 0f ? actions[0] = 0 : actions[0];
-
-                    actions[1] = actions[1] > 89f ? actions[1] = 89 : actions[1];
-                    actions[1] = actions[1] < 1f ? actions[1] = 1 : actions[1];
-
-
-                }
-                else
-                {
-                    score += 20;
-                }
+            score -= Mathf.Abs((int)distToEnemy);
             
+            actions[0] -= Random.Range(-0.5f, 1f) * sqrt(distToEnemy);
+            actions[1] -= Random.Range(-1f, 1f) * sqrt(distToEnemy);
+
+            actions[0] = actions[0] > 100f ? actions[0] = 100 : actions[0];
+            actions[0] = actions[0] < 0f ? actions[0] = 0 : actions[0];
+
+            actions[1] = actions[1] > 89f ? actions[1] = 89 : actions[1];
+            actions[1] = actions[1] < 1f ? actions[1] = 1 : actions[1];
+
+
+            /*               }
+                           else
+                           {
+                               score += 20;
+                           }*/
+
         }
 
         return actions;
+    }
+
+    private float sqrt(float val)
+    {
+        float output = Mathf.Sqrt(Mathf.Abs(val));
+
+        if (val < 0f)
+            return -output;
+
+        return output;
+
     }
 }
