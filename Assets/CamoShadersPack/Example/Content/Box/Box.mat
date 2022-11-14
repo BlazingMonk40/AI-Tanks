@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Box
+  m_Shader: {fileID: 4800000, guid: 949629f879ab51d46a8225f39289ed7b, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP _SPECGLOSSMAP _UV_CHANNEL_UV1
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: b422e7525802c0942a2f46630c80ab89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CamoPatternMap:
+        m_Texture: {fileID: 2800000, guid: 8045d95f1d75c01449db968cb7e4325e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bec4829feddece044b48faed3affb5a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: cc4d6a4055a812f408d201d85a9ee547, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Glossiness: 0.472
+    - _Metallic: 0
+    - _Shininess: 0.1
+    - _UV_CHANNEL: 0
+    m_Colors:
+    - _CamoBlackTint: {r: 0.41004854, g: 0.41004854, b: 0.21004665, a: 1}
+    - _CamoBlueTint: {r: 0.8018868, g: 0.4598509, b: 0.056737266, a: 1}
+    - _CamoGreenTint: {r: 0.75002766, g: 0.6400372, b: 0.3100495, a: 1}
+    - _CamoRedTint: {r: 0.19004568, g: 0.20004609, b: 0.13004112, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.2352941, g: 0.2352941, b: 0.2352941, a: 1}
