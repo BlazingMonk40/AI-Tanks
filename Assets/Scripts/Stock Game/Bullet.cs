@@ -7,7 +7,9 @@ public class Bullet : MonoBehaviour
 {
     public GameObject explosionSFX;
     public GameObject explosionVisual;
+    public GameObject smokeVFX;
     public GameObject fxContainer;
+    private GameObject smokeVFXContainer;
     private Player player;
     private Game game;
     private float gravity = -9.8f;
@@ -18,7 +20,7 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-
+        smokeVFXContainer = GameObject.Find("Impact Smoke Container");
         GetComponent<SphereCollider>().enabled = false;
         StartCoroutine(TurnColliderOn());
     }
@@ -47,13 +49,20 @@ public class Bullet : MonoBehaviour
             CheckFriendlyFire(other);
             MakeImpactFX();
             Player.Distance = CalculateDistance(gameObject.transform.position, Game.notCurrentPlayer.transform.position, other);
-
+            if (Player.Distance == 0)
+                MakeImpactSmoke();
 
             Game.EndTurn();
 
             //Destroy this bullet 3 seconds after impact
-            Destroy(gameObject, .5f);
+            Destroy(gameObject, .1f);
         }
+    }
+
+    private void MakeImpactSmoke()
+    {
+        GameObject smokeVFXObj = Instantiate(smokeVFX, transform.position, Quaternion.identity, smokeVFXContainer.transform);
+        Game.ApplyWindSpeedToSmoke();
     }
 
     private void MakeImpactFX()
@@ -143,26 +152,3 @@ public class Bullet : MonoBehaviour
 
 
 }
-/*
- * 
- * 
- * male(clay).
- * male(ken).
- * male(arnold).
- *
- * female(anna).
- * female(michelle).
- * female(sandra).
- *
- * sibling(clay, anna).
- * 
- * parent(michelle, clay).
- * parent(ken, clay).
- * 
- * parent(sandra, ken).
- * parent(arnold, ken).
- * 
- * relationship(X,Y) :- parent(X,Y), female(X), write(X), write(' is the mother of '), write(Y), nl.
- * 
- * relationship(X,Y) :- parent(X,Z), parent(Z,Y), female(X), write(X is the grandmother of Y).
- */

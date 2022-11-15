@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.VFX;
 
 [System.Serializable]
 public class Game : MonoBehaviour
@@ -31,6 +32,7 @@ public class Game : MonoBehaviour
 
     public bool gameOver = false;
     private GameObject bulletContainer;
+    private GameObject smokeVFXContainer;
     
 
     public float DistanceBetweenPlayers
@@ -56,7 +58,18 @@ public class Game : MonoBehaviour
     private void GenerateWindSpeed()
     {
         WindSpeed = UnityEngine.Random.Range(-10, 11);
+        ApplyWindSpeedToSmoke();
     }
+
+    public void ApplyWindSpeedToSmoke()
+    {
+        if(smokeVFXContainer.transform.childCount > 0)
+            for(int i = 0; i < smokeVFXContainer.transform.childCount; i++)
+            {
+                smokeVFXContainer.transform.GetChild(i).GetComponent<VisualEffect>().SetVector3("New Vector3", new Vector3(WindSpeed/2, 1f, 0f));
+            }
+    }
+
     private void UpdateWindSpeedText(int value)
     {
         string temp = "";
@@ -94,18 +107,11 @@ public class Game : MonoBehaviour
             player.InitPlayer(this);
         }
 
-        for(int i = 0; i < transform.childCount; i++)
-        {
-            if(transform.GetChild(i).name == "Bullet Container")
-            {
-                bulletContainer = transform.GetChild(i).gameObject;
-            }
-        }
+        bulletContainer = GameObject.Find("Bullet Container");
     }
 
     void Start()
     {
-        GenerateWindSpeed();
 
         distanceText.text = DistanceBetweenPlayers.ToString();
 
@@ -136,6 +142,9 @@ public class Game : MonoBehaviour
             playerList[1].InitAI(AIManager.AIType.REINFORCED);
             StartCoroutine(HandleCurrentTurn());
         }
+        smokeVFXContainer = gameObject.transform.GetChild(transform.childCount - 1).transform.GetChild(1).gameObject; //Get the last child "Containers" and get it's second child "Impact Smoke Container" <- Shitty hard coding I can be bothered to do the right way.
+
+        GenerateWindSpeed();
     }
 
 
