@@ -137,13 +137,18 @@ public class Player : MonoBehaviour
         }
         if(Game.playStyle[1]) //True for Reinforced Learning
         {
-            Debug.DrawRay(bulletSpawner.transform.position, bulletSpawner.transform.forward * (Power * powerMultiplier) / 2, Color.red);
+            if(this == Game.playerList[0])
+                Debug.DrawRay(bulletSpawner.transform.position, bulletSpawner.transform.forward * (Power * powerMultiplier) / 2, Color.blue);
+            else
+                Debug.DrawRay(bulletSpawner.transform.position, bulletSpawner.transform.forward * (Power * powerMultiplier) / 2, Color.red);
         }
     }
 
     public void Hit()
     {
         Health -= 1;
+        if (Health <= 0)
+            Game.GameOver();
     }
 
     private void FixAxis()

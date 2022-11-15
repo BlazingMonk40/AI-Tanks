@@ -216,8 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c71cddcb921fd48a02e47b56a3f0fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 3
-  numberGames: 6
+  timeScale: 1
+  numberGames: 5
   gamePrefab: {fileID: 6690966119929153360, guid: 407fd051626af214b8de6d41bfa324d0,
     type: 3}
   gameList: []

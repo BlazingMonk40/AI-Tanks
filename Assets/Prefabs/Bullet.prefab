@@ -145,7 +145,6 @@ MonoBehaviour:
   smokeVFX: {fileID: 1128986309227996897, guid: b9619f859a6258d43918185b6e2545e2,
     type: 3}
   fxContainer: {fileID: 0}
-  smokeVFXContainer: {fileID: 0}
 --- !u!96 &3596073880453569294
 TrailRenderer:
   serializedVersion: 2
@@ -225,7 +224,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 0, g: 0, b: 1, a: 1}
       key1: {r: 0.2264151, g: 0.22321111, b: 0.22321111, a: 0.49019608}
       key2: {r: 0, g: 1, b: 0.16342616, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}

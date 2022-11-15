@@ -18,11 +18,17 @@ public class Game : MonoBehaviour
     public Player currentPlayer;
     public Player notCurrentPlayer;
 
+    public Gradient player1Gradient;
+    public Gradient player2Gradient;
+
     [Header("UI")]
     public Text currentPlayer1Text;
     public Text currentPlayer2Text;
     public Text distanceText;
+    public GameObject gameOverText;
+    public Text winningPlayerText;
     private float distanceBetweenPlayers;
+
 
     [TextArea]
     public string windSpeedInspector;
@@ -33,8 +39,8 @@ public class Game : MonoBehaviour
     public bool gameOver = false;
     private GameObject bulletContainer;
     private GameObject smokeVFXContainer;
-    
 
+    #region Properties
     public float DistanceBetweenPlayers
     {
         get
@@ -54,6 +60,7 @@ public class Game : MonoBehaviour
             UpdateWindSpeedText(value);
         }
     }
+    #endregion
 
     private void GenerateWindSpeed()
     {
@@ -154,7 +161,14 @@ public class Game : MonoBehaviour
         if (distanceText.text != ((int)DistanceBetweenPlayers).ToString() + " meters")
             distanceText.text = ((int)DistanceBetweenPlayers).ToString() + " meters";
         if (bulletContainer.transform.childCount > 10)
-            gameOver = true;
+            GameOver();
+    }
+
+    public void GameOver()
+    {
+        gameOver = true;
+        gameOverText.SetActive(true);
+        winningPlayerText.text = currentPlayer.name + " won the game!";
     }
     public IEnumerator HandleCurrentTurn()
     {

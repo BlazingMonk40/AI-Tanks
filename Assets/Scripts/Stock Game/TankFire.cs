@@ -11,6 +11,7 @@ public class TankFire : MonoBehaviour
     public GameObject bulletContainer;
     private GameObject fxContainer;
     
+    
     public string teamTag;
     private Player player;
     private Game game;
@@ -42,6 +43,11 @@ public class TankFire : MonoBehaviour
         bullet.GetComponent<Bullet>().Player = this.Player;
         bullet.GetComponent<Bullet>().Game = this.Game;
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * Player.Power * Player.powerMultiplier;
+
+        if (Player == Game.playerList[0])
+            bullet.GetComponent<TrailRenderer>().colorGradient = Game.player1Gradient;
+        else
+            bullet.GetComponent<TrailRenderer>().colorGradient = Game.player2Gradient;
 
         GameObject fireSoundObj = Instantiate(tankFireSFX, transform.position, Quaternion.identity, fxContainer.transform);
         fireSoundObj.GetComponent<AudioSource>().Play();
