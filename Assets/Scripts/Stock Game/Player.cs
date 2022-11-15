@@ -9,9 +9,9 @@ public class Player : MonoBehaviour
 {
     private float rotationOffset = 90f;
     public float powerMultiplier = 1f;
-    private float power;
-    private float angle;
-    private float distance;
+    private float power = -1;
+    private float angle = -1;
+    private float distance = -1;
     private bool myTurn;
     AIManager playerAI;
 
@@ -27,6 +27,9 @@ public class Player : MonoBehaviour
     private Text angleText;
     private Text distanceText;
     private Game game;
+
+    private int health = 3;
+    private Text healthText;
 
     private Quaternion stockRotation;
 
@@ -46,7 +49,7 @@ public class Player : MonoBehaviour
         set
         {
             angle = value;
-            SetAngleText(((int)value).ToString());
+            SetAngleText((360 - (int)value).ToString());
         }
     }
     public float Distance
@@ -55,7 +58,10 @@ public class Player : MonoBehaviour
         set
         {
             distance = value;
-            SetDistanceText(((int)value).ToString());
+            if(value == 0)
+                SetDistanceText("Hit!");
+            else
+                SetDistanceText(((int)value).ToString());
         }
     }
     public AIManager PlayerAI
@@ -68,6 +74,17 @@ public class Player : MonoBehaviour
         get => game; 
         set => game = value; 
     }
+    public int Health 
+    { 
+        get => health;
+        set
+        {
+            health = value;
+            SetHealthText();
+        }
+    }
+
+   
     #endregion
 
     public void InitAI(AIManager.AIType type)
@@ -83,6 +100,7 @@ public class Player : MonoBehaviour
         powerText = playerUIContainer.transform.GetChild(1).gameObject.GetComponent<Text>();
         angleText = playerUIContainer.transform.GetChild(2).gameObject.GetComponent<Text>();
         distanceText = playerUIContainer.transform.GetChild(3).gameObject.GetComponent<Text>();
+        healthText = playerUIContainer.transform.GetChild(4).gameObject.GetComponent<Text>();
         #endregion
         
         if (gameObject.tag == "Player1")
@@ -102,9 +120,10 @@ public class Player : MonoBehaviour
         turret.Game = this.Game;
         turretObj = turret.gameObject;
         bulletSpawner = fire.gameObject;
-        Power = 50f;
-        Angle = 0f;
-        Distance = 0f;
+        Power = -1f;
+        Angle = -1f;
+        Distance = -1f;
+        Health = 3;
     }
 
     private void Update()
@@ -122,6 +141,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Hit()
+    {
+        Health -= 1;
+    }
+
     private void FixAxis()
     {
         if (transform.localEulerAngles.x != 0f)
@@ -136,14 +160,14 @@ public class Player : MonoBehaviour
         {
             //Debug.Log("Player2 Angle: " + dir);
             turretObj.transform.localEulerAngles = new Vector3(-dir, 0f, 0f);
-            Angle = turretObj.transform.localEulerAngles.z;
+            Angle = turretObj.transform.localEulerAngles.x;
             ConstrainRotations();
         }
         else
         {
             //Debug.Log("Player1 Angle: " + dir);
             turretObj.transform.localEulerAngles = new Vector3(-dir, 0f, 0f);
-            Angle = turretObj.transform.localEulerAngles.z;
+            Angle = turretObj.transform.localEulerAngles.x;
             ConstrainRotations();
         }
 
@@ -223,10 +247,8 @@ public class Player : MonoBehaviour
 
             }
         }
-        
     }
     
-
     public void SetPowerText(string text)
     {
         powerText.text = "Power: " + text;
@@ -238,6 +260,10 @@ public class Player : MonoBehaviour
     public void SetDistanceText(string text)
     {
         distanceText.text = "Distance: " + text;
+    }
+    private void SetHealthText()
+    {
+        healthText.text = "Health: " + Health;
     }
 
 }

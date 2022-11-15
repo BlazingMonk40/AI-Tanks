@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [Range(.5f, 3)]
+    public float timeScale;
     private float gameOffset = 150f;
     public int numberGames;
     public GameObject gamePrefab;
@@ -31,7 +33,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         InitGames();
-        Time.timeScale = 2;
+        Time.timeScale = timeScale;
     }
 
     private void InitGames()

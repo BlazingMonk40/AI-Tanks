@@ -42,10 +42,12 @@ public class Bullet : MonoBehaviour
         if (!impacted)
         {
             impacted = true;
+            
             DisableColliderTriggers();
             CheckFriendlyFire(other);
             MakeImpactFX();
             Player.Distance = CalculateDistance(gameObject.transform.position, Game.notCurrentPlayer.transform.position, other);
+
 
             Game.EndTurn();
 
@@ -111,6 +113,7 @@ public class Bullet : MonoBehaviour
         if (other.GetComponentInParent<Player>() != Player && other.transform.parent.tag != "Scenery")
         {
             //If the other object is not our player and not the scenery then it must be the other player so set distance to 0
+            other.GetComponentInParent<Player>().Hit();
             distance = 0;
         }
         else
