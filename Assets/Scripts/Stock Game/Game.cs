@@ -10,8 +10,8 @@ public class Game : MonoBehaviour
 {
 
     [Header("Play Style")]
-    [Tooltip("[0] Manual, [1]Reinforced, [2]NEAT")]
-    [SerializeField] public List<bool> playStyle = new List<bool>(3);
+    [Tooltip("[0] Manual, [1]Reinforced, [2]ANN, [3]FeedForward")]
+    [SerializeField] public List<bool> playStyle = new List<bool>(4);
 
     [Header("Player Information")]
     public List<Player> playerList;
@@ -119,6 +119,7 @@ public class Game : MonoBehaviour
 
     void Start()
     {
+        smokeVFXContainer = gameObject.transform.GetChild(transform.childCount - 1).transform.GetChild(1).gameObject; //Get the last child "Containers" and get it's second child "Impact Smoke Container" <- Shitty hard coding I can be bothered to do the right way.
 
         distanceText.text = DistanceBetweenPlayers.ToString();
 
@@ -141,17 +142,26 @@ public class Game : MonoBehaviour
         }
         #endregion
 
-        
-
+        GenerateWindSpeed();
         if (playStyle[1])
         {
             playerList[0].InitAI(AIManager.AIType.REINFORCED);
             playerList[1].InitAI(AIManager.AIType.REINFORCED);
             StartCoroutine(HandleCurrentTurn());
         }
-        smokeVFXContainer = gameObject.transform.GetChild(transform.childCount - 1).transform.GetChild(1).gameObject; //Get the last child "Containers" and get it's second child "Impact Smoke Container" <- Shitty hard coding I can be bothered to do the right way.
+        else if (playStyle[2])
+        {
 
-        GenerateWindSpeed();
+            playerList[0].InitAI(AIManager.AIType.ANN);
+            playerList[1].InitAI(AIManager.AIType.ANN);
+            StartCoroutine(HandleCurrentTurn());
+
+        }
+        else if(playStyle[3])
+        {
+            StartCoroutine(HandleCurrentTurn());
+
+        }
     }
 
 
@@ -177,7 +187,9 @@ public class Game : MonoBehaviour
     public IEnumerator HandleCurrentTurn()
     {
         if (gameOver)
-            Debug.LogAssertion(name + ": GAME OVER!");
+        {
+            //Debug.LogAssertion(name + ": GAME OVER!");
+        }
         else
         {
             if (playStyle[1])
@@ -186,8 +198,28 @@ public class Game : MonoBehaviour
                 float[] actions;
                 actions = currentPlayer.PlayerAI.getMove(currentPlayer.Distance);
                 currentPlayer.Power = actions[0];
-                currentPlayer.AiAim(actions[1]);
+                currentPlayer.Angle = actions[1];
+                currentPlayer.AiAim();
                 currentPlayer.AiFire();
+            }
+            else if (playStyle[2])
+            {
+                yield return new WaitForSeconds(1f);
+                float[] actions;
+                actions = currentPlayer.PlayerAI.getMove(currentPlayer.Distance);
+                currentPlayer.Power = actions[0];
+                currentPlayer.Angle = actions[1];
+                currentPlayer.AiAim();
+                currentPlayer.AiFire();
+            }
+            else if (playStyle[3])
+            {
+                yield return new WaitForSeconds(1f);
+                float[] inputs = new float[3];
+                inputs[0] = DistanceBetweenPlayers;
+                inputs[1] = currentPlayer.transform.position.y - notCurrentPlayer.transform.position.y;
+                inputs[2] = Mathf.Abs(WindSpeed);
+                currentPlayer.CallFeedForward(inputs);
             }
         }
     }

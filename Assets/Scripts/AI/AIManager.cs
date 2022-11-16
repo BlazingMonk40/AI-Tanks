@@ -9,12 +9,15 @@ public class AIManager
     public float distanceBetweenPlayers;
     private float[] actions = new float[2] { 0.0f, 0.0f };
     private int score = 0;
+    private NeuralNetFF x;
 
     public AIManager(AIType type)
     {
         aiType = type;
         actions[0] = Random.Range(50f, 60f);
         actions[1] = Random.Range(45f, 85f);
+        x = new NeuralNetFF(3, 2, 3, 3, ActivationFunctions.Functions.STEP);
+        x.feedForward();
     }
     public enum AIType
     {
@@ -50,6 +53,9 @@ public class AIManager
                 }
                 break;
             case AIType.ANN:
+            if(distToEnemy !=0){x.mutate();x.feedForward();}
+                actions[0] = x.getOutput()[0] ? actions[0] += 5f : actions[0] -= 5f;
+                actions[1] = x.getOutput()[1] ? actions[1] += 5f : actions[1] -= 5f;
                 break;
             default:
                 actions[0] = Random.Range(0.0f, 100f);

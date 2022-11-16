@@ -1380,6 +1380,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81afc3c40a9291047805cef11ca36350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cannon_Fire: []
+  engine: []
+  flyby: []
+  hit: []
+  reload: []
+  turret: []
+  warning: []
 --- !u!1 &4468650170178490493
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,7 +3702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550d703c6669c44b9e34e13df1c1c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playStyle: 000100
+  playStyle: 000001
   playerList:
   - {fileID: 8839111876418029324}
   - {fileID: 8801819532191569815}
@@ -5031,6 +5038,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81afc3c40a9291047805cef11ca36350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cannon_Fire: []
+  engine: []
+  flyby: []
+  hit: []
+  reload: []
+  turret: []
+  warning: []
 --- !u!1 &8801819532231370676
 GameObject:
   m_ObjectHideFlags: 0

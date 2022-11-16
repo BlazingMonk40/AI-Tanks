@@ -28,10 +28,12 @@ public class Player : MonoBehaviour
     private Text distanceText;
     private Game game;
 
+    private NeuralNetworkFeedForward net;
+    private float[] input;
+    private float[] output;
+
     private int health = 3;
     private Text healthText;
-
-    private Quaternion stockRotation;
 
     #region Properties
     public float Power
@@ -83,9 +85,19 @@ public class Player : MonoBehaviour
             SetHealthText();
         }
     }
+     public NeuralNetworkFeedForward Net 
+    { 
+        get => net; 
+        set => net = value; 
+    }
 
-   
+
     #endregion
+
+    public void Init(NeuralNetworkFeedForward net)
+    {
+        Net = net;
+    }
 
     public void InitAI(AIManager.AIType type)
     {
@@ -93,6 +105,16 @@ public class Player : MonoBehaviour
         PlayerAI.distanceBetweenPlayers = Game.DistanceBetweenPlayers;
     }
 
+    public void CallFeedForward(float[] input)
+    {
+        output = Net.FeedForward(input);
+        Power = output[0];
+        Angle = output[1];
+        AiAim();
+        AiFire();
+    }
+
+    
 
     internal void InitPlayer(Game game)
     {
@@ -159,25 +181,16 @@ public class Player : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y, -15f);
     }
 
-    public void AiAim(float dir)
+    public void AiAim()
     {
-        if (gameObject.tag == "Player2")
-        {
-            //Debug.Log("Player2 Angle: " + dir);
-            turretObj.transform.localEulerAngles = new Vector3(-dir, 0f, 0f);
-            Angle = turretObj.transform.localEulerAngles.x;
-            ConstrainRotations();
-        }
-        else
-        {
-            //Debug.Log("Player1 Angle: " + dir);
-            turretObj.transform.localEulerAngles = new Vector3(-dir, 0f, 0f);
-            Angle = turretObj.transform.localEulerAngles.x;
-            ConstrainRotations();
-        }
-
+        turretObj.transform.localEulerAngles = new Vector3(-Angle, 0f, 0f);
+        Angle = turretObj.transform.localEulerAngles.x;
+        ConstrainRotations();
     }
-
+    public void AiFire()
+    {
+        fire.Fire();
+    }
     private IEnumerator ConstrainRotations()
     {
         yield return new WaitForEndOfFrame();
@@ -196,10 +209,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void AiFire()
-    {
-        fire.Fire();
-    }
+   
     public void HandleFiring()
     {
         if (Game.GetCurrentPlayer() == this)

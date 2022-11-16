@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class SoundHandler : MonoBehaviour
 {
-    private List<AudioSource> cannon_Fire;
-    private List<AudioSource> engine;
-    private List<AudioSource> flyby;
-    private List<AudioSource> hit;
-    private List<AudioSource> reload;
-    private List<AudioSource> turret;
-    private List<AudioSource> warning;
+    public List<AudioSource> cannon_Fire;
+    public List<AudioSource> engine;
+    public List<AudioSource> flyby;
+    public List<AudioSource> hit;
+    public List<AudioSource> reload;
+    public List<AudioSource> turret;
+    public List<AudioSource> warning;
 
     public AudioSource Cannon_Fire 
     {

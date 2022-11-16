@@ -1710,15 +1710,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550d703c6669c44b9e34e13df1c1c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playStyle: 000100
+  playStyle: 00010100
   playerList:
   - {fileID: 2461672101123898308}
   - {fileID: 8288586791273917768}
   currentPlayer: {fileID: 2461672101123898308}
   notCurrentPlayer: {fileID: 8288586791273917768}
+  player1Gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  player2Gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
   currentPlayer1Text: {fileID: 2461672102063865788}
   currentPlayer2Text: {fileID: 2461672101167259122}
   distanceText: {fileID: 2461672101457361249}
+  gameOverText: {fileID: 0}
+  winningPlayerText: {fileID: 0}
   windSpeedInspector: 
   windSpeedText: {fileID: 4161752294333354291}
   windSpeed: 0

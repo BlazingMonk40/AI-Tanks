@@ -73,7 +73,7 @@ public class Bullet : MonoBehaviour
             //Total Distance, ^X, ^Y, Wind, Angle, Power
 
             writer.WriteLine(Game.DistanceBetweenPlayers.ToString().PadRight(10) + " | " + (Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y).ToString().PadLeft(1).PadRight(9) +
-                                " | " + Game.WindSpeed.ToString().PadLeft(3).PadRight(3) + " | " + Player.Angle.ToString().PadRight(10) + " | " + Player.Power.ToString().PadRight(10));
+                                " | " + Game.WindSpeed.ToString().PadLeft(3).PadRight(4) + " | " + Player.Angle.ToString().PadRight(10) + " | " + Player.Power.ToString().PadRight(10));
 
             writer.Close();
         }

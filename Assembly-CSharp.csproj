@@ -64,8 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AI\AIManager.cs" />
-    <Compile Include="Assets\Scripts\AI\ANN\NEAT.cs" />
-    <Compile Include="Assets\Scripts\AI\ANN\NEATManager.cs" />
+    <Compile Include="Assets\Scripts\AI\ANN\ActivationFunctions.cs" />
+    <Compile Include="Assets\Scripts\AI\ANN\Layer.cs" />
+    <Compile Include="Assets\Scripts\AI\ANN\NeuralNetFF.cs" />
+    <Compile Include="Assets\Scripts\AI\ANN\Neuron.cs" />
+    <Compile Include="Assets\Scripts\AI\Clay FeedForward\NeuralNetworkFeedForward.cs" />
     <Compile Include="Assets\Scripts\AI\RL\RLearning.cs" />
     <Compile Include="Assets\Scripts\Stock Game\Bullet.cs" />
     <Compile Include="Assets\Scripts\Stock Game\Game.cs" />
