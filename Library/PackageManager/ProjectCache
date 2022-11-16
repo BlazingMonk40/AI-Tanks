@@ -5,11 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
       ticks: 638041728058876941
-=======
-      ticks: 638041635469644860
->>>>>>> Stashed changes
     m_Hash: 1759055651
   m_LockFileStatus:
     m_FilePath: C:/Users/mayst/Documents/GitHub/AI-Tanks/Packages/packages-lock.json
@@ -17,11 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
       ticks: 638041728260110054
-=======
-      ticks: 638041635649851350
->>>>>>> Stashed changes
     m_Hash: 3686827504
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
