@@ -1055,7 +1055,7 @@ BoxCollider:
   m_GameObject: {fileID: 3620266596181609245}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0038611202, y: 0.05152641, z: 0.0034445568}
   m_Center: {x: -0.00020212376, y: -0.020237487, z: 0.000729207}
@@ -1247,6 +1247,7 @@ GameObject:
   - component: {fileID: 1506422763935271558}
   - component: {fileID: 8839111876418029324}
   - component: {fileID: 4921696171916427438}
+  - component: {fileID: 5446737841935523534}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player1
@@ -1367,6 +1368,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 74
   m_CollisionDetection: 0
+--- !u!114 &5446737841935523534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228646764544807336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81afc3c40a9291047805cef11ca36350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4468650170178490493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6690966118799285551
 Transform:
   m_ObjectHideFlags: 0
@@ -4885,6 +4898,7 @@ GameObject:
   - component: {fileID: 8801819532191569812}
   - component: {fileID: 8801819532191569815}
   - component: {fileID: 1019556320719804923}
+  - component: {fileID: 1066583494757552}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Player2
@@ -5005,6 +5019,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 74
   m_CollisionDetection: 0
+--- !u!114 &1066583494757552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801819532191569817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81afc3c40a9291047805cef11ca36350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8801819532231370676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,7 +5519,7 @@ BoxCollider:
   m_GameObject: {fileID: 8801819532593217780}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0038611202, y: 0.05152641, z: 0.0034445568}
   m_Center: {x: -0.00020212376, y: -0.020237487, z: 0.000729207}

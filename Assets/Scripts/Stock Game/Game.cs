@@ -160,6 +160,8 @@ public class Game : MonoBehaviour
     {
         if (distanceText.text != ((int)DistanceBetweenPlayers).ToString() + " meters")
             distanceText.text = ((int)DistanceBetweenPlayers).ToString() + " meters";
+        
+        //Fail Safe to stop bug where thousands of bullets spawn
         if (bulletContainer.transform.childCount > 10)
             GameOver();
     }
@@ -170,6 +172,8 @@ public class Game : MonoBehaviour
         gameOverText.SetActive(true);
         winningPlayerText.text = currentPlayer.name + " won the game!";
     }
+
+
     public IEnumerator HandleCurrentTurn()
     {
         if (gameOver)

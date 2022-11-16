@@ -71,20 +71,22 @@
     <Compile Include="Assets\Scripts\Stock Game\Game.cs" />
     <Compile Include="Assets\Scripts\Stock Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Stock Game\Player.cs" />
+    <Compile Include="Assets\Scripts\Stock Game\SoundHandler.cs" />
     <Compile Include="Assets\Scripts\Stock Game\TankFire.cs" />
     <Compile Include="Assets\Scripts\Stock Game\TurretController.cs" />
-    <None Include="Assets\CamoShadersPack\Shaders\Specular\CamoSpecularOptimized.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Mobile\CamoMobileSpecular.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Mobile\CamoMobileDiffuse.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Metallic\CamoMetallicOptimized.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Metallic\CamoMetallicOpaque.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Mobile\CamoMobileBumpedSpecular.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Metallic\CamoMetallicCutout.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Specular\CamoSpecularTransparent.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Metallic\CamoMetallicTransparent.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Mobile\CamoMobileBumped.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Specular\CamoSpecularOpaque.shader" />
-    <None Include="Assets\CamoShadersPack\Shaders\Specular\CamoSpecularCutout.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Specular\CamoSpecularOptimized.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Mobile\CamoMobileSpecular.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Mobile\CamoMobileDiffuse.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Metallic\CamoMetallicOptimized.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Metallic\CamoMetallicOpaque.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Mobile\CamoMobileBumpedSpecular.shader" />
+    <None Include="Assets\Scripts\AI\ShotHistory.txt" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Metallic\CamoMetallicCutout.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Specular\CamoSpecularTransparent.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Metallic\CamoMetallicTransparent.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Mobile\CamoMobileBumped.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Specular\CamoSpecularOpaque.shader" />
+    <None Include="Assets\Extras\CamoShadersPack\Shaders\Specular\CamoSpecularCutout.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/popta/Documents/GitHub/AI Tanks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

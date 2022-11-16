@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -14,6 +15,8 @@ public class Bullet : MonoBehaviour
     private Game game;
     private float gravity = -9.8f;
     private bool impacted = false;
+
+    private string shotHistoryPath = "Assets/Scripts/AI/ShotHistory.txt";
 
     public Player Player { get => player; set => player = value; }
     public Game Game { get => game; set => game = value; }
@@ -50,13 +53,32 @@ public class Bullet : MonoBehaviour
             MakeImpactFX();
             Player.Distance = CalculateDistance(gameObject.transform.position, Game.notCurrentPlayer.transform.position, other);
             if (Player.Distance == 0)
+            {
                 MakeImpactSmoke();
+                WriteShotHistory(shotHistoryPath);
+            }
 
             Game.EndTurn();
 
             //Destroy this bullet 3 seconds after impact
             Destroy(gameObject, .1f);
         }
+    }
+
+    public void WriteShotHistory(string path)
+    {
+        if (File.Exists(shotHistoryPath))
+        {
+            StreamWriter writer = new StreamWriter(path, true);
+            //Total Distance, ^X, ^Y, Wind, Angle, Power
+
+            writer.WriteLine(Game.DistanceBetweenPlayers.ToString().PadRight(10) + " | " + (Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y).ToString().PadLeft(1).PadRight(9) +
+                                " | " + Game.WindSpeed.ToString().PadLeft(3).PadRight(3) + " | " + Player.Angle.ToString().PadRight(10) + " | " + Player.Power.ToString().PadRight(10));
+
+            writer.Close();
+        }
+        else
+            File.Create(path).Close();
     }
 
     private void MakeImpactSmoke()

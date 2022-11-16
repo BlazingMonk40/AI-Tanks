@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     private float gameOffset = 150f;
     public int numberGames;
     public GameObject gamePrefab;
-    public List<Game> gameList;
+    public List<GameObject> gameList;
     public static GameManager instance;
 
     private void Awake()
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
         {
             GameObject game = Instantiate(gamePrefab, new Vector3(0f, 0f, gameOffset * i), Quaternion.identity);
             game.name = "Game: " + i;
-            gameList.Add(game.GetComponent<Game>());
+            gameList.Add(game);
 
         }
     }

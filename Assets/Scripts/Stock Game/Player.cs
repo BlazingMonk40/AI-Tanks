@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         get => angle;
         set
         {
-            angle = value;
+            angle = 360 -value;
             SetAngleText((360 - (int)value).ToString());
         }
     }
