@@ -15,7 +15,11 @@ C:/Users/mayst/Documents/GitHub/AI-Tanks
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 61366
+=======
+58942
+>>>>>>> Stashed changes
 Successfully changed project path to: C:/Users/mayst/Documents/GitHub/AI-Tanks
 C:/Users/mayst/Documents/GitHub/AI-Tanks
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +51,11 @@ C:/Users/mayst/Documents/GitHub/AI-Tanks
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 42.74 ms, found 2 plugins.
+=======
+Refreshing native plugins compatible for Editor in 47.18 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,11 +71,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.003667 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -78,11 +91,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (585ms)
 		BeginReloadAssembly (80ms)
+=======
+Registered in 0.003517 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (542ms)
+		BeginReloadAssembly (76ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (390ms)
 			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -96,6 +122,21 @@ Domain Reload Profiling:
 				RefreshPlugins (41ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (123ms)
+=======
+		EndReloadAssembly (381ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+>>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,6 +144,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.003243 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -137,16 +179,61 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
+=======
+Registered in 0.002430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1598ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 22 unused Assets / (1.1 MB). Loaded Objects now: 3699.
 Memory consumption went from 143.3 MB to 142.2 MB.
 Total: 2.903400 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.151300 ms MarkObjects: 2.277800 ms  DeleteObjects: 0.191200 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.1 MB). Loaded Objects now: 3696.
+Memory consumption went from 143.2 MB to 142.1 MB.
+Total: 2.618500 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.103100 ms  DeleteObjects: 0.193600 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,6 +248,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 191088.769843 seconds.
   path: Assets/Scenes
   artifactKey: Guid(25bfa8b059b08fe4592485c16d2887a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -357,6 +445,78 @@ Received Import Request.
   path: Assets/Materials/Emissive - Explosion.mat
   artifactKey: Guid(07063affe71559241beb128a144462fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Emissive - Explosion.mat using Guid(07063affe71559241beb128a144462fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3c84745d3f82cf69c461415f353470') in 0.083895 seconds 
+=======
+  Time since last request: 181852.583222 seconds.
+  path: Assets/Tank Sounds/Cannon_Fire/120mm_Cannon_Fire_Close_Wave 1 0 0.wav
+  artifactKey: Guid(708db7243a9f29e48bea5f8611cf4346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Cannon_Fire/120mm_Cannon_Fire_Close_Wave 1 0 0.wav using Guid(708db7243a9f29e48bea5f8611cf4346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134681327fad3cd767ce06a0c116b8bb') in 0.099738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.359924 seconds.
+  path: Assets/Tank Sounds/Engine/M1A2_Interior_Wave 0 0 0.wav
+  artifactKey: Guid(2641739874974214989cf29f11b257f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Engine/M1A2_Interior_Wave 0 0 0.wav using Guid(2641739874974214989cf29f11b257f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9600b686b7482d6fb2098677ee4af166') in 0.015211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tank Sounds/Engine/M1A2_SuperTurbine_Wave 0 0 1.wav
+  artifactKey: Guid(cac758cc511701246b7cc10267d50d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Engine/M1A2_SuperTurbine_Wave 0 0 1.wav using Guid(cac758cc511701246b7cc10267d50d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d89fd3528befdb05b61050af168c82') in 0.015893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.065884 seconds.
+  path: Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 1 0 0.wav
+  artifactKey: Guid(82a4594a747617c46b0b950f2134b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 1 0 0.wav using Guid(82a4594a747617c46b0b950f2134b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af2a45938019845d3f2fd24e6cd4d51') in 0.011253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 4 0 0.wav
+  artifactKey: Guid(f8f3f4f64fc158d43bc639175a7bca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 4 0 0.wav using Guid(f8f3f4f64fc158d43bc639175a7bca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fe0ee7f6faa16d1bdaec897180225b') in 0.010526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 8 0 0.wav
+  artifactKey: Guid(8272e33434c896d47b48d045232e8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 8 0 0.wav using Guid(8272e33434c896d47b48d045232e8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c821a95fdc6445bf0737ab2f33b72da5') in 0.012751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 5 0 0.wav
+  artifactKey: Guid(1d45b5d3c24bfa1489df51b177382169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 5 0 0.wav using Guid(1d45b5d3c24bfa1489df51b177382169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c404d6f72a7854ea67128aa4a72f6ea2') in 0.008671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 9 0 0.wav
+  artifactKey: Guid(0f98e7be1eb981049a96d706c99fb2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Flyby/Shell_Flyby_Wave 9 0 0.wav using Guid(0f98e7be1eb981049a96d706c99fb2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c6dd38003a636d423b78bea94a0ffe') in 0.009986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.370252 seconds.
+  path: Assets/Tank Sounds/Hit/Tank_Shell_Hit_Vehicle_Wave 1 0 0.wav
+  artifactKey: Guid(12686946108820848b2fbd4a6e981b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Hit/Tank_Shell_Hit_Vehicle_Wave 1 0 0.wav using Guid(12686946108820848b2fbd4a6e981b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825c202dcf1ec6f9e59bdb6d1fbf1820') in 0.009519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tank Sounds/Hit/Vehicle_Interior_Projectile_Impact_Wave 8 0 0.wav
+  artifactKey: Guid(555939b9f535a6a4b827ecfd8d3eee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Hit/Vehicle_Interior_Projectile_Impact_Wave 8 0 0.wav using Guid(555939b9f535a6a4b827ecfd8d3eee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2c06bfbecd108e215bb227d6b589d7') in 0.014426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tank Sounds/Hit/Vehicle_Interior_Projectile_Impact_Wave 1 0 0.wav
+  artifactKey: Guid(842b50eef5bd6144d8e7d8bb3ab0df0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Hit/Vehicle_Interior_Projectile_Impact_Wave 1 0 0.wav using Guid(842b50eef5bd6144d8e7d8bb3ab0df0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473921876c1b9989a8ad638498b0c87a') in 0.011444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tank Sounds/Hit/Vehicle_Interior_Projectile_Impact_Wave 6 0 0.wav
+  artifactKey: Guid(b9ba4ca21cac0cd409cc17c93b3eb2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Sounds/Hit/Vehicle_Interior_Projectile_Impact_Wave 6 0 0.wav using Guid(b9ba4ca21cac0cd409cc17c93b3eb2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3a49f2cef8aac746311361dcb278ea') in 0.010740 seconds 
+>>>>>>> Stashed changes
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -345,11 +345,16 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AI/AIManager.cs"
+<<<<<<< Updated upstream
 "Assets/Scripts/AI/ANN/ActivationFunctions.cs"
 "Assets/Scripts/AI/ANN/Layer.cs"
 "Assets/Scripts/AI/ANN/NeuralNetFF.cs"
 "Assets/Scripts/AI/ANN/Neuron.cs"
 "Assets/Scripts/AI/Clay FeedForward/NeuralNetworkFeedForward.cs"
+=======
+"Assets/Scripts/AI/ANN/NEAT.cs"
+"Assets/Scripts/AI/ANN/NEATManager.cs"
+>>>>>>> Stashed changes
 "Assets/Scripts/AI/RL/RLearning.cs"
 "Assets/Scripts/Stock Game/Bullet.cs"
 "Assets/Scripts/Stock Game/Game.cs"
