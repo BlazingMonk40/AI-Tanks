@@ -52,9 +52,9 @@ public class Layer
 
     public void init()
     {
-        NL = new List<Neuron>();
         for (int i = 0; i < numOfNeurons; i++)
         {
+            NL = new List<Neuron>();
             NL.Add(new Neuron(id, i, nextNumOfNeurons, function));
         }
     }

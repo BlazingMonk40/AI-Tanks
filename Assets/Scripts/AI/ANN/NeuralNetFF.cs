@@ -31,14 +31,21 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
     }
     public void feedForward()
     {
-        for (int i = 0; i < network.Count-1; i++)
+        for (int i = 0; i < network.Count; i++)
         {
-             for (int j = 0; j < network[i + 1].getNumberOfNeurons(); j++)
-             {
-                 network[i + 1].NL[j].lastRecievedValue = 
-                    function.calculate(network[i].getSummedWeight(j));
-                 network[i + 1].NL[j].activate();
-             }
+            if (i == network.Count - 1)
+            {
+                continue;
+            }
+            else
+            {
+                for (int j = 0; j < network[i + 1].getNumberOfNeurons(); j++)
+                {
+                    network[i + 1].NL[j].lastRecievedValue = function.calculate(network[i].getSummedWeight(j));
+                    network[i + 1].NL[j].activate();
+                }
+            }
+
         }
     }
     public bool[] getOutput()
