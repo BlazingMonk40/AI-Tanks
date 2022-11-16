@@ -23,7 +23,14 @@ public class SoundHandler : MonoBehaviour
     {
         get
         {
-            return engine[Random.Range(0, engine.Count)];
+            return engine[Random.Range(0, engine.Count-2)];
+        }
+    }
+    public AudioSource EngineCritical
+    {
+        get
+        {
+            return engine[Random.Range(engine.Count - 2, engine.Count)];
         }
     }
     public AudioSource Flyby 
