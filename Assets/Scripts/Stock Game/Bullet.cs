@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-        smokeVFXContainer = GameObject.Find("Impact Smoke Container");
+        smokeVFXContainer = Game.smokeVFXContainer;
         GetComponent<SphereCollider>().enabled = false;
         StartCoroutine(TurnColliderOn());
     }
@@ -49,12 +49,12 @@ public class Bullet : MonoBehaviour
             impacted = true;
             
             DisableColliderTriggers();
-            CheckFriendlyFire(other);
+            //CheckFriendlyFire(other);
             MakeImpactFX();
             Player.Distance = CalculateDistance(gameObject.transform.position, Game.notCurrentPlayer.transform.position, other);
             if (Player.Distance == 0)
             {
-                //MakeImpactSmoke();
+                MakeImpactSmoke();
                 WriteShotHistory(shotHistoryPath);
             }
 

@@ -26,15 +26,14 @@ public class Game : MonoBehaviour
     private float distanceBetweenPlayers;
 
 
-    [TextArea]
-    public string windSpeedInspector;
+    public VisualEffect windVFX;
     public Text windSpeedText;
     public int windSpeed;
     private int windTurnCounter = 0;
 
     public bool gameOver = false;
     private GameObject bulletContainer;
-    private GameObject smokeVFXContainer;
+    public GameObject smokeVFXContainer;
 
     #region Properties
     public float DistanceBetweenPlayers
@@ -61,6 +60,14 @@ public class Game : MonoBehaviour
     private void GenerateWindSpeed()
     {
         WindSpeed = UnityEngine.Random.Range(-10, 11);
+
+        windVFX.SetFloat("New float", -WindSpeed / 2);
+
+        if (WindSpeed == 0)
+            windVFX.SendEvent("No Wind");
+        else
+            windVFX.SendEvent("Wind");
+
         ApplyWindSpeedToSmoke();
     }
 
@@ -96,7 +103,6 @@ public class Game : MonoBehaviour
             windActual = temp;
             windActual = windActual.PadRight(windActual.Length + Mathf.Abs(value*2), ' ');
         }
-        windSpeedInspector = windActual;
         windSpeedText.text = windActual;
     }
     private void Awake()
@@ -115,7 +121,7 @@ public class Game : MonoBehaviour
 
     void Start()
     {
-        smokeVFXContainer = gameObject.transform.GetChild(transform.childCount - 1).transform.GetChild(1).gameObject; //Get the last child "Containers" and get it's second child "Impact Smoke Container" <- Shitty hard coding I can be bothered to do the right way.
+        smokeVFXContainer = gameObject.transform.GetChild(4).GetChild(1).gameObject; //Get the last child "Containers" and get it's second child "Impact Smoke Container" <- Shitty hard coding I can be bothered to do the right way.
 
         distanceText.text = DistanceBetweenPlayers.ToString();
 
@@ -138,7 +144,7 @@ public class Game : MonoBehaviour
         }
         #endregion
 
-        GenerateWindSpeed();
+
         if (GameManager.instance.playStyle[1])
         {
             playerList[0].InitAI(AIManager.AIType.REINFORCED);
@@ -159,6 +165,7 @@ public class Game : MonoBehaviour
             playerList[1].Init(new NeuralNetworkFeedForward(GameManager.instance.layers));
             StartCoroutine(HandleCurrentTurn());
         }
+        GenerateWindSpeed();
     }
 
 
@@ -190,7 +197,7 @@ public class Game : MonoBehaviour
         {
             if (GameManager.instance.playStyle[1])
             {
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(GameManager.instance.timeBetweenShots);
                 float[] actions;
                 actions = currentPlayer.PlayerAI.getMove(currentPlayer.Distance);
                 currentPlayer.Power = actions[0];
@@ -200,7 +207,7 @@ public class Game : MonoBehaviour
             }
             else if (GameManager.instance.playStyle[2])
             {
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(GameManager.instance.timeBetweenShots);
                 float[] actions;
                 actions = currentPlayer.PlayerAI.getMove(currentPlayer.Distance);
                 currentPlayer.Power = actions[0];
@@ -210,7 +217,7 @@ public class Game : MonoBehaviour
             }
             else if (GameManager.instance.playStyle[3])
             {
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(GameManager.instance.timeBetweenShots);
                 float[] inputs = new float[3];
                 inputs[0] = DistanceBetweenPlayers;
                 inputs[1] = currentPlayer.transform.position.y - notCurrentPlayer.transform.position.y;
