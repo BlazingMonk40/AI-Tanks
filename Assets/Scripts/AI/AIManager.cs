@@ -16,8 +16,11 @@ public class AIManager
         aiType = type;
         actions[0] = Random.Range(50f, 60f);
         actions[1] = Random.Range(45f, 85f);
-        x = new NeuralNetFF(3, 2, 3, 3, ActivationFunctions.Functions.STEP);
-        x.feedForward();
+        if (type == AIType.ANN)
+        {
+            x = new NeuralNetFF(3, 2, 3, 3, ActivationFunctions.Functions.STEP);
+            x.feedForward();
+        }
     }
     public enum AIType
     {

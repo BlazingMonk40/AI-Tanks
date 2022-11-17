@@ -2,32 +2,6 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data', plugins p
 Cmd: initializeCompiler
 Cmd: preprocessCompute
   insize=6891 outsize=6893 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=6893 outsize=2179 ok=1
-Cmd: preprocessCompute
-  insize=7477 outsize=7479 ok=1
-Cmd: preprocess
-  insize=41507 outsize=628 ok=1
-Cmd: preprocessCompute
-  insize=1966 outsize=1968 ok=1
-Cmd: preprocessCompute
-  insize=6872 outsize=6874 ok=1
-Cmd: preprocessCompute
-  insize=7507 outsize=7509 ok=1
-Cmd: preprocess
-  insize=41046 outsize=629 ok=1
-Cmd: preprocessCompute
-  insize=1966 outsize=1968 ok=1
-Cmd: preprocessCompute
-  insize=6891 outsize=6893 ok=1
-Cmd: preprocessCompute
-  insize=7477 outsize=7479 ok=1
-Cmd: preprocess
-  insize=41507 outsize=628 ok=1
-Cmd: preprocessCompute
-  insize=1966 outsize=1968 ok=1
-Cmd: preprocessCompute
-  insize=6891 outsize=6893 ok=1
 Cmd: preprocessCompute
   insize=7477 outsize=7479 ok=1
 Cmd: preprocess
