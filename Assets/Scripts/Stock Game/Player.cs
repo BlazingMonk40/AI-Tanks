@@ -183,7 +183,7 @@ public class Player : MonoBehaviour
 
     public void AiAim()
     {
-        turretObj.transform.localEulerAngles = new Vector3(Angle, 0f, 0f);
+        turretObj.transform.localEulerAngles = new Vector3(-Angle, 0f, 0f);
         Angle = turretObj.transform.localEulerAngles.x;
         ConstrainRotations();
     }

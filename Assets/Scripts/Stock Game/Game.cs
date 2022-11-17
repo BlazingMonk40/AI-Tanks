@@ -8,6 +8,7 @@ using UnityEngine.VFX;
 [System.Serializable]
 public class Game : MonoBehaviour
 {
+
     [Header("Play Style")]
     [Tooltip("[0] Manual, [1]Reinforced, [2]ANN, [3]FeedForward")]
     [SerializeField] public List<bool> playStyle = new List<bool>(4);
@@ -159,6 +160,7 @@ public class Game : MonoBehaviour
         else if(playStyle[3])
         {
             StartCoroutine(HandleCurrentTurn());
+
         }
     }
 
@@ -180,6 +182,7 @@ public class Game : MonoBehaviour
         gameOverText.SetActive(true);
         winningPlayerText.text = currentPlayer.name + " won the game!";
     }
+
 
     public IEnumerator HandleCurrentTurn()
     {
