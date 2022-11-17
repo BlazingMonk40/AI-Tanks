@@ -218,8 +218,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playStyle: 00010000
-  timeScale: 3
-  numberGames: 5
+  timeScale: 1
+  timeBetweenShots: 0
+  numberGames: 1
   gamePrefab: {fileID: 6690966119929153360, guid: 407fd051626af214b8de6d41bfa324d0,
     type: 3}
   gameList: []

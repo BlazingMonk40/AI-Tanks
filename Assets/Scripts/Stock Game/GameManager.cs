@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     [Range(.5f, 8f)]
     public float timeScale;
+    public float timeBetweenShots;
     private float gameOffset = 150f;
     public int numberGames;
     public GameObject gamePrefab;
