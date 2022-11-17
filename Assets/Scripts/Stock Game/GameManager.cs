@@ -6,13 +6,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
-    [Header("Play Style")]
-    [Tooltip("[0] Manual, [1]Reinforced, [2]ANN, [3]FeedForward")]
-    [SerializeField] public List<bool> playStyle = new List<bool>(4);
-
-
-    [Range(.5f, 8f)]
+    [Range(.5f, 3)]
     public float timeScale;
     private float gameOffset = 150f;
     public int numberGames;
@@ -25,8 +19,8 @@ public class GameManager : MonoBehaviour
     public List<NeuralNetworkFeedForward> nets;
 
     private int generationNumber;
-    public bool isTraining = false;
-    public int[] layers = new int[] { 3, 9, 2 };
+    private bool isTraining = false;
+    private int[] layers = new int[] { 3, 9, 2 };
 
 
 

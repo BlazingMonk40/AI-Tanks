@@ -54,7 +54,7 @@ public class Bullet : MonoBehaviour
             Player.Distance = CalculateDistance(gameObject.transform.position, Game.notCurrentPlayer.transform.position, other);
             if (Player.Distance == 0)
             {
-                //MakeImpactSmoke();
+                MakeImpactSmoke();
                 WriteShotHistory(shotHistoryPath);
             }
 
