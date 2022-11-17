@@ -108,8 +108,8 @@ public class Player : MonoBehaviour
     public void CallFeedForward(float[] input)
     {
         output = Net.FeedForward(input);
-        Power = output[0];
-        Angle = output[1];
+        Power = Mathf.Clamp(output[0]*100, 0, 100);
+        Angle = Mathf.Clamp(output[1], 1, 89);
         AiAim();
         AiFire();
     }
@@ -152,12 +152,12 @@ public class Player : MonoBehaviour
     {
         //FixAxis();
         
-        if (Game.playStyle[0]) //True for Manual playstyle
+        if (GameManager.instance.playStyle[0]) //True for Manual playstyle
         {
             HandleFiring();
             HandleAiming();
         }
-        if(Game.playStyle[1]) //True for Reinforced Learning
+        if(GameManager.instance.playStyle[1]) //True for Reinforced Learning
         {
             if(this == Game.playerList[0])
                 Debug.DrawRay(bulletSpawner.transform.position, bulletSpawner.transform.forward * (Power * powerMultiplier) / 2, Color.blue);
@@ -185,23 +185,21 @@ public class Player : MonoBehaviour
     {
         turretObj.transform.localEulerAngles = new Vector3(Angle, 0f, 0f);
         Angle = turretObj.transform.localEulerAngles.x;
-        ConstrainRotations();
+        //ConstrainRotations();
     }
     public void AiFire()
     {
         fire.Fire();
     }
-    private IEnumerator ConstrainRotations()
+    private void ConstrainRotations()
     {
-        yield return new WaitForEndOfFrame();
-        //Constrain turret rotations
-        if (turretObj.transform.localEulerAngles.x >= 5f)
+        //This is busted 10:23_11/16/22
+        if (turretObj.transform.localEulerAngles.x < 5f)
         {
             Debug.LogError(turretObj.transform.localEulerAngles.x);
-            //Debug.LogWarning(this.tag + " angle greater than 5f");
             turretObj.transform.localEulerAngles = new Vector3(5f, 0f, 0f);
         }
-        else if (turretObj.transform.localEulerAngles.x <= 280f)
+        else if (turretObj.transform.localEulerAngles.x > 280f)
         {
             Debug.LogError(turretObj.transform.localEulerAngles.x);
             //Debug.LogWarning(this.tag + " angle less than -80f");
@@ -240,7 +238,7 @@ public class Player : MonoBehaviour
             if (Input.GetAxis("Horizontal") < 0)
             {
                 //Bounds
-                StartCoroutine(ConstrainRotations());
+                //ConstrainRotations();
 
                 turret.Raise();
                 if(gameObject.tag == "Player2")//red tank
@@ -252,7 +250,7 @@ public class Player : MonoBehaviour
 
             if (Input.GetAxis("Horizontal") > 0)
             {
-                StartCoroutine(ConstrainRotations());
+                //ConstrainRotations();
 
                 turret.Lower();
                 if (gameObject.tag == "Player2")

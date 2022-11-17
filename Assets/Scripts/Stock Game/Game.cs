@@ -8,9 +8,6 @@ using UnityEngine.VFX;
 [System.Serializable]
 public class Game : MonoBehaviour
 {
-    [Header("Play Style")]
-    [Tooltip("[0] Manual, [1]Reinforced, [2]ANN, [3]FeedForward")]
-    [SerializeField] public List<bool> playStyle = new List<bool>(4);
 
     [Header("Player Information")]
     public List<Player> playerList;
@@ -127,28 +124,28 @@ public class Game : MonoBehaviour
          * Ensures only one playstyle is active, write a warning log if multiple are active.
          */
         int count = 0;  //Counter
-        foreach (bool b in playStyle) //Loop through all play styles and count which are positive
+        foreach (bool b in GameManager.instance.playStyle) //Loop through all play styles and count which are positive
             if (b)
                 count++;
         if (count > 1)              //If more than one play style is positive set manual to true and everything else false.
         {
             Debug.LogWarning("Multiple Playstyles active. Current Playstyle set to Manual.");
-            playStyle[0] = true;
-            for (int i = 1; i < playStyle.Count; i++)
+            GameManager.instance.playStyle[0] = true;
+            for (int i = 1; i < GameManager.instance.playStyle.Count; i++)
             {
-                playStyle[i] = false;
+                GameManager.instance.playStyle[i] = false;
             }
         }
         #endregion
 
         GenerateWindSpeed();
-        if (playStyle[1])
+        if (GameManager.instance.playStyle[1])
         {
             playerList[0].InitAI(AIManager.AIType.REINFORCED);
             playerList[1].InitAI(AIManager.AIType.REINFORCED);
             StartCoroutine(HandleCurrentTurn());
         }
-        else if (playStyle[2])
+        else if (GameManager.instance.playStyle[2])
         {
 
             playerList[0].InitAI(AIManager.AIType.ANN);
@@ -156,8 +153,10 @@ public class Game : MonoBehaviour
             StartCoroutine(HandleCurrentTurn());
 
         }
-        else if(playStyle[3])
+        else if(GameManager.instance.playStyle[3])
         {
+            playerList[0].Init(new NeuralNetworkFeedForward(GameManager.instance.layers));
+            playerList[1].Init(new NeuralNetworkFeedForward(GameManager.instance.layers));
             StartCoroutine(HandleCurrentTurn());
         }
     }
@@ -189,7 +188,7 @@ public class Game : MonoBehaviour
         }
         else
         {
-            if (playStyle[1])
+            if (GameManager.instance.playStyle[1])
             {
                 yield return new WaitForSeconds(1f);
                 float[] actions;
@@ -199,7 +198,7 @@ public class Game : MonoBehaviour
                 currentPlayer.AiAim();
                 currentPlayer.AiFire();
             }
-            else if (playStyle[2])
+            else if (GameManager.instance.playStyle[2])
             {
                 yield return new WaitForSeconds(1f);
                 float[] actions;
@@ -209,7 +208,7 @@ public class Game : MonoBehaviour
                 currentPlayer.AiAim();
                 currentPlayer.AiFire();
             }
-            else if (playStyle[3])
+            else if (GameManager.instance.playStyle[3])
             {
                 yield return new WaitForSeconds(1f);
                 float[] inputs = new float[3];

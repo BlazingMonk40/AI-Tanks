@@ -30,7 +30,6 @@ public class TankFire : MonoBehaviour
     public void Fire()
     {
         StartCoroutine(HangFire());
-
     }
 
     private IEnumerator HangFire()

@@ -10,15 +10,16 @@ public class Layer
 
 
     public List<Neuron> NL;
-    ActivationFunctions function;
+    public ActivationFunctions function;
 
     public Layer(int id, int numOfNeurons, ActivationFunctions function)
     {
         this.id = id;
         this.name = "Layer " + (id + 1);
-        this.bias = function.calculate(UnityEngine.Random.Range(0.0f, 1f));
+        this.bias = UnityEngine.Random.Range(-2.0f, 2f);
         this.numOfNeurons = numOfNeurons;
         this.function = function;
+        this.nextNumOfNeurons = 0;
     }
     public float getBias()
     {
@@ -29,7 +30,8 @@ public class Layer
     {
         this.nextNumOfNeurons = nextLayerNeuronNumber;
     }
-    public int getNumberOfNeurons(){
+    public int getNumberOfNeurons()
+    {
         return numOfNeurons;
     }
 
@@ -42,47 +44,54 @@ public class Layer
     */
     public float getSummedWeight(int row)
     {
-        float temp = 0.0f;
+        float weightSum = 0.0f;
         foreach (Neuron n in NL)
         {
-            temp += n.getWeights()[row];
+            weightSum += n.getWeights()[row];
         }
-        return temp += bias;
+        return weightSum += bias;
     }
 
     public void init()
     {
+        NL = new List<Neuron>();
         for (int i = 0; i < numOfNeurons; i++)
         {
-            NL = new List<Neuron>();
             NL.Add(new Neuron(id, i, nextNumOfNeurons, function));
         }
     }
-    public string toString(){
+
+    public string toString()
+    {
         return name;
     }
 
     public void mutate()
     {
+        bool lockfirst = true;
         foreach (Neuron n in NL)
         {
             float[] temp = n.getWeights();
-            n.setActThres(function.calculate(n.getActThres() * UnityEngine.Random.Range(0.0f, 1.25f)));
-            n.setActive(false);
+            if (lockfirst == false)
+            {
+                n.setActThres(function.calculate(n.getActThres() * UnityEngine.Random.Range(0.0f, 1.25f)));
+                n.setActive(false);
+            }
             for (int i = 0; i < temp.Length - 1; i++)
             {
                 float tempF = UnityEngine.Random.Range(-1f, 1f);
                 if (tempF == 1f)
-                { 
+                {
                     tempF = UnityEngine.Random.Range(0.0f, 1f);
                 }
-                else if (tempF == 0.0f)
-                { 
+                else if (tempF == -1f)
+                {
                     tempF = UnityEngine.Random.Range(-1f, 0.0f);
                 }
                 temp[i] = tempF;
             }
             n.setWeights(temp);
+            lockfirst = false;
         }
     }
 }
