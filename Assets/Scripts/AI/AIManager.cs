@@ -8,6 +8,7 @@ public class AIManager
     public AIType aiType;
     public float distanceBetweenPlayers;
     [Tooltip("actions[0] = Power | actions[1] = Angle")]
+    [Tooltip("annActions[0] = PowerInc | annActions[1] = how much power to inc | annActions[2] = AngleInc | annActions[3] = how much Angle to inc")]
     private float[] actions = new float[2] { 0.0f, 0.0f };
     private int score = 0;
     private NeuralNetFF x;
@@ -17,9 +18,10 @@ public class AIManager
         aiType = type;
         actions[0] = Random.Range(50f, 60f);
         actions[1] = Random.Range(45f, 85f);
+        bool [] annActions = new []{false,false,false,false};
         if (type == AIType.ANN)
         {
-            x = new NeuralNetFF(3, 2, 3, 3, ActivationFunctions.Functions.STEP);
+            x = new NeuralNetFF(2, 2, 3, 4, ActivationFunctions.Functions.SIGMOID);
             x.feedForward();
         }
     }
@@ -57,9 +59,9 @@ public class AIManager
                 }
                 break;
             case AIType.ANN:
-                if(distToEnemy !=0){x.mutate(); x.feedForward();}
-                actions[0] = x.getOutput()[0] ? actions[0] += 5f : actions[0] -= 5f;
-                actions[1] = x.getOutput()[1] ? actions[1] += 5f : actions[1] -= 5f;
+                x.setRealInput(actions); x.feedForward();
+                actions[0] = x.getRealOutput[0]*90;
+                actions[1] = x.getRealOutput[1]*90;
                 break;
             default:
                 actions[0] = Random.Range(0.0f, 100f);

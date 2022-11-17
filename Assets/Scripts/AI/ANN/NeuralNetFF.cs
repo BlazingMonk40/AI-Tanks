@@ -57,9 +57,25 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
         Layer lastLayer = network[numberOfHiddenLayers + 1];
         for (int i = 0; i < lastLayer.NL.Count; i++)
         {
-            temp[i] = lastLayer.NL[i].getLastRecievedValue();
+            temp[i] = lastLayer.function.calculate(lastLayer.NL[i].getLastRecievedValue());
         }
         return temp;
+    }
+    public void setRealInput(float[] input)
+    {
+        if (input.Length - 1 != numOfInputs)
+            return;
+
+        for (int i = 0; i < network[0].NL.count; i++)//get neuron
+        {
+            float[] changedWeights = network[0].NL[i].getWeights();
+            for (int j = 0; j < changedWeights.Length; j++)//change weights
+            {
+
+                changedWeights[j] = network[0].function.calculate(input[i]);
+            }
+            network[0].NL[i].setWeights(changedWeights);
+        }
     }
     public void mutate()
     {
@@ -114,58 +130,5 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
             }
         }
     }
-    // public void Load(string path)//this loads the biases and weights from within a file into the neural network.
-    // {
-    //     TextReader tr = new StreamReader(path);
-    //     int NumberOfLines = (int)new FileInfo(path).Length;
-    //     string[] ListLines = new string[NumberOfLines];
-    //     int index = 1;
-    //     for (int i = 1; i < NumberOfLines; i++)
-    //     {
-    //         ListLines[i] = tr.ReadLine();
-    //     }
-    //     tr.Close();
-    //     if (new FileInfo(path).Length > 0)
-    //     {
-    //         for (int i = 0; i < network.Length; i++)
-    //         {
-    //                 network[i].setBias(float.Parse(ListLines[index]));
-    //                 index++;
-    //         }
 
-    //         for (int i = 0; i < weights.Length; i++)
-    //         {
-    //             for (int j = 0; j < weights[i].Length; j++)
-    //             {
-    //                 for (int k = 0; k < weights[i][j].Length; k++)
-    //                 {
-    //                     weights[i][j][k] = float.Parse(ListLines[index]); ;
-    //                     index++;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-    public void Save(string path)//this is used for saving the biases and weights within the network to a file.
-    {
-        File.Create(path).Close();
-        StreamWriter writer = new StreamWriter(path, true);
-        foreach (Layer x in network)
-        {
-            writer.WriteLine(x.getBias());
-        }
-        foreach (Layer x in network)
-        {
-            foreach (Neuron y in x.NL)
-            {
-                writer.WriteLine(y.toString());
-                foreach (float z in y.getWeights())
-                {
-
-                    writer.WriteLine(z);
-                }
-            }
-        }
-        writer.Close();
-    }
 }
