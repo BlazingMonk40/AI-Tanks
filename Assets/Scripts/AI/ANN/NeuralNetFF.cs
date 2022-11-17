@@ -31,44 +31,38 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
     }
     public void feedForward()
     {
-        for (int i = 0; i < network.Count; i++)
+        for (int i = 0; i < network.Count - 1; i++)
         {
-            if (i == network.Count - 1)
+            for (int j = 0; j < network[i + 1].getNumberOfNeurons(); j++)
             {
-                continue;
+                network[i + 1].NL[j].setLastReceivedValue(network[i + 1].function.calculate(network[i].getSummedWeight(j)));
+                network[i + 1].NL[j].activate();
             }
-            else
-            {
-                for (int j = 0; j < network[i + 1].getNumberOfNeurons(); j++)
-                {
-                    network[i + 1].NL[j].lastRecievedValue = function.calculate(network[i].getSummedWeight(j));
-                    network[i + 1].NL[j].activate();
-                }
-            }
-
         }
     }
     public bool[] getOutput()
     {
-        bool[] temp = new bool[numOfOutputs];  
-        Layer lastLayer = network[numberOfHiddenLayers+1];
-        for(int i =0; i < lastLayer.NL.Count;i++){
-           temp[i] = lastLayer.NL[i].getActive();    
-           }
+        bool[] temp = new bool[numOfOutputs];
+        Layer lastLayer = network[numberOfHiddenLayers + 1];
+        for (int i = 0; i < lastLayer.NL.Count; i++)
+        {
+            temp[i] = lastLayer.NL[i].getActive();
+        }
         return temp;
     }
 
     public float[] getRealOutput()
     {
-        float[] temp = new float[numOfOutputs];  
-        Layer lastLayer = network[numberOfHiddenLayers+1];
-        for(int i =0; i < lastLayer.NL.Count;i++)
+        float[] temp = new float[numOfOutputs];
+        Layer lastLayer = network[numberOfHiddenLayers + 1];
+        for (int i = 0; i < lastLayer.NL.Count; i++)
         {
-           temp[i] = lastLayer.NL[i].getLastRecievedValue();    
+            temp[i] = lastLayer.NL[i].getLastRecievedValue();
         }
         return temp;
     }
-    public void mutate(){
+    public void mutate()
+    {
         foreach (Layer x in network)
         {
             x.mutate();
@@ -85,7 +79,6 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
         else
             return 0;
     }
-
     private void init()
     {
         network = new List<Layer>();
@@ -93,17 +86,10 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
         {
             if (i == 0)
             {
-                Layer temp = new Layer(i, numOfInputs, function);
-                temp.setNext(numberOfNeurons);
-                temp.init();
-                network.Add(temp);
-            }
-            else if (i == numberOfHiddenLayers + 1)
-            {
-                Layer temp = new Layer(i, numOfOutputs, function);
-                temp.setNext(1);
-                temp.init();
-                network.Add(temp);
+                Layer inputlayer = new Layer(i, numOfInputs, function);
+                inputlayer.setNext(numberOfNeurons);
+                inputlayer.init();
+                network.Add(inputlayer);
             }
             else if (i == numberOfHiddenLayers)
             {
@@ -112,12 +98,19 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
                 temp.init();
                 network.Add(temp);
             }
+            else if (i == numberOfHiddenLayers + 1)
+            {
+                Layer outputlayer = new Layer(i, numOfOutputs, function);
+                outputlayer.setNext(1);
+                outputlayer.init();
+                network.Add(outputlayer);
+            }
             else
             {
-                Layer temp = new Layer(i, numOfOutputs, function);
-                temp.setNext(1);
-                temp.init();
-                network.Add(temp);
+                Layer hiddenlayer = new Layer(i, numberOfNeurons, function);
+                hiddenlayer.setNext(numberOfNeurons);
+                hiddenlayer.init();
+                network.Add(hiddenlayer);
             }
         }
     }
@@ -168,7 +161,7 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
                 writer.WriteLine(y.toString());
                 foreach (float z in y.getWeights())
                 {
-                    
+
                     writer.WriteLine(z);
                 }
             }

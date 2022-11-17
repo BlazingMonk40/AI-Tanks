@@ -3702,7 +3702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550d703c6669c44b9e34e13df1c1c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playStyle: 000001
+  playStyle: 000100
   playerList:
   - {fileID: 8839111876418029324}
   - {fileID: 8801819532191569815}
