@@ -10,13 +10,14 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
     public int numberOfHiddenLayers;
     public List<Layer> network;
     int numberOfNeurons = 0;
+    public float error =0;
     public NeuralNetFF(int numOfinputs, int numOfOutputs, int numberOfNeurons, int numberOfHiddenLayers, ActivationFunctions.Functions function)
     {
         this.function = new ActivationFunctions(function);
         this.numOfInputs = numOfinputs;
         this.numOfOutputs = numOfOutputs;
         this.numberOfHiddenLayers = numberOfHiddenLayers;
-        this.fitness = 0;
+        this.fitness = 100;
         this.numberOfNeurons = numberOfNeurons;
         init();
     }
@@ -27,13 +28,24 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
     }
     public void setFitness(int fitness)
     {
-        this.fitness = fitness;
+        this.fitness = fitness < 0 ? 0: fitness>100 ? 100:fitness ;
     }
     public void feedForward()
     {
         for (int i = 0; i < network.Count - 1; i++)
         {
             for (int j = 0; j < network[i + 1].getNumberOfNeurons(); j++)
+            {
+                network[i + 1].NL[j].setLastReceivedValue(network[i + 1].function.calculate(network[i].getSummedWeight(j)));
+                network[i + 1].NL[j].activate();
+            }
+        }
+    }
+    public void backPropergate()
+    {
+        for (int i = 0; i < network.Count - 1; i--)
+        {
+            for (int j = 0; j < network[i].getNumberOfNeurons(); j++)
             {
                 network[i + 1].NL[j].setLastReceivedValue(network[i + 1].function.calculate(network[i].getSummedWeight(j)));
                 network[i + 1].NL[j].activate();
@@ -63,10 +75,10 @@ public class NeuralNetFF : IComparable<NeuralNetFF>
     }
     public void setRealInput(float[] input)
     {
-        if (input.Length - 1 != numOfInputs)
+        if (input.Length != numOfInputs)
             return;
 
-        for (int i = 0; i < network[0].NL.count; i++)//get neuron
+        for (int i = 0; i < network[0].NL.Count; i++)//get neuron
         {
             float[] changedWeights = network[0].NL[i].getWeights();
             for (int j = 0; j < changedWeights.Length; j++)//change weights

@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c71cddcb921fd48a02e47b56a3f0fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playStyle: 00010000
+  playStyle: 00000100
   timeScale: 1
   timeBetweenShots: 0
   numberGames: 1
