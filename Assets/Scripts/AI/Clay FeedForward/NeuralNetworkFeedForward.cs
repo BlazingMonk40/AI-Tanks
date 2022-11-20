@@ -175,9 +175,10 @@ public class NeuralNetworkFeedForward : IComparable<NeuralNetworkFeedForward>
                     value += weights[i - 1][j][k] * neurons[i - 1][k]; //sum off all weights connections of this neuron weight their values in previous layer
                 }
 
-                neurons[i][j] = (float)Math.Tanh(value + biases[i][j]); //Hyperbolic tangent activation
+                //neurons[i][j] = (float)Math.Tanh(value + biases[i][j]); //Hyperbolic tangent activation
+                neurons[i][j] = (float)(1 / (1 + Math.Pow((float)Math.E, value + biases[i][j]))); //Sigmoid activation
             }
-        }
+        } 
         return neurons[neurons.Length - 1]; //return output layer
     }
 

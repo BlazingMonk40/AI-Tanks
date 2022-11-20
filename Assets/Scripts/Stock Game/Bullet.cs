@@ -44,10 +44,11 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
         if (!impacted)
         {
             impacted = true;
-            
+
             DisableColliderTriggers();
             //CheckFriendlyFire(other);
             MakeImpactFX();
@@ -60,8 +61,10 @@ public class Bullet : MonoBehaviour
 
             Game.EndTurn();
 
-            //Destroy this bullet 3 seconds after impact
-            Destroy(gameObject, .1f);
+            //Destroy this bullet after impact
+            Destroy(gameObject);
+
+            Game.TotalShots++;
         }
     }
 
@@ -72,8 +75,8 @@ public class Bullet : MonoBehaviour
             StreamWriter writer = new StreamWriter(path, true);
             //Total Distance, ^X, ^Y, Wind, Angle, Power
 
-            writer.WriteLine(Game.DistanceBetweenPlayers.ToString().PadRight(10) + " | " + (Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y).ToString().PadLeft(1).PadRight(9) +
-                                " | " + Game.WindSpeed.ToString().PadLeft(3).PadRight(4) + " | " + Player.Angle.ToString().PadRight(10) + " | " + Player.Power.ToString().PadRight(10));
+            writer.WriteLine(((int)Game.DistanceBetweenPlayers).ToString().PadRight(10) + " | " + ((int)(Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y)).ToString().PadLeft(1).PadRight(9) +
+                                " | " + ((int)Game.WindSpeed).ToString().PadLeft(3).PadRight(4) + " | " + ((int)Player.Angle).ToString().PadRight(10) + " | " + ((int)Player.Power).ToString().PadRight(10));
 
             writer.Close();
         }

@@ -10,7 +10,12 @@ public class AIManager
     [Tooltip("actions[0] = Power | actions[1] = Angle")]
     private float[] actions = new float[2] { 0.0f, 0.0f };
     private int score = 0;
+    private Game game;
+    private Player player;
     private NeuralNetFF x;
+
+    public Game Game { get => game; set => game = value; }
+    public Player Player { get => player; set => player = value; }
 
     public AIManager(AIType type)
     {
@@ -59,7 +64,9 @@ public class AIManager
                 break;
             case AIType.ANN:
                 //just testing 0_o
-                x.setRealInput(actions); x.feedForward();
+                float[] inputs = new float[] { Game.WindSpeed, Player.Distance };
+                x.setRealInput(inputs); 
+                x.feedForward();
                 actions[0] = x.getRealOutput()[0] * 90;
                 actions[1] = x.getRealOutput()[1] * 90;
                 x.setFitness(distToEnemy != 0 ? x.getFitness() - 10 : x.getFitness() + 10);

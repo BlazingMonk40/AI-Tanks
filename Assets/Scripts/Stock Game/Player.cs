@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject bulletContainer;
 
-    public GameObject playerUIContainer;
+    private GameObject playerUIContainer;
     private Text powerText;
     private Text angleText;
     private Text distanceText;
@@ -60,6 +60,12 @@ public class Player : MonoBehaviour
         set
         {
             distance = value;
+
+            if (Net != null)
+            {
+                Net.AddFitness(-Mathf.Abs(value));
+                Debug.Log(gameObject.name + " Fitness: " + Net.GetFitness());
+            }
             if(value == 0)
                 SetDistanceText("Hit!");
             else
@@ -94,31 +100,29 @@ public class Player : MonoBehaviour
 
     #endregion
 
-    public void Init(NeuralNetworkFeedForward net)
-    {
-        Net = net;
-    }
-
     public void InitAI(AIManager.AIType type)
     {
         PlayerAI = new AIManager(type);
+        PlayerAI.Game = Game;
+        PlayerAI.Player = this;
         PlayerAI.distanceBetweenPlayers = Game.DistanceBetweenPlayers;
     }
 
     public void CallFeedForward(float[] input)
     {
         output = Net.FeedForward(input);
-        Power = Mathf.Clamp(output[0]*100, 0, 100);
-        Angle = Mathf.Clamp(output[1], 1, 89);
+        Power = output[0] * 100;
+        Angle = output[1] * 90;
         AiAim();
         AiFire();
     }
 
     
 
-    internal void InitPlayer(Game game)
+    internal void InitPlayer(Game game, GameObject container)
     {
         #region Text Info
+        playerUIContainer = container;
         powerText = playerUIContainer.transform.GetChild(1).gameObject.GetComponent<Text>();
         angleText = playerUIContainer.transform.GetChild(2).gameObject.GetComponent<Text>();
         distanceText = playerUIContainer.transform.GetChild(3).gameObject.GetComponent<Text>();
@@ -127,16 +131,19 @@ public class Player : MonoBehaviour
         
         if (gameObject.tag == "Player1")
         {
-            transform.localPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -20f, -25f);
+            transform.localPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
+            transform.localEulerAngles = new Vector3(0f, 90f, 0f);
         }
         else if (gameObject.tag == "Player2")
         {
-            transform.localPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -35f, -25f);
+            transform.localPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+            transform.localEulerAngles = new Vector3(0f, 270f, 0f);
         }
         Game = game;
         fire = GetComponentInChildren<TankFire>();
         fire.Player = this;
         fire.Game = this.Game;
+        fire.bulletContainer = Game.bulletContainer;
         turret = GetComponentInChildren<TurretController>();
         turret.Player = this;
         turret.Game = this.Game;
@@ -146,11 +153,35 @@ public class Player : MonoBehaviour
         Angle = -1f;
         Distance = -1f;
         Health = 3;
+
+        if (GameManager.instance.playStyle[3])
+        {
+            InitNeuralNetwork();
+        }
+    }
+
+    void InitNeuralNetwork()
+    {
+        NeuralNetworkFeedForward net = new NeuralNetworkFeedForward(GameManager.instance.layers);
+        if (this == Game.playerList[0])
+        {
+            net.Load("Assets/Scripts/AI/Clay FeedForward/Player1Save.txt");
+            net.Mutate();
+            Net = net;
+            Game.player1Net = Net;
+        }
+        else
+        {
+            net.Load("Assets/Scripts/AI/Clay FeedForward/Player2Save.txt");
+            net.Mutate();
+            Net = net;
+            Game.player2Net = Net;
+        }
     }
 
     private void Update()
     {
-        //FixAxis();
+        FixAxis();
         
         if (GameManager.instance.playStyle[0]) //True for Manual playstyle
         {
@@ -175,20 +206,29 @@ public class Player : MonoBehaviour
 
     private void FixAxis()
     {
-        if (transform.localEulerAngles.x != 0f)
-            transform.localEulerAngles = new Vector3(0, transform.localEulerAngles.y, transform.localEulerAngles.z);
-        if (transform.position.z != -320f)
-            transform.position = new Vector3(transform.position.x, transform.position.y, -15f);
+        if (gameObject.tag == "Player1")
+        {
+            if(transform.localEulerAngles != new Vector3(0f, 90f, 0f))
+                transform.localEulerAngles = new Vector3(0f, 90f, 0f);
+        }
+        else if (gameObject.tag == "Player2")
+        {
+            if (transform.localEulerAngles != new Vector3(0f, 270f, 0f))
+                transform.localEulerAngles = new Vector3(0f, 270f, 0f);
+        }
     }
 
     public void AiAim()
     {
+        if (turretObj == null) return;
         turretObj.transform.localEulerAngles = new Vector3(Angle, 0f, 0f);
         Angle = turretObj.transform.localEulerAngles.x;
         //ConstrainRotations();
     }
     public void AiFire()
     {
+
+        if (fire == null) return;
         fire.Fire();
     }
     private void ConstrainRotations()

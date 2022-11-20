@@ -29,13 +29,7 @@ public class TankFire : MonoBehaviour
     /// </summary>
     public void Fire()
     {
-        StartCoroutine(HangFire());
-    }
 
-    private IEnumerator HangFire()
-    {
-        yield return new WaitForSeconds(.1f);
-        //Debug.Log(gameObject.tag + " " + Player.Power + " Fire!");
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity, bulletContainer.transform);
         bullet.tag = gameObject.tag;
         bullet.GetComponent<Bullet>().fxContainer = fxContainer;
@@ -51,6 +45,12 @@ public class TankFire : MonoBehaviour
         GameObject fireSoundObj = Instantiate(tankFireSFX, transform.position, Quaternion.identity, fxContainer.transform);
         fireSoundObj.GetComponent<AudioSource>().Play();
         Destroy(fireSoundObj, 3f);
+    }
+
+    private IEnumerator HangFire()
+    {
+        yield return new WaitForSeconds(.1f);
+
     }
 
     public float IncreasePower(float power)
