@@ -57,6 +57,8 @@ public class AIManager
                 }
                 break;
             case AIType.KNN:
+                 actions[0] = Random.Range(0.0f, 100f);
+                actions[1] = Random.Range(45f, 50f);
                 break;
             default:
                 actions[0] = Random.Range(0.0f, 100f);
