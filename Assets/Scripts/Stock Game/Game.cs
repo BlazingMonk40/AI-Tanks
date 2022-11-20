@@ -75,7 +75,7 @@ public class Game : MonoBehaviour
         set
         {
             totalShots = value;
-            if (totalShots >= 6)
+            if (totalShots >= 20)
                 GameOver();
         }
     }
@@ -85,6 +85,10 @@ public class Game : MonoBehaviour
     private void Awake()
     {
         CreatePlayers();
+        if (GameManager.instance.trainingMode)
+        {
+            GetComponentInChildren<VisualEffect>().gameObject.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -191,7 +195,8 @@ public class Game : MonoBehaviour
         {
             StartCoroutine(HandleCurrentTurn());
         }
-        GenerateWindSpeed();
+        if(!GameManager.instance.trainingMode)
+            GenerateWindSpeed();
     }
 
     void Update()
@@ -233,12 +238,17 @@ public class Game : MonoBehaviour
         //Tell the game manager this game is finished
         GameManager.instance.FinishedGames++;
 
-        if (playerList[0].Health <= 0)
-            winningPlayerText.text = playerList[1].name + " won the game!";
-        else if (playerList[1].Health <= 0)
-            winningPlayerText.text = playerList[0].name + " won the game!";
+        if (GameManager.instance.trainingMode)
+            winningPlayerText.text = "Training Time Over.";
         else
-            winningPlayerText.text = "Game Time Exceeded.\nDraw!";
+        {
+            if (playerList[0].Health <= 0)
+                winningPlayerText.text = playerList[1].name + " won the game!";
+            else if (playerList[1].Health <= 0)
+                winningPlayerText.text = playerList[0].name + " won the game!";
+            else
+                winningPlayerText.text = "Game Time Exceeded.\nDraw!";
+        }
     }
 
     /// <summary>

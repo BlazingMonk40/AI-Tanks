@@ -6,6 +6,7 @@ using System.IO;
 /// <summary>
 /// Neural Network C# (Unsupervised)
 /// </summary>
+[Serializable]
 public class NeuralNetworkFeedForward : IComparable<NeuralNetworkFeedForward>
 {
     //layers[] = {3, 5, 5, 2} => 4 layers, 1 input(3 neurons), 2 hidden(2x 5 neurons), 1 output(neurons)
@@ -14,6 +15,15 @@ public class NeuralNetworkFeedForward : IComparable<NeuralNetworkFeedForward>
     private float[][] biases;
     private float[][][] weights; //weight matrix
     private float fitness; //fitness of the network
+
+    //Tanks AI 11/19/22 Clay
+    private int hits = 0;
+
+    public int Hits
+    {
+        get => hits;
+        set => hits = value;
+    }
 
 
     /// <summary>
@@ -28,8 +38,11 @@ public class NeuralNetworkFeedForward : IComparable<NeuralNetworkFeedForward>
         {
             this.layers[i] = layers[i];
         }
+        InitStuff();
+    }
 
-
+    public void InitStuff()
+    {
         //generate matrix
         InitNeurons();
         InitBiases();

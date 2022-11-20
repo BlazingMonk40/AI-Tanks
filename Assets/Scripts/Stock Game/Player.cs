@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -64,10 +65,13 @@ public class Player : MonoBehaviour
             if (Net != null)
             {
                 Net.AddFitness(-Mathf.Abs(value));
-                Debug.Log(gameObject.name + " Fitness: " + Net.GetFitness());
+                //Debug.Log(gameObject.name + " Fitness: " + Net.GetFitness());
             }
-            if(value == 0)
+            if (value == 0)
+            {
+                Net.Hits++;
                 SetDistanceText("Hit!");
+            }
             else
                 SetDistanceText(((int)value).ToString());
         }
@@ -163,19 +167,38 @@ public class Player : MonoBehaviour
     void InitNeuralNetwork()
     {
         NeuralNetworkFeedForward net = new NeuralNetworkFeedForward(GameManager.instance.layers);
-        if (this == Game.playerList[0])
+        Net = net;
+        
+        if (this == Game.playerList[0]) //If this is player 1
         {
-            net.Load("Assets/Scripts/AI/Clay FeedForward/Player1Save.txt");
-            net.Mutate();
-            Net = net;
-            Game.player1Net = Net;
+            Game.player1Net = LoadNetwork(GameManager.instance.mutatePlayer1Number, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player1/");
+            GameManager.instance.mutatePlayer1Number++;
         }
-        else
+        else                            //If this is player 2
         {
-            net.Load("Assets/Scripts/AI/Clay FeedForward/Player2Save.txt");
-            net.Mutate();
-            Net = net;
-            Game.player2Net = Net;
+            Game.player2Net = LoadNetwork(GameManager.instance.mutatePlayer2Number, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player2/");
+            GameManager.instance.mutatePlayer2Number++;
+        }
+
+        NeuralNetworkFeedForward LoadNetwork(int mutateNumber, string path)
+        {
+            int i = mutateNumber / (GameManager.instance.numberGames / GameManager.instance.numberOfParents);
+
+            if (!File.Exists(path + "parent_" + i + ".txt"))
+            {
+                Net.InitStuff();
+            }
+            else
+            {
+                Debug.Log(Game.name + " " + this.name);
+                Net.Load(path + "parent_" + i + ".txt");
+            }
+            
+            if (mutateNumber % (GameManager.instance.numberGames / GameManager.instance.numberOfParents) != 0)
+            {
+                Net.Mutate();
+            }
+            return Net;
         }
     }
 
@@ -200,8 +223,9 @@ public class Player : MonoBehaviour
     public void Hit()
     {
         Health -= 1;
-        if (Health <= 0)
-            Game.GameOver();
+        if(!GameManager.instance.trainingMode)
+            if (Health <= 0)
+                Game.GameOver();
     }
 
     private void FixAxis()

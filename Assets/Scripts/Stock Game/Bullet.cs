@@ -50,13 +50,22 @@ public class Bullet : MonoBehaviour
             impacted = true;
 
             DisableColliderTriggers();
-            //CheckFriendlyFire(other);
-            MakeImpactFX();
+            CheckFriendlyFire(other);
+            if(!GameManager.instance.trainingMode)
+                MakeImpactFX();
             Player.Distance = CalculateDistance(gameObject.transform.position, Game.notCurrentPlayer.transform.position, other);
             if (Player.Distance == 0)
             {
-                MakeImpactSmoke();
-                WriteShotHistory(shotHistoryPath);
+                if(!GameManager.instance.trainingMode)
+                    MakeImpactSmoke();
+                try
+                {
+                    WriteShotHistory(shotHistoryPath);
+                }
+                catch (IOException e)
+                {
+                    Debug.LogWarning(e);
+                }
             }
 
             Game.EndTurn();
@@ -75,8 +84,8 @@ public class Bullet : MonoBehaviour
             StreamWriter writer = new StreamWriter(path, true);
             //Total Distance, ^X, ^Y, Wind, Angle, Power
 
-            writer.WriteLine(((int)Game.DistanceBetweenPlayers).ToString().PadRight(10) + " | " + ((int)(Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y)).ToString().PadLeft(1).PadRight(9) +
-                                " | " + ((int)Game.WindSpeed).ToString().PadLeft(3).PadRight(4) + " | " + ((int)Player.Angle).ToString().PadRight(10) + " | " + ((int)Player.Power).ToString().PadRight(10));
+            writer.WriteLine(Game.DistanceBetweenPlayers.ToString().PadRight(10) + " | " + (Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y).ToString().PadLeft(1).PadRight(9) +
+                                " | " + Game.WindSpeed.ToString().PadLeft(3).PadRight(4) + " | " + Player.Angle.ToString().PadRight(10) + " | " + Player.Power.ToString().PadRight(10));
 
             writer.Close();
         }

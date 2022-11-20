@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,7 @@ public class GameManager : MonoBehaviour
     [Header("Play Style")]
     [Tooltip("[0] Manual, [1]Reinforced, [2]ANN, [3]FeedForward")]
     [SerializeField] public List<bool> playStyle = new List<bool>(4);
+    public bool trainingMode;
 
 
     [Range(.5f, 8f)]
@@ -26,10 +28,14 @@ public class GameManager : MonoBehaviour
     public int populationSize;
     public List<NeuralNetworkFeedForward> player1Nets;
     public List<NeuralNetworkFeedForward> player2Nets;
+    public int mutatePlayer1Number;
+    public int mutatePlayer2Number;
+    public int numberOfParents = 0;
 
     private int generationNumber;
     public bool isTraining = false;
     public int[] layers = new int[] { 3, 9, 2 };
+    private float avgFitness;
 
     public int FinishedGames
     {
@@ -47,6 +53,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        numberOfParents = (int)(numberGames * .2f);
+
         player1Nets = new List<NeuralNetworkFeedForward>();
         player2Nets = new List<NeuralNetworkFeedForward>();
         #region Class Instance
@@ -70,68 +78,70 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if(playStyle[3])
-            FeedForward();
+        
     }
 
     private void FeedForward()
     {
         if (isTraining == false)
         {
-            MakeNewGeneration(player1Nets, "Assets/Scripts/AI/Clay FeedForward/Player1Save.txt");
-            MakeNewGeneration(player2Nets, "Assets/Scripts/AI/Clay FeedForward/Player2Save.txt");
-
-
-            //Let them train for some time then reset !!!Reset not implemented 10:41_11/15/22!!!
-            isTraining = true;
-            //Invoke("Timer", 30f);
-            //RespawnAllGames();
             generationNumber++;
+            MakeNewGeneration(player1Nets, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player1/", "Player1", false);
+            MakeNewGeneration(player2Nets, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player2/", "Player2", true);
+
+
+            isTraining = true;
         }
     }
 
-    private void MakeNewGeneration(List<NeuralNetworkFeedForward> nets, string path)
+    private void MakeNewGeneration(List<NeuralNetworkFeedForward> nets, string path, string playername, bool makeNewLine)
     {
         //Sorts in worst to best order 0=worst length-1=best
         nets.Sort();
 
-        //Saves Single best fitness network - Probably want to change to top 10% later
-        nets[nets.Count - 1].Save(path);
-
-        //Repopulate half of the neural network and mutate
-        for (int i = 0; i < nets.Count / 2; i++)
+        float tempFit = 0;
+        float tempHit = 0;
+        for (int i = 0; i < numberOfParents; i++)
         {
-            nets[i] = new NeuralNetworkFeedForward(nets[i + (nets.Count / 2)]);
-            nets[i].Mutate();
+            nets[nets.Count - i - 1].Save(path + "parent_" + i + ".txt");
+            tempFit += nets[nets.Count - i - 1].GetFitness();
+            tempHit += nets[nets.Count - i - 1].Hits;
 
-            nets[i + (nets.Count / 2)] = new NeuralNetworkFeedForward(nets[i + (nets.Count / 2)]); //too lazy to write a reset neuron matrix values method....so just going to make a deepcopy lol
         }
+        GenerationCard("Assets/Scripts/AI/Clay FeedForward/GenerationCard.txt", playername, tempFit/numberOfParents, tempHit, makeNewLine);
     }
 
-    internal void RespawnThisGame(Game thisGame)
-    {
-        isTraining = false;
-        foreach (GameObject game in gameList)
-        {
-            if(game == thisGame)
-                game.GetComponent<Game>().CreatePlayers();
-        }
-    }
 
     private void RespawnAllGames()
     {
+        isTraining = false;
+        mutatePlayer1Number = 0;
+        mutatePlayer2Number = 0;
+        if (playStyle[3])
+            FeedForward();
         foreach (GameObject game in gameList)
         {
             game.GetComponent<Game>().CreatePlayers();
         }
     }
 
-    private void Timer()
+    public void GenerationCard(string path, string playername, float fit, float hit, bool makeNewLine)
     {
-        isTraining = false;
-    }
+        if (File.Exists(path) && generationNumber > 0)
+        {
+            StreamWriter writer = new StreamWriter(path, true);
+            //Variabless to be saved
 
-    
+            
+            
+            writer.WriteLine($"{playername} Generation: {generationNumber - 1} \n Avg Fitness of top 20% = {fit} \n Number of Hits in the top 20% = {hit}\n");
+            if (makeNewLine)
+                writer.WriteLine("------------------------------------------\n");
+            writer.Close();
+        }
+        else
+            File.Create(path).Close();
+    }
 
     private void InitGames()
     {

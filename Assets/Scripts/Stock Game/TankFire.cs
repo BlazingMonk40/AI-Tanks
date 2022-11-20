@@ -41,10 +41,12 @@ public class TankFire : MonoBehaviour
             bullet.GetComponent<TrailRenderer>().colorGradient = Game.player1Gradient;
         else
             bullet.GetComponent<TrailRenderer>().colorGradient = Game.player2Gradient;
-
-        GameObject fireSoundObj = Instantiate(tankFireSFX, transform.position, Quaternion.identity, fxContainer.transform);
-        fireSoundObj.GetComponent<AudioSource>().Play();
-        Destroy(fireSoundObj, 3f);
+        if (!GameManager.instance.trainingMode)
+        {
+            GameObject fireSoundObj = Instantiate(tankFireSFX, transform.position, Quaternion.identity, fxContainer.transform);
+            fireSoundObj.GetComponent<AudioSource>().Play();
+            Destroy(fireSoundObj, 3f);
+        }
     }
 
     private IEnumerator HangFire()
