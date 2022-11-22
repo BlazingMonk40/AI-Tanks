@@ -109,9 +109,12 @@ public class GameManager : MonoBehaviour
 
         float topFit = 0;
         float topHit = 0;
+
+        //Saves off the top preformers and gathers data about how they performed
         for (int i = 0; i < numberOfParents; i++)
         {
-            nets[nets.Count - i - 1].Save(path + "parent_" + i + ".txt");
+            if(trainingMode)
+                nets[nets.Count - i - 1].Save(path + "parent_" + i + ".txt");
             topFit += nets[nets.Count - i - 1].GetFitness();
             topHit += nets[nets.Count - i - 1].Hits;
 
@@ -167,15 +170,15 @@ public class GameManager : MonoBehaviour
             showTrainingGameDistance = true;
         
         writer.WriteLine($"{playername} Generation: {generationNumber}\n\t" +
-                            $"Avg Fitness of top 80% = {topFit}\n\t" +
-                            $"Number of Hits in the top 80% = {topHit}/{numberOfParents * 10}\n\t" +
-                            $"Avg Fitness of the bottom 20% = {bottomFit}\n\t" +
-                            $"Number of Hits in the bottom 20% = {bottomHit}/{(numberGames - numberOfParents) * 10}\n");
+                            $"Avg Fitness of top 20% = {topFit}\n\t" +
+                            $"Number of Hits in the top 20% = {topHit}/{numberOfParents * 10}\n\t" +
+                            $"Avg Fitness of the bottom 80% = {bottomFit}\n\t" +
+                            $"Number of Hits in the bottom 80% = {bottomHit}/{(numberGames - numberOfParents) * 10}\n");
         if (makeNewLine)
             writer.WriteLine("------------------------------------------\n");
         writer.Close();
 
-        WriteGenCardToInspector(path);
+        //WriteGenCardToInspector(path);
     }
 
     private void WriteGenCardToInspector(string path)

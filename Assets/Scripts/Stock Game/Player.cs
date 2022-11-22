@@ -195,21 +195,29 @@ public class Player : MonoBehaviour
 
         NeuralNetworkFeedForward LoadNetwork(int mutateNumber, string path)
         {
-            int i = mutateNumber / (GameManager.instance.numberGames / GameManager.instance.numberOfParents);
-
-            if (!File.Exists(path + "parent_" + i + ".txt"))
+            if (GameManager.instance.trainingMode)
             {
-                Net.InitStuff();
+
+                int i = mutateNumber / (GameManager.instance.numberGames / GameManager.instance.numberOfParents);
+
+                if (!File.Exists(path + "parent_" + i + ".txt"))
+                {
+                    Net.InitStuff();
+                }
+                else
+                {
+                    Debug.Log(Game.name + " " + this.name);
+                    Net.Load(path + "parent_" + i + ".txt");
+                }
+
+                if (mutateNumber % (GameManager.instance.numberGames / GameManager.instance.numberOfParents) != 0)
+                {
+                    Net.Mutate();
+                }
             }
             else
             {
-                Debug.Log(Game.name + " " + this.name);
-                Net.Load(path + "parent_" + i + ".txt");
-            }
-            
-            if (mutateNumber % (GameManager.instance.numberGames / GameManager.instance.numberOfParents) != 0)
-            {
-                Net.Mutate();
+                Net.Load(path + "parent_" + UnityEngine.Random.Range(0, 5) + ".txt");
             }
             return Net;
         }

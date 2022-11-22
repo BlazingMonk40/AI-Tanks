@@ -35,7 +35,7 @@ public class KNearestNeighbor
                 actions = new float[] { shotHist[i].getPower(), shotHist[i].getAngle() };
                 return actions;
             }
-            else if (i < shotHist.Count | i > 0)
+            else if (i < shotHist.Count && i > 0)
             {
                 Data prev = shotHist[i - 1];
                 Data next = shotHist[i + 1];
@@ -74,8 +74,8 @@ public class KNearestNeighbor
                 {
                     try
                     {
-                    actions[0] += (shotHist[i - j].getPower());
-                    actions[0] += (shotHist[i - j].getAngle());
+                        actions[0] += (shotHist[i +/*-*/ j].getPower());
+                        actions[1] += (shotHist[i +/*-*/ j].getAngle());
                     }
                     catch(Exception e )
                     {
