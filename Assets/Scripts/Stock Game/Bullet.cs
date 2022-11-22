@@ -153,10 +153,10 @@ public class Bullet : MonoBehaviour
         
         float distance;
 
-        if (other.GetComponentInParent<Player>() != Player && other.transform.parent.tag != "Scenery")
+        if (other.GetComponent<Player>() != Player && other.transform.parent.tag != "Scenery")
         {
             //If the other object is not our player and not the scenery then it must be the other player so set distance to 0
-            other.GetComponentInParent<Player>().Hit();
+            other.GetComponent<Player>().Hit();
             distance = 0;
         }
         else
