@@ -188,8 +188,8 @@ public class Game : MonoBehaviour
         else if (GameManager.instance.playStyle[2])
         {
 
-            playerList[0].InitAI(AIManager.AIType.ANN);
-            playerList[1].InitAI(AIManager.AIType.ANN);
+            playerList[0].InitAI(AIManager.AIType.KNN);
+            playerList[1].InitAI(AIManager.AIType.KNN);
             StartCoroutine(HandleCurrentTurn());
         }
         else if (GameManager.instance.playStyle[3])

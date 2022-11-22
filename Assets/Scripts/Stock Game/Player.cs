@@ -110,7 +110,6 @@ public class Player : MonoBehaviour
         PlayerAI = new AIManager(type);
         PlayerAI.Game = Game;
         PlayerAI.Player = this;
-        PlayerAI.distanceBetweenPlayers = Game.DistanceBetweenPlayers;
     }
 
     public void CallFeedForward(float[] input)

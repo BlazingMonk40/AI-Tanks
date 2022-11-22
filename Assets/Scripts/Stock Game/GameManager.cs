@@ -167,10 +167,10 @@ public class GameManager : MonoBehaviour
             showTrainingGameDistance = true;
         
         writer.WriteLine($"{playername} Generation: {generationNumber}\n\t" +
-                            $"Avg Fitness of top 20% = {topFit}\n\t" +
-                            $"Number of Hits in the top 20% = {topHit}/{numberOfParents * 10}\n\t" +
-                            $"Avg Fitness of the bottom 80% = {bottomFit}\n\t" +
-                            $"Number of Hits in the bottom 80% = {bottomHit}/{(numberGames - numberOfParents) * 10}\n");
+                            $"Avg Fitness of top 80% = {topFit}\n\t" +
+                            $"Number of Hits in the top 80% = {topHit}/{numberOfParents * 10}\n\t" +
+                            $"Avg Fitness of the bottom 20% = {bottomFit}\n\t" +
+                            $"Number of Hits in the bottom 20% = {bottomHit}/{(numberGames - numberOfParents) * 10}\n");
         if (makeNewLine)
             writer.WriteLine("------------------------------------------\n");
         writer.Close();
@@ -191,7 +191,7 @@ public class GameManager : MonoBehaviour
     {
         player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
         player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
-        SpawnGamesGridStyle(5);        
+        SpawnGamesGridStyle(1);        
     }
 
     private void SpawnNormalGames()
