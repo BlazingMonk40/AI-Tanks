@@ -75,8 +75,9 @@ public class Game : MonoBehaviour
         set
         {
             totalShots = value;
-            if (totalShots >= 20)
-                GameOver();
+            if(GameManager.instance.playStyle[3])
+                if (totalShots >= 20)
+                    GameOver();
         }
     }
     #endregion
@@ -265,7 +266,7 @@ public class Game : MonoBehaviour
 
     public IEnumerator HandleCurrentTurn()
     {
-        if (gameOver) StopCoroutine(HandleCurrentTurn());
+        if (gameOver) StopAllCoroutines();
 
         if (GameManager.instance.playStyle[1])
         {

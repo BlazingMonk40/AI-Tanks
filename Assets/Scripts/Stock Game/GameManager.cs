@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] public List<bool> playStyle = new List<bool>(4);
     public bool trainingMode;
 
+    [Header("Generation Card")]
+    [TextArea(5,20)]
+    public string genCardTextArea;
+
 
     [Range(.5f, 8f)]
     public float timeScale;
@@ -31,11 +35,16 @@ public class GameManager : MonoBehaviour
     public int mutatePlayer1Number;
     public int mutatePlayer2Number;
     public int numberOfParents = 0;
-
     private int generationNumber;
     public bool isTraining = false;
-    public int[] layers = new int[] { 3, 9, 2 };
-    private float avgFitness;
+    public int[] layers = new int[] { 3, 4, 2 };
+    
+    public Vector3 player1SpawnPosition;
+    public Vector3 player2SpawnPosition;
+
+    //Generation Card stuff
+    private bool firstEntryForGenCard; //just for formatting the gen. card
+    private bool showTrainingGameDistance = true; //Display the current game's distance
 
     public int FinishedGames
     {
@@ -85,11 +94,10 @@ public class GameManager : MonoBehaviour
     {
         if (isTraining == false)
         {
-            generationNumber++;
             MakeNewGeneration(player1Nets, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player1/", "Player1", false);
             MakeNewGeneration(player2Nets, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player2/", "Player2", true);
 
-
+            generationNumber++;
             isTraining = true;
         }
     }
@@ -99,21 +107,33 @@ public class GameManager : MonoBehaviour
         //Sorts in worst to best order 0=worst length-1=best
         nets.Sort();
 
-        float tempFit = 0;
-        float tempHit = 0;
+        float topFit = 0;
+        float topHit = 0;
         for (int i = 0; i < numberOfParents; i++)
         {
             nets[nets.Count - i - 1].Save(path + "parent_" + i + ".txt");
-            tempFit += nets[nets.Count - i - 1].GetFitness();
-            tempHit += nets[nets.Count - i - 1].Hits;
+            topFit += nets[nets.Count - i - 1].GetFitness();
+            topHit += nets[nets.Count - i - 1].Hits;
 
         }
-        GenerationCard("Assets/Scripts/AI/Clay FeedForward/GenerationCard.txt", playername, tempFit/numberOfParents, tempHit, makeNewLine);
+        float bottomFit = 0;
+        float bottomHit = 0;
+        for (int i = 0; i < numberGames - numberOfParents; i++)
+        {
+            bottomFit += nets[i].GetFitness();
+            bottomHit += nets[i].Hits;
+
+        }
+        GenerationCard("Assets/Scripts/AI/Clay FeedForward/GenerationCard.txt", playername, topFit/numberOfParents, topHit, 
+                        bottomFit/(numberGames - numberOfParents), bottomHit, makeNewLine);
     }
 
 
     private void RespawnAllGames()
     {
+        player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
+        player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+
         isTraining = false;
         mutatePlayer1Number = 0;
         mutatePlayer2Number = 0;
@@ -125,29 +145,53 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GenerationCard(string path, string playername, float fit, float hit, bool makeNewLine)
+    public void GenerationCard(string path, string playername, float topFit, float topHit, float bottomFit, float bottomHit, bool makeNewLine)
     {
-        if (File.Exists(path) && generationNumber > 0)
-        {
-            StreamWriter writer = new StreamWriter(path, true);
-            //Variabless to be saved
+        if(!File.Exists(path)) File.Create(path).Close();
+        
+        StreamWriter writer = new StreamWriter(path, true);
 
-            
-            
-            writer.WriteLine($"{playername} Generation: {generationNumber - 1} \n Avg Fitness of top 20% = {fit} \n Number of Hits in the top 20% = {hit}\n");
-            if (makeNewLine)
-                writer.WriteLine("------------------------------------------\n");
-            writer.Close();
+        if (!firstEntryForGenCard)
+        {
+            writer.WriteLine("------------------------------------------\n");
+            writer.WriteLine($"Game Information:\nNumber of Games: {numberGames}\nTime Game Started: {DateTime.Now}\n");
+            writer.WriteLine("------------------------------------------\n");
+            firstEntryForGenCard = true;
+        }
+        if (showTrainingGameDistance && trainingMode)
+        {
+            writer.WriteLine($"Game Distance: {player2SpawnPosition.x - player1SpawnPosition.x}\n");
+            showTrainingGameDistance = false;
         }
         else
-            File.Create(path).Close();
+            showTrainingGameDistance = true;
+        
+        writer.WriteLine($"{playername} Generation: {generationNumber}\n\t" +
+                            $"Avg Fitness of top 20% = {topFit}\n\t" +
+                            $"Number of Hits in the top 20% = {topHit}/{numberOfParents * 10}\n\t" +
+                            $"Avg Fitness of the bottom 80% = {bottomFit}\n\t" +
+                            $"Number of Hits in the bottom 80% = {bottomHit}/{(numberGames - numberOfParents) * 10}\n");
+        if (makeNewLine)
+            writer.WriteLine("------------------------------------------\n");
+        writer.Close();
+
+        WriteGenCardToInspector(path);
+    }
+
+    private void WriteGenCardToInspector(string path)
+    {
+        if (!File.Exists(path)) return;
+
+        StreamReader reader = new StreamReader(path);
+        genCardTextArea = reader.ReadToEnd();
+        reader.Close();
     }
 
     private void InitGames()
     {
-        //SpawnNormalGames();
-        SpawnGamesGridStyle(5);
-        
+        player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
+        player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+        SpawnGamesGridStyle(5);        
     }
 
     private void SpawnNormalGames()
@@ -162,13 +206,18 @@ public class GameManager : MonoBehaviour
 
     private void SpawnGamesGridStyle(int gridSize)
     {
-        for (int i = 0; i < numberGames / gridSize; i++)
+        if (gridSize < 2)
+            SpawnNormalGames();
+        else
         {
-            for (int j = 0; j < gridSize; j++)
+            for (int i = 0; i < numberGames / gridSize; i++)
             {
-                GameObject game = Instantiate(gamePrefab, new Vector3(500 * j, 0f, gameOffset * i), Quaternion.identity);
-                game.name = "Game: " + (j + (i * gridSize));
-                gameList.Add(game);
+                for (int j = 0; j < gridSize; j++)
+                {
+                    GameObject game = Instantiate(gamePrefab, new Vector3(500 * j, 0f, gameOffset * i), Quaternion.identity);
+                    game.name = "Game: " + (j + (i * gridSize));
+                    gameList.Add(game);
+                }
             }
         }
     }

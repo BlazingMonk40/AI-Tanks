@@ -69,7 +69,8 @@ public class Player : MonoBehaviour
             }
             if (value == 0)
             {
-                Net.Hits++;
+                if(Net != null)
+                    Net.Hits++;
                 SetDistanceText("Hit!");
             }
             else
@@ -132,16 +133,29 @@ public class Player : MonoBehaviour
         distanceText = playerUIContainer.transform.GetChild(3).gameObject.GetComponent<Text>();
         healthText = playerUIContainer.transform.GetChild(4).gameObject.GetComponent<Text>();
         #endregion
-        
-        if (gameObject.tag == "Player1")
+        if (GameManager.instance.trainingMode)
         {
-            transform.localPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
-            transform.localEulerAngles = new Vector3(0f, 90f, 0f);
+            if (gameObject.tag == "Player1")
+            {
+                transform.localPosition = GameManager.instance.player1SpawnPosition;
+            }
+            else if (gameObject.tag == "Player2")
+            {
+                transform.localPosition = GameManager.instance.player2SpawnPosition;
+            }
         }
-        else if (gameObject.tag == "Player2")
+        else
         {
-            transform.localPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
-            transform.localEulerAngles = new Vector3(0f, 270f, 0f);
+            if (gameObject.tag == "Player1")
+            {
+                transform.localPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
+                transform.localEulerAngles = new Vector3(0f, 90f, 0f);
+            }
+            else if (gameObject.tag == "Player2")
+            {
+                transform.localPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+                transform.localEulerAngles = new Vector3(0f, 270f, 0f);
+            }
         }
         Game = game;
         fire = GetComponentInChildren<TankFire>();

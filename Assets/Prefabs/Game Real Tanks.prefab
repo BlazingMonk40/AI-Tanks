@@ -1808,6 +1808,10 @@ MonoBehaviour:
   - {fileID: 8801819532191569815}
   currentPlayer: {fileID: 8839111876418029324}
   notCurrentPlayer: {fileID: 8801819532191569815}
+  player1Net:
+    layers: 
+  player2Net:
+    layers: 
   player1Gradient:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 1, a: 1}

@@ -219,9 +219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playStyle: 00000001
   trainingMode: 1
+  genCardTextArea: 
   timeScale: 2
-  timeBetweenShots: 0
-  numberGames: 20
+  timeBetweenShots: 1
+  numberGames: 100
   finishedGames: 0
   gamePrefab: {fileID: 6690966119929153360, guid: 407fd051626af214b8de6d41bfa324d0,
     type: 3}
@@ -233,7 +234,9 @@ MonoBehaviour:
   mutatePlayer2Number: 0
   numberOfParents: 0
   isTraining: 1
-  layers: 030000000900000002000000
+  layers: 030000000400000002000000
+  player1SpawnPosition: {x: 0, y: 0, z: 0}
+  player2SpawnPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &633852056
 Transform:
   m_ObjectHideFlags: 0
@@ -242,7 +245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633852054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 63.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
