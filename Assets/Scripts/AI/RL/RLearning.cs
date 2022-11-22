@@ -44,7 +44,47 @@ public class RLearning :IComparable<RLearning>
             return 0;
     }
 
+    // private Boolean[] LoadAction(string path)
+    // {
+    //     TextReader tr = new StreamReader(path);
+    //     int NumberOfLines = (int)new FileInfo(path).Length;
+    //     string[] ListLines = new string[NumberOfLines];
+    //     for (int i = 1; i < NumberOfLines; i++)
+    //     {
+    //         ListLines[i] = tr.ReadLine();
+    //     }
+    //     tr.Close();
+    //     String []line;
+    //     String bestStats;
+    //     foreach(String x in ListLines){
+    //         line = x.Split(' ');
+    //         int prevWind = Int32.Parse(line[1]);
+    //         if(prevWind == wind)
+    //         {
+    //             // float score  == line[2];
+    //             //  if(score > this.score )
+    //             //  {
 
-   
+    //             //  }
+    //         }
+    //     }
+
+
+    // //  return null;
+   // //}
+
+    /*public boolean Load(string path)
+    {
+        
+    }*/
+
+    public void Save(string path)
+    {
+        File.Create(path).Close();
+        StreamWriter writer = new StreamWriter(path, true);
+        String playData = "wind: " + wind + " " + score + " " + actions[0] + " " + actions[1];
+        writer.Write(playData);
+        writer.Close();
+    }
     
 }
