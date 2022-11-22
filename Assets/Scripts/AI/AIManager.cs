@@ -12,7 +12,6 @@ public class AIManager
     private int score = 0;
     private Game game;
     private Player player;
-    public KNearestNeighbor knn;
  
 
     public Game Game { get => game; set => game = value; }
@@ -24,10 +23,6 @@ public class AIManager
         actions[0] = Random.Range(50f, 60f);
         actions[1] = Random.Range(45f, 85f);
         bool[] annActions = new[] { false, false, false, false };
-        if(type == AIType.KNN){
-        knn = new KNearestNeighbor(3);
-        knn.loadData();
-        }
     }
     public enum AIType
     {
@@ -62,10 +57,8 @@ public class AIManager
                 }
                 break;
             case AIType.KNN:
-                actions[0] = Random.Range(65f, 100f); ;//Power
-                actions[1] = Random.Range(33f, 75f);//Angle
-
-                 //actions = knn.getMove();//x y, wind
+                 actions[0] = Random.Range(0.0f, 100f);
+                actions[1] = Random.Range(45f, 50f);
                 break;
             default:
                 actions[0] = Random.Range(0.0f, 100f);
