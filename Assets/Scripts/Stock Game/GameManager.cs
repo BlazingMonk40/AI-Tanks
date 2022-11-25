@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     public int numberOfParents = 0;
     private int generationNumber;
     public bool isTraining = false;
-    public int[] layers = new int[] { 3, 4, 2 };
+    public int[] layers = new int[] { 3, 4, 4, 2 };
     
     public Vector3 player1SpawnPosition;
     public Vector3 player2SpawnPosition;
