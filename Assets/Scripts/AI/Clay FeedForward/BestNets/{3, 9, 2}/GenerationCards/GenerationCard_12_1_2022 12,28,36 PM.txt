@@ -1,0 +1,22 @@
+------------------------------------------
+
+Game Information:
+Number of Games: 1
+Time Game Started: 12/1/2022 12:28:36 PM
+
+------------------------------------------
+
+Player1 Generation: 0
+	Avg Fitness of top 20% = NaN
+	Number of Hits in the top 20% = 0/0
+	Avg Fitness of the bottom 80% = -308.1593
+	Number of Hits in the bottom 80% = 0/10
+
+Player2 Generation: 0
+	Avg Fitness of top 20% = NaN
+	Number of Hits in the top 20% = 0/0
+	Avg Fitness of the bottom 80% = -631.0642
+	Number of Hits in the bottom 80% = 0/10
+
+------------------------------------------
+

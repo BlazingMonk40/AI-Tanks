@@ -35,16 +35,22 @@ public class GameManager : MonoBehaviour
     public int mutatePlayer1Number;
     public int mutatePlayer2Number;
     public int numberOfParents = 0;
-    private int generationNumber;
+    private int generationNumber = 1;
     public bool isTraining = false;
-    public int[] layers = new int[] { 3, 4, 4, 2 };
+    public int[] layers;
+    internal string layersString;
+    private DateTime gameStartTime;
     
     public Vector3 player1SpawnPosition;
     public Vector3 player2SpawnPosition;
 
     //Generation Card stuff
-    private bool firstEntryForGenCard; //just for formatting the gen. card
+    private bool firstEntryForGenCard = true; //just for formatting the gen. card
     private bool showTrainingGameDistance = true; //Display the current game's distance
+    private int gameCounter;
+
+    //ShotHistory
+    public string shotHistoryPath;
 
     public int FinishedGames
     {
@@ -56,14 +62,16 @@ public class GameManager : MonoBehaviour
             {
                 finishedGames = 0;
                 RespawnAllGames();
+
             }
         }
     }
 
     private void Awake()
     {
+        SetShotHistoryFile();
         numberOfParents = (int)(numberGames * .2f);
-
+        layersString = GetLayers();
         player1Nets = new List<NeuralNetworkFeedForward>();
         player2Nets = new List<NeuralNetworkFeedForward>();
         #region Class Instance
@@ -78,32 +86,55 @@ public class GameManager : MonoBehaviour
         #endregion
     }
 
+    public void SetShotHistoryFile()
+    {
+        string path = "Assets/Scripts/AI/ShotHistory/Main/";
+        string[] files = Directory.GetFiles(path);
+        int count = 0;
+        string file = "";
+        //Check size pick one to append to
+        for (int i = 0; i < files.Length; i++)
+        {
+            string[] fileParts = files[i].Split('/');
+            file = fileParts[fileParts.Length - 1];
+            if (files[i].EndsWith(".meta") || new FileInfo(path + file).Length >= 100000000)
+            {
+                count++;
+                continue;
+            }
+            else
+                path = path + file;
+        }
+        if (count == files.Length)
+        {
+            path = path + "ShotHistory_" + ((count / 2) + 1) + ".txt";
+            File.Create(path);
+        }
+        shotHistoryPath = path;
+    }
+
     void Start()
     {
         populationSize = numberGames * 2;
-
+        gameStartTime = DateTime.Now;
         InitGames();
         Time.timeScale = timeScale;
-    }
-    private void Update()
-    {
-        
     }
 
     private void FeedForward()
     {
-        if (isTraining == false)
-        {
-            MakeNewGeneration(player1Nets, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player1/", "Player1", false);
-            MakeNewGeneration(player2Nets, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player2/", "Player2", true);
+        SaveBestNetworks(player1Nets, $"Assets/Scripts/AI/Clay FeedForward/BestNets/{layersString}/Player1", "Player1", false);
+        SaveBestNetworks(player2Nets, $"Assets/Scripts/AI/Clay FeedForward/BestNets/{layersString}/Player2", "Player2", true);
 
-            generationNumber++;
-            isTraining = true;
-        }
+        generationNumber++;
+        player1Nets = new List<NeuralNetworkFeedForward>();
+        player2Nets = new List<NeuralNetworkFeedForward>();
     }
 
-    private void MakeNewGeneration(List<NeuralNetworkFeedForward> nets, string path, string playername, bool makeNewLine)
+    private void SaveBestNetworks(List<NeuralNetworkFeedForward> nets, string path, string playername, bool makeNewLine)
     {
+        if (!Directory.Exists(path))
+            Directory.CreateDirectory(path);
         //Sorts in worst to best order 0=worst length-1=best
         nets.Sort();
 
@@ -114,7 +145,7 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < numberOfParents; i++)
         {
             if(trainingMode)
-                nets[nets.Count - i - 1].Save(path + "parent_" + i + ".txt");
+                nets[nets.Count - i - 1].Save(path + "/parent_" + i + ".txt");
             topFit += nets[nets.Count - i - 1].GetFitness();
             topHit += nets[nets.Count - i - 1].Hits;
 
@@ -127,39 +158,27 @@ public class GameManager : MonoBehaviour
             bottomHit += nets[i].Hits;
 
         }
-        GenerationCard("Assets/Scripts/AI/Clay FeedForward/GenerationCard.txt", playername, topFit/numberOfParents, topHit, 
+        GenerationCard(path.Substring(0, path.LastIndexOf('/')) + "/GenerationCards", playername, topFit/numberOfParents, topHit, 
                         bottomFit/(numberGames - numberOfParents), bottomHit, makeNewLine);
-    }
-
-
-    private void RespawnAllGames()
-    {
-        player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
-        player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
-
-        isTraining = false;
-        mutatePlayer1Number = 0;
-        mutatePlayer2Number = 0;
-        if (playStyle[3])
-            FeedForward();
-        foreach (GameObject game in gameList)
-        {
-            game.GetComponent<Game>().CreatePlayers();
-        }
     }
 
     public void GenerationCard(string path, string playername, float topFit, float topHit, float bottomFit, float bottomHit, bool makeNewLine)
     {
-        if(!File.Exists(path)) File.Create(path).Close();
-        
-        StreamWriter writer = new StreamWriter(path, true);
+        if (!Directory.Exists(path)) Directory.CreateDirectory(path);
+        string filePath = path + "/GenerationCard_" + gameStartTime.ToString().Replace('/', '_').Replace(':', ',') + ".txt";
+        if (firstEntryForGenCard)
+        {
+            File.Create(filePath).Close();
+        }
 
-        if (!firstEntryForGenCard)
+        StreamWriter writer = new StreamWriter(filePath, true);
+
+        if (firstEntryForGenCard)
         {
             writer.WriteLine("------------------------------------------\n");
-            writer.WriteLine($"Game Information:\nNumber of Games: {numberGames}\nTime Game Started: {DateTime.Now}\n");
+            writer.WriteLine($"Game Information:\nNumber of Games: {numberGames}\nTime Game Started: {gameStartTime}\n");
             writer.WriteLine("------------------------------------------\n");
-            firstEntryForGenCard = true;
+            firstEntryForGenCard = false;
         }
         if (showTrainingGameDistance && trainingMode)
         {
@@ -194,9 +213,36 @@ public class GameManager : MonoBehaviour
     {
         player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
         player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
-        SpawnGamesGridStyle(1);        
+        gameCounter = 0;
+        SpawnGames(1);        
+    }
+    private void RespawnAllGames()
+    {
+        if (playStyle[3])
+            FeedForward();
+        gameCounter++;
+        if (gameCounter == 5)
+        {
+            gameCounter = 1;
+            player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
+            player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+        }
+        mutatePlayer1Number = 0;
+        mutatePlayer2Number = 0;
+
+        foreach (GameObject game in gameList)
+        {
+            game.GetComponent<Game>().CreatePlayers();
+        }
     }
 
+    private void SpawnGames(int gridSize)
+    {
+        if (gridSize < 2)
+            SpawnNormalGames();
+        else
+            SpawnGamesGridStyle(gridSize);
+    }
     private void SpawnNormalGames()
     {
         for (int i = 0; i < numberGames; i++)
@@ -209,19 +255,36 @@ public class GameManager : MonoBehaviour
 
     private void SpawnGamesGridStyle(int gridSize)
     {
-        if (gridSize < 2)
-            SpawnNormalGames();
-        else
+        for (int i = 0; i < numberGames / gridSize; i++)
         {
-            for (int i = 0; i < numberGames / gridSize; i++)
+            for (int j = 0; j < gridSize; j++)
             {
-                for (int j = 0; j < gridSize; j++)
-                {
-                    GameObject game = Instantiate(gamePrefab, new Vector3(500 * j, 0f, gameOffset * i), Quaternion.identity);
-                    game.name = "Game: " + (j + (i * gridSize));
-                    gameList.Add(game);
-                }
+                GameObject game = Instantiate(gamePrefab, new Vector3(500 * j, 0f, gameOffset * i), Quaternion.identity);
+                game.name = "Game: " + (j + (i * gridSize));
+                gameList.Add(game);
             }
         }
+    }
+
+    /// <summary>
+    /// Simply converts the layers array elements to a string.
+    /// The returned string is used to specify a "neuron configuration" folder in which we'll save the networks actually using that config.
+    /// See below for examples.
+    /// <para> If we have the network layers configured as {3, 4, 2}, we'll save the best networks in ./Player[1/2]/{3, 4, 2}/...</para>
+    /// <para> If we have the network layers configured as {3, 9, 4, 2}, we'll save the best networks in ./Player[1/2]/{3, 9, 4, 2}/...</para>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    private string GetLayers()
+    {
+        string rtn = "{";
+        for (int i = 0; i < layers.Length; i++)
+        {
+            if (i < layers.Length - 1)
+                rtn += layers[i] + ", ";
+            else
+                rtn += layers[i] + "}";
+        }
+        return rtn;
     }
 }

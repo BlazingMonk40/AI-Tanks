@@ -234,7 +234,7 @@ MonoBehaviour:
   mutatePlayer2Number: 0
   numberOfParents: 0
   isTraining: 1
-  layers: 030000000400000002000000
+  layers: 040000000400000002000000
   player1SpawnPosition: {x: 0, y: 0, z: 0}
   player2SpawnPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &633852056

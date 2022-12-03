@@ -291,13 +291,15 @@ public class Game : MonoBehaviour
         else if (GameManager.instance.playStyle[3])
         {
             yield return new WaitForSeconds(GameManager.instance.timeBetweenShots);
-            float[] inputs = new float[3];
+            float[] inputs = new float[GameManager.instance.layers[0]];
             inputs[0] = DistanceBetweenPlayers;
             inputs[1] = currentPlayer.transform.position.y - notCurrentPlayer.transform.position.y;
             if (currentPlayer == playerList[0])
                 inputs[2] = WindSpeed;
             else
                 inputs[2] = -WindSpeed;
+            if (inputs.Length >= 4)
+                inputs[3] = currentPlayer.transform.position.x;
             currentPlayer.CallFeedForward(inputs);
         }
         

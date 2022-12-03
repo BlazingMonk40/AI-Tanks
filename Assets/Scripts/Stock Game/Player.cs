@@ -184,12 +184,12 @@ public class Player : MonoBehaviour
         
         if (this == Game.playerList[0]) //If this is player 1
         {
-            Game.player1Net = LoadNetwork(GameManager.instance.mutatePlayer1Number, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player1/");
+            Game.player1Net = LoadNetwork(GameManager.instance.mutatePlayer1Number, $"Assets/Scripts/AI/Clay FeedForward/BestNets/{GameManager.instance.layersString}/Player1/");
             GameManager.instance.mutatePlayer1Number++;
         }
         else                            //If this is player 2
         {
-            Game.player2Net = LoadNetwork(GameManager.instance.mutatePlayer2Number, "Assets/Scripts/AI/Clay FeedForward/BestNets/Player2/");
+            Game.player2Net = LoadNetwork(GameManager.instance.mutatePlayer2Number, $"Assets/Scripts/AI/Clay FeedForward/BestNets/{GameManager.instance.layersString}/Player2/");
             GameManager.instance.mutatePlayer2Number++;
         }
 
@@ -197,27 +197,32 @@ public class Player : MonoBehaviour
         {
             if (GameManager.instance.trainingMode)
             {
-
                 int i = mutateNumber / (GameManager.instance.numberGames / GameManager.instance.numberOfParents);
 
-                if (!File.Exists(path + "parent_" + i + ".txt"))
+                if (!File.Exists(path + "/parent_" + i + ".txt"))
                 {
                     Net.InitStuff();
                 }
                 else
                 {
-                    Debug.Log(Game.name + " " + this.name);
-                    Net.Load(path + "parent_" + i + ".txt");
+                    Net.Load(path + "/parent_" + i + ".txt");
+                    //Debug.Log("Loaded from parent_" + i + ".txt");
                 }
 
-                if (mutateNumber % (GameManager.instance.numberGames / GameManager.instance.numberOfParents) != 0)
+                if ((mutateNumber+1) % (GameManager.instance.numberGames / GameManager.instance.numberOfParents) != 0)
                 {
-                    Net.Mutate();
+                    Net.Mutate(); 
+                    //Debug.Log("Did mutate");
+                }
+                else
+                {
+                    //Debug.Log("Did not mutate");
+                    //Debug.Log(Game.name + " " + this.name);
                 }
             }
             else
             {
-                Net.Load(path + "parent_" + UnityEngine.Random.Range(0, 5) + ".txt");
+                Net.Load(path + "/parent_0.txt");
             }
             return Net;
         }

@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
     private float gravity = -9.8f;
     private bool impacted = false;
 
-    private string shotHistoryPath = "Assets/Scripts/AI/ShotHistory.txt";
+    private string shotHistoryPath;
 
     public Player Player { get => player; set => player = value; }
     public Game Game { get => game; set => game = value; }
@@ -60,7 +60,7 @@ public class Bullet : MonoBehaviour
                     MakeImpactSmoke();
                 try
                 {
-                    WriteShotHistory(shotHistoryPath);
+                    WriteShotHistory(GameManager.instance.shotHistoryPath);
                 }
                 catch (IOException e)
                 {
@@ -79,7 +79,8 @@ public class Bullet : MonoBehaviour
 
     public void WriteShotHistory(string path)
     {
-        if (File.Exists(shotHistoryPath))
+
+        if (File.Exists(path) && new FileInfo(path).Length < 100000000)
         {
             StreamWriter writer = new StreamWriter(path, true);
             //Total Distance, ^X, ^Y, Wind, Angle, Power
@@ -90,7 +91,7 @@ public class Bullet : MonoBehaviour
             writer.Close();
         }
         else
-            File.Create(path).Close();
+            GameManager.instance.SetShotHistoryFile();
     }
 
     private void MakeImpactSmoke()
