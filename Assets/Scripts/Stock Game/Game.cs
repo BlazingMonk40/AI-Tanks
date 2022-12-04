@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.VFX;
 
-[System.Serializable]
 public class Game : MonoBehaviour
 {
 
@@ -47,6 +46,8 @@ public class Game : MonoBehaviour
     public GameObject gameOverText;
     public GameObject player1UIContainer;
     public GameObject player2UIContainer;
+    public GameObject movingTower;
+    public Transform topOfTower;
 
     #region Properties
     public float DistanceBetweenPlayers
@@ -125,6 +126,10 @@ public class Game : MonoBehaviour
         GameManager.instance.player1Nets.Add(player1Net);
         GameManager.instance.player2Nets.Add(player2Net);
 
+        if(GameManager.instance.trainingMode)
+            movingTower.transform.position = new Vector3(movingTower.transform.position.x, GameManager.instance.movingTowerPos, movingTower.transform.position.z);
+        else
+            movingTower.transform.position = new Vector3(movingTower.transform.position.x, UnityEngine.Random.Range(0f, .75f), movingTower.transform.position.z);
         StartTurns();
     }
 
@@ -300,6 +305,8 @@ public class Game : MonoBehaviour
                 inputs[2] = -WindSpeed;
             if (inputs.Length >= 4)
                 inputs[3] = currentPlayer.transform.position.x;
+            if (inputs.Length >= 5)
+                inputs[4] = topOfTower.position.y;
             currentPlayer.CallFeedForward(inputs);
         }
         

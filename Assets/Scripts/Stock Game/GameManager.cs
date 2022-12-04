@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
     
     public Vector3 player1SpawnPosition;
     public Vector3 player2SpawnPosition;
+    public float movingTowerPos;
 
     //Generation Card stuff
     private bool firstEntryForGenCard = true; //just for formatting the gen. card
@@ -86,6 +87,9 @@ public class GameManager : MonoBehaviour
         #endregion
     }
 
+    /// <summary>
+    /// Initializes the shot history file. If the current file is greater than 100MB it creates a new one.
+    /// </summary>
     public void SetShotHistoryFile()
     {
         string path = "Assets/Scripts/AI/ShotHistory/Main/";
@@ -213,8 +217,9 @@ public class GameManager : MonoBehaviour
     {
         player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
         player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+        movingTowerPos = UnityEngine.Random.Range(0f, .75f);
         gameCounter = 0;
-        SpawnGames(1);        
+        SpawnGames(5);        
     }
     private void RespawnAllGames()
     {
@@ -226,6 +231,7 @@ public class GameManager : MonoBehaviour
             gameCounter = 1;
             player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
             player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+            movingTowerPos = UnityEngine.Random.Range(0f, .75f);
         }
         mutatePlayer1Number = 0;
         mutatePlayer2Number = 0;

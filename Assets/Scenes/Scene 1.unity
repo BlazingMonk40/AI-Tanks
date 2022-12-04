@@ -234,9 +234,11 @@ MonoBehaviour:
   mutatePlayer2Number: 0
   numberOfParents: 0
   isTraining: 1
-  layers: 040000000400000002000000
+  layers: 050000000400000002000000
   player1SpawnPosition: {x: 0, y: 0, z: 0}
   player2SpawnPosition: {x: 0, y: 0, z: 0}
+  movingTowerPos: 0
+  shotHistoryPath: 
 --- !u!4 &633852056
 Transform:
   m_ObjectHideFlags: 0
@@ -363,7 +365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &998236714
 MonoBehaviour:
   m_ObjectHideFlags: 0
