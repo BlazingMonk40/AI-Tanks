@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class AIManager
@@ -10,7 +11,6 @@ public class AIManager
     private int score = 0;
     private Game game;
     private Player player;
-    public KNearestNeighbor knn;
 
 
     public Game Game
@@ -26,20 +26,12 @@ public class AIManager
     {
         aiType = type;
         actions[0] = Random.Range(50f, 60f);
-        actions[1] = Random.Range(45f, 85f);
-        bool[] annActions = new[] { false, false, false, false };
-        if (type == AIType.KNN)
-        {
-            knn = new KNearestNeighbor(3);
-            knn.loadData();
-        }
+        actions[1] = Random.Range(45f, 85f);  
     }
     public enum AIType
     {
         SIMPLEREFLEX, REINFORCED, KNN
     }
-
-
     public float[] getMove(float distToEnemy)
     {
         switch (aiType)
@@ -60,15 +52,33 @@ public class AIManager
 
                     actions[1] = actions[1] > 89f ? actions[1] = 89 : actions[1];
                     actions[1] = actions[1] < 1f ? actions[1] = 1 : actions[1];
-
                 }
                 break;
 
             case AIType.KNN:
-                actions[0] = Random.Range(65f, 100f); ;//Power
-                actions[1] = Random.Range(33f, 75f);//Angle
-
-                actions = knn.getMove(Game.DistanceBetweenPlayers, (Game.notCurrentPlayer.transform.position.y - Game.currentPlayer.transform.position.y), Game.windSpeed);//x y, wind
+                string playerDataFile = game.currentPlayerStr + "/" + game.windSpeed + ".txt";
+                string dataBase = "Assets/Scripts/AI/ShotHistory/" + playerDataFile;
+                using (StreamReader reader = new StreamReader(dataBase))
+                {
+                    string line;
+                    string[] tokens;
+                    int count = 0;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        tokens = line.Split(',');
+                        if (float.Parse(tokens[0]) == player.Distance)
+                        {
+                            actions[0] = float.Parse(tokens[3]);
+                            actions[1] = float.Parse(tokens[4]);
+                            break;
+                        }
+                        else
+                        {
+                            actions[0] = Random.Range(50f, 60f);
+                            actions[1] = Random.Range(45f, 85f);
+                        }
+                    }
+                }
                 break;
             default:
                 actions[0] = Random.Range(0.0f, 100f);

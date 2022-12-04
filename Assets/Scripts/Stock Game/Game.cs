@@ -10,6 +10,7 @@ public class Game : MonoBehaviour
 
     [Header("Player Information")]
     public List<Player> playerList;
+    public string currentPlayerStr;
     public Player currentPlayer;
     public Player notCurrentPlayer;
     public NeuralNetworkFeedForward player1Net;
@@ -119,6 +120,7 @@ public class Game : MonoBehaviour
         playerList[1].gameObject.name = player2Prefab.gameObject.name;
 
         currentPlayer = playerList[0];
+        currentPlayerStr ="Player1";
         notCurrentPlayer = playerList[1];
 
         playerList[0].InitPlayer(this, player1UIContainer);
@@ -336,11 +338,13 @@ public class Game : MonoBehaviour
         {
             currentPlayer = playerList[1];
             notCurrentPlayer = playerList[0];
+            currentPlayerStr ="Player2";
         }
         else
         {
             currentPlayer = playerList[0];
             notCurrentPlayer = playerList[1];
+            currentPlayerStr ="Player1";
         }
     }
 
