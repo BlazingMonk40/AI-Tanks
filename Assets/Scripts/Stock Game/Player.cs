@@ -7,7 +7,8 @@ using UnityEngine.UI;
 
 [SelectionBase]
 public class Player : MonoBehaviour
-{
+{ 
+    public string name;
     private float rotationOffset = 90f;
     public float powerMultiplier = 1f;
     private float power = -1;
@@ -152,7 +153,7 @@ public class Player : MonoBehaviour
             }
             else if (gameObject.tag == "Player2")
             {
-                transform.localPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
+                transform.localPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -28f, -25f);
                 transform.localEulerAngles = new Vector3(0f, 270f, 0f);
             }
         }
@@ -211,13 +212,7 @@ public class Player : MonoBehaviour
 
                 if ((mutateNumber+1) % (GameManager.instance.numberGames / GameManager.instance.numberOfParents) != 0)
                 {
-                    Net.Mutate(); 
-                    //Debug.Log("Did mutate");
-                }
-                else
-                {
-                    //Debug.Log("Did not mutate");
-                    //Debug.Log(Game.name + " " + this.name);
+                    Net.Mutate();
                 }
             }
             else
@@ -335,7 +330,6 @@ public class Player : MonoBehaviour
                     Angle = Mathf.Abs((int)turretObj.transform.eulerAngles.z - rotationOffset - 180);
                 else//blue
                     Angle = Mathf.Abs((int)turretObj.transform.eulerAngles.z - rotationOffset);
-
             }
 
             if (Input.GetAxis("Horizontal") > 0)
@@ -347,7 +341,6 @@ public class Player : MonoBehaviour
                     Angle = Mathf.Abs((int)turretObj.transform.eulerAngles.z - rotationOffset - 180);
                 else
                     Angle = Mathf.Abs((int)turretObj.transform.eulerAngles.z - rotationOffset);
-
             }
         }
     }

@@ -10,7 +10,7 @@ public class Game : MonoBehaviour
 
     [Header("Player Information")]
     public List<Player> playerList;
-    public string currentPlayerStr;
+    public int currentPlayerIndex;
     public Player currentPlayer;
     public Player notCurrentPlayer;
     public NeuralNetworkFeedForward player1Net;
@@ -120,7 +120,7 @@ public class Game : MonoBehaviour
         playerList[1].gameObject.name = player2Prefab.gameObject.name;
 
         currentPlayer = playerList[0];
-        currentPlayerStr ="Player1";
+        currentPlayerIndex = 0;
         notCurrentPlayer = playerList[1];
 
         playerList[0].InitPlayer(this, player1UIContainer);
@@ -132,7 +132,7 @@ public class Game : MonoBehaviour
             movingTower.transform.position = new Vector3(movingTower.transform.position.x, GameManager.instance.movingTowerPos, movingTower.transform.position.z);
         else
             movingTower.transform.position = new Vector3(movingTower.transform.position.x, UnityEngine.Random.Range(0f, .75f), movingTower.transform.position.z);
-        StartTurns();
+        Invoke("StartTurns", 2f);
     }
 
     /// <summary>
@@ -288,8 +288,9 @@ public class Game : MonoBehaviour
         else if (GameManager.instance.playStyle[2])
         {
             yield return new WaitForSeconds(GameManager.instance.timeBetweenShots);
-            float[] actions;
-            actions = currentPlayer.PlayerAI.getMove(currentPlayer.Distance);
+            float[] actions = new float[2];
+            try { actions = currentPlayer.PlayerAI.getMove(currentPlayer.Distance); }
+            catch (Exception e) { Debug.Log(e.StackTrace); }
             currentPlayer.Power = actions[0];
             currentPlayer.Angle = actions[1];
             currentPlayer.AiAim();
@@ -338,13 +339,13 @@ public class Game : MonoBehaviour
         {
             currentPlayer = playerList[1];
             notCurrentPlayer = playerList[0];
-            currentPlayerStr ="Player2";
+            currentPlayerIndex = 1;
         }
         else
         {
             currentPlayer = playerList[0];
             notCurrentPlayer = playerList[1];
-            currentPlayerStr ="Player1";
+            currentPlayerIndex = 0;
         }
     }
 

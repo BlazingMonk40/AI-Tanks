@@ -36,6 +36,7 @@ public class TankFire : MonoBehaviour
         bullet.GetComponent<Bullet>().Player = this.Player;
         bullet.GetComponent<Bullet>().Game = this.Game;
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * Player.Power * Player.powerMultiplier;
+        Destroy(bullet, 30f);
 
         if (Player == Game.playerList[0])
             bullet.GetComponent<TrailRenderer>().colorGradient = Game.player1Gradient;

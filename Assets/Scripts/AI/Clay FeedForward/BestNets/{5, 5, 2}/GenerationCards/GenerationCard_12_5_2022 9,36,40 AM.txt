@@ -1,0 +1,56 @@
+------------------------------------------
+
+Game Information:
+Number of Games: 100
+Time Game Started: 12/5/2022 9:36:40 AM
+
+------------------------------------------
+
+Game Distance: 100
+
+Player1 Generation: 1
+	Avg Fitness of top 20% = -87.36427
+	Number of Hits in the top 20% = 0/200
+	Avg Fitness of the bottom 80% = -142.9066
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 1
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 11/200
+	Avg Fitness of the bottom 80% = -40.63215
+	Number of Hits in the bottom 80% = 6/800
+
+------------------------------------------
+
+Game Distance: 100
+
+Player1 Generation: 2
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 0/200
+	Avg Fitness of the bottom 80% = -142.9066
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 2
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 0/200
+	Avg Fitness of the bottom 80% = -40.63215
+	Number of Hits in the bottom 80% = 0/800
+
+------------------------------------------
+
+Game Distance: 100
+
+Player1 Generation: 3
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 0/200
+	Avg Fitness of the bottom 80% = -145.1492
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 3
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 8/200
+	Avg Fitness of the bottom 80% = -56.99368
+	Number of Hits in the bottom 80% = 0/800
+
+------------------------------------------
+

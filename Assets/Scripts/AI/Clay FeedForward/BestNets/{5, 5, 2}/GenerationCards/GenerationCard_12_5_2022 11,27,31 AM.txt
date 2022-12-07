@@ -1,0 +1,88 @@
+------------------------------------------
+
+Game Information:
+Number of Games: 100
+Time Game Started: 12/5/2022 11:27:31 AM
+
+------------------------------------------
+
+Game Distance: 160
+
+Player1 Generation: 1
+	Avg Fitness of top 20% = -273.1582
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -628.4897
+	Number of Hits in the bottom 80% = 50/800
+
+Player2 Generation: 1
+	Avg Fitness of top 20% = -105.0292
+	Number of Hits in the top 20% = 108/200
+	Avg Fitness of the bottom 80% = -459.1166
+	Number of Hits in the bottom 80% = 119/800
+
+------------------------------------------
+
+Game Distance: 160
+
+Player1 Generation: 2
+	Avg Fitness of top 20% = -195.3701
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -822.5236
+	Number of Hits in the bottom 80% = 21/800
+
+Player2 Generation: 2
+	Avg Fitness of top 20% = -68.65623
+	Number of Hits in the top 20% = 125/200
+	Avg Fitness of the bottom 80% = -627.5569
+	Number of Hits in the bottom 80% = 58/800
+
+------------------------------------------
+
+Game Distance: 160
+
+Player1 Generation: 3
+	Avg Fitness of top 20% = -134.1747
+	Number of Hits in the top 20% = 89/200
+	Avg Fitness of the bottom 80% = -903.5454
+	Number of Hits in the bottom 80% = 17/800
+
+Player2 Generation: 3
+	Avg Fitness of top 20% = -51.74734
+	Number of Hits in the top 20% = 139/200
+	Avg Fitness of the bottom 80% = -743.94
+	Number of Hits in the bottom 80% = 25/800
+
+------------------------------------------
+
+Game Distance: 160
+
+Player1 Generation: 4
+	Avg Fitness of top 20% = -79.56619
+	Number of Hits in the top 20% = 112/200
+	Avg Fitness of the bottom 80% = -977.64
+	Number of Hits in the bottom 80% = 1/800
+
+Player2 Generation: 4
+	Avg Fitness of top 20% = -42.58637
+	Number of Hits in the top 20% = 145/200
+	Avg Fitness of the bottom 80% = -793.4849
+	Number of Hits in the bottom 80% = 21/800
+
+------------------------------------------
+
+Game Distance: 160
+
+Player1 Generation: 5
+	Avg Fitness of top 20% = -49.23563
+	Number of Hits in the top 20% = 140/200
+	Avg Fitness of the bottom 80% = -1001.059
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 5
+	Avg Fitness of top 20% = -38.67296
+	Number of Hits in the top 20% = 149/200
+	Avg Fitness of the bottom 80% = -828.5925
+	Number of Hits in the bottom 80% = 16/800
+
+------------------------------------------
+

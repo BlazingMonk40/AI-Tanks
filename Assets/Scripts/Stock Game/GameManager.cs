@@ -9,15 +9,22 @@ public class GameManager : MonoBehaviour
 {
 
     [Header("Play Style")]
-    [Tooltip("[0] Manual, [1]Reinforced, [2]ANN, [3]FeedForward")]
+    [Tooltip("[0] Manual, [1]Reinforced, [2]NCC, [3]FeedForward")]
     [SerializeField] public List<bool> playStyle = new List<bool>(4);
     public bool trainingMode;
+    
+    [Tooltip("Restart Switch. In case games get stuck")] 
+    public bool respawnAllGames;
 
-    [Header("Generation Card")]
-    [TextArea(5,20)]
-    public string genCardTextArea;
+    [Header("NCC Data Generation")] 
+    public bool gatherData;
+
+    [HideInInspector] public List<Dictionary<int, Dictionary<float, Tuple<(float power, float angle)>>>> shotDataBase;
+    private float player1X = -80;
+    private float player2X = 80;
 
 
+    [Header("Game Info")]
     [Range(.5f, 8f)]
     public float timeScale;
     public float timeBetweenShots;
@@ -25,6 +32,8 @@ public class GameManager : MonoBehaviour
     public int numberGames;
     public int finishedGames;
     public GameObject gamePrefab;
+    public GameObject player1Prefab;
+    public GameObject player2Prefab;
     public List<GameObject> gameList;
     public static GameManager instance;
 
@@ -62,7 +71,7 @@ public class GameManager : MonoBehaviour
             if (finishedGames == numberGames)
             {
                 finishedGames = 0;
-                RespawnAllGames();
+                Invoke("RespawnAllGames", 1f);
 
             }
         }
@@ -71,6 +80,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         SetShotHistoryFile();
+        GetShotHistoryNCC();
         numberOfParents = (int)(numberGames * .2f);
         layersString = GetLayers();
         player1Nets = new List<NeuralNetworkFeedForward>();
@@ -117,6 +127,90 @@ public class GameManager : MonoBehaviour
         shotHistoryPath = path;
     }
 
+    public void GetShotHistoryNCC()
+    {
+        shotDataBase = new List<Dictionary<int, Dictionary<float, Tuple<(float power, float angle)>>>>();
+        shotDataBase.Add(new Dictionary<int, Dictionary<float, Tuple<(float power, float angle)>>>());
+        shotDataBase.Add(new Dictionary<int, Dictionary<float, Tuple<(float power, float angle)>>>());
+        for (int i = -10; i < 11; i++)
+        {
+            shotDataBase[0][i] = Util("Assets/Scripts/AI/ShotHistory/Player1/", i);
+            shotDataBase[1][i] = Util("Assets/Scripts/AI/ShotHistory/Player2/", i);
+        }
+
+
+        Dictionary<float, Tuple<(float power, float angle)>> Util(string path, int wind)
+        {
+            string[] files = Directory.GetFiles(path);
+            string[] tokens = new string[5];
+            string line = "";
+            Dictionary<float, Tuple<(float power, float angle)>> dict = new Dictionary<float, Tuple<(float power, float angle)>>();
+           
+            foreach (string file in files)
+            {
+                if (file.EndsWith(wind.ToString()+".txt"))
+                {
+                    StreamReader reader = new StreamReader(file);
+
+                    for (int i = 100; i < 241; i++)
+                    {
+                        if (((line = reader.ReadLine()) != null))
+                        {
+                            tokens = line.Split(',');
+                            dict[int.Parse(tokens[0])] = new Tuple<(float power, float angle)>((float.Parse(tokens[4]), float.Parse(tokens[3])));
+                        }
+                    }
+                }
+            }
+            return dict;
+        }
+    }
+    /*
+            string[] files = Directory.GetFiles(path);
+            string[] tokens = new string[5];
+            string line = "";
+            foreach (string file in files)
+            {
+                if (file.EndsWith(".txt"))
+                {
+                    StreamReader reader = new StreamReader(file);
+
+                    for(int i = 0; i < 140; i++)
+                    {
+                        if (((line = reader.ReadLine()) != null))
+                        {
+                            tokens = line.Split(',');
+                            if (int.Parse(tokens[0]) - 100 == i)
+                            {
+                                allData.Add(new List<float>
+                                {
+                                    float.Parse(tokens[0]),
+                                    float.Parse(tokens[1]),
+                                    float.Parse(tokens[2]),
+                                    float.Parse(tokens[3]),
+                                    float.Parse(tokens[4])
+                                });
+                            }
+                            else
+                            {
+                                for (int j = i; j < int.Parse(tokens[0]) - 100 - i; j++)
+                                    allData.Add(null);
+                                allData.Add(new List<float>
+                                {
+                                    float.Parse(tokens[0]),
+                                    float.Parse(tokens[1]),
+                                    float.Parse(tokens[2]),
+                                    float.Parse(tokens[3]),
+                                    float.Parse(tokens[4])
+                                });
+                            }
+                        }
+                    }
+                    reader.Close();
+                }
+
+            }
+            */
     void Start()
     {
         populationSize = numberGames * 2;
@@ -125,14 +219,21 @@ public class GameManager : MonoBehaviour
         Time.timeScale = timeScale;
     }
 
+    private void Update()
+    {
+        if (respawnAllGames)
+        {
+            respawnAllGames = false;
+            RespawnAllGames();
+        }
+    }
+
     private void FeedForward()
     {
         SaveBestNetworks(player1Nets, $"Assets/Scripts/AI/Clay FeedForward/BestNets/{layersString}/Player1", "Player1", false);
         SaveBestNetworks(player2Nets, $"Assets/Scripts/AI/Clay FeedForward/BestNets/{layersString}/Player2", "Player2", true);
 
         generationNumber++;
-        player1Nets = new List<NeuralNetworkFeedForward>();
-        player2Nets = new List<NeuralNetworkFeedForward>();
     }
 
     private void SaveBestNetworks(List<NeuralNetworkFeedForward> nets, string path, string playername, bool makeNewLine)
@@ -201,40 +302,58 @@ public class GameManager : MonoBehaviour
             writer.WriteLine("------------------------------------------\n");
         writer.Close();
 
-        //WriteGenCardToInspector(path);
     }
 
-    private void WriteGenCardToInspector(string path)
-    {
-        if (!File.Exists(path)) return;
-
-        StreamReader reader = new StreamReader(path);
-        genCardTextArea = reader.ReadToEnd();
-        reader.Close();
-    }
+    
 
     private void InitGames()
     {
         player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
-        player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
-        movingTowerPos = UnityEngine.Random.Range(0f, .75f);
+        player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -28f, -25f);
+        if (gatherData)
+        {
+            player1SpawnPosition = new Vector3(player1X, -15f, -25f);
+            player2SpawnPosition = new Vector3(player2X, -28f, -25f);
+        }
+        //movingTowerPos = UnityEngine.Random.Range(0f, .75f);
         gameCounter = 0;
-        SpawnGames(5);        
+        SpawnGames(1);        
     }
     private void RespawnAllGames()
     {
         if (playStyle[3])
             FeedForward();
         gameCounter++;
-        if (gameCounter == 5)
-        {
-            gameCounter = 1;
-            player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
-            player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -30f, -25f);
-            movingTowerPos = UnityEngine.Random.Range(0f, .75f);
-        }
         mutatePlayer1Number = 0;
         mutatePlayer2Number = 0;
+        if (!gatherData)
+        {
+            if (gameCounter == 5)
+            {
+                gameCounter = 1;
+                player1SpawnPosition = new Vector3(UnityEngine.Random.Range(-120f, -50), -15f, -25f);
+                player2SpawnPosition = new Vector3(UnityEngine.Random.Range(50f, 120f), -28f, -25f);
+                movingTowerPos = UnityEngine.Random.Range(0f, .75f);
+                player1Nets = new List<NeuralNetworkFeedForward>();
+                player2Nets = new List<NeuralNetworkFeedForward>();
+            }
+        }
+        else
+        {
+            if (player1X <= -120)
+            {
+                player1X = -50;
+                player2X = 50;
+            }
+            if (gameCounter == 5)
+            {
+                gameCounter = 1;
+                player1SpawnPosition = new Vector3(player1X -= .5f, -15f, -25f);
+                player2SpawnPosition = new Vector3(player2X += .5f, -28f, -25f);
+                player1Nets = new List<NeuralNetworkFeedForward>();
+                player2Nets = new List<NeuralNetworkFeedForward>();
+            }
+        }
 
         foreach (GameObject game in gameList)
         {

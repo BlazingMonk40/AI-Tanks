@@ -56,28 +56,17 @@ public class AIManager
                 break;
 
             case AIType.KNN:
-                string playerDataFile = game.currentPlayerStr + "/" + game.windSpeed + ".txt";
-                string dataBase = "Assets/Scripts/AI/ShotHistory/" + playerDataFile;
-                using (StreamReader reader = new StreamReader(dataBase))
+                //Debug.Log(GameManager.instance.shotDataBase[Game.currentPlayerIndex][Game.WindSpeed][(int)Game.DistanceBetweenPlayers]);
+                if (GameManager.instance.shotDataBase[Game.currentPlayerIndex][Game.WindSpeed].ContainsKey((int)Game.DistanceBetweenPlayers))
                 {
-                    string line;
-                    string[] tokens;
-                    int count = 0;
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        tokens = line.Split(',');
-                        if (float.Parse(tokens[0]) == player.Distance)
-                        {
-                            actions[0] = float.Parse(tokens[3]);
-                            actions[1] = float.Parse(tokens[4]);
-                            break;
-                        }
-                        else
-                        {
-                            actions[0] = Random.Range(50f, 60f);
-                            actions[1] = Random.Range(45f, 85f);
-                        }
-                    }
+                    actions[0] = GameManager.instance.shotDataBase[Game.currentPlayerIndex][Game.WindSpeed][(int)Game.DistanceBetweenPlayers].Item1.power;
+                    actions[1] = GameManager.instance.shotDataBase[Game.currentPlayerIndex][Game.WindSpeed][(int)Game.DistanceBetweenPlayers].Item1.angle;
+                    break;
+                }
+                else
+                {
+                    actions[0] = Random.Range(50f, 60f);
+                    actions[1] = Random.Range(45f, 85f);
                 }
                 break;
             default:

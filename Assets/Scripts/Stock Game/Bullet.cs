@@ -58,23 +58,26 @@ public class Bullet : MonoBehaviour
             {
                 if(!GameManager.instance.trainingMode)
                     MakeImpactSmoke();
-                try
+                if (!GameManager.instance.playStyle[2])
                 {
-                    WriteShotHistory(GameManager.instance.shotHistoryPath);
-                }
-                catch (IOException e)
-                {
-                    Debug.LogWarning(e);
+                    try
+                    {
+                        WriteShotHistory(GameManager.instance.shotHistoryPath);
+                    }
+                    catch (IOException e)
+                    {
+                        Debug.LogWarning(e);
+                    }
                 }
             }
-
-            Game.EndTurn();
-
             //Destroy this bullet after impact
             Destroy(gameObject);
-
-            Game.TotalShots++;
         }
+    }
+    private void OnDestroy()
+    {
+        Game.EndTurn();
+        Game.TotalShots++;
     }
 
     public void WriteShotHistory(string path)
