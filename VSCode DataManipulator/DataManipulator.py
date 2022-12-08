@@ -8,7 +8,6 @@ player1Dir = "C:/Users/popta/Documents/GitHub/AI Tanks/Assets/Scripts/AI/ShotHis
 player2Dir = "C:/Users/popta/Documents/GitHub/AI Tanks/Assets/Scripts/AI/ShotHistory/Player2/"
 
 def main():
-    
     starttime = datetime.datetime.now().replace(microsecond=0)
     program_startTime = starttime
 

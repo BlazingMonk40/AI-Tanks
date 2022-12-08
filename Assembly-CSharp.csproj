@@ -305,6 +305,7 @@
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 5, 2}\Player2\parent_10.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 5, 2}\Player2\parent_7.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 5, 2}\GenerationCards\GenerationCard_12_5_2022 3,11,09 PM.txt" />
+    <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 5, 2}\GenerationCards\GenerationCard_12_6_2022 10,39,35 PM.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{3, 4, 2}\Player1\parent_18.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{3, 4, 2}\Player2\parent_5.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{4, 4, 2}\Player1\parent_19.txt" />
@@ -343,6 +344,7 @@
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{3, 2, 2, 2}\Player2\parent_18.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{4, 4, 2}\Player1\parent_3.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 4, 2}\Player2\parent_1.txt" />
+    <None Include="Assets\Scripts\AI\ShotHistory\Main\ShotHistory_2.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{3, 4, 2}\Player1\parent_12.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 4, 2}\Player2\parent_13.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{3, 9, 2}\Player2\parent_14.txt" />
@@ -393,6 +395,7 @@
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{3, 9, 2}\Player2\parent_10.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 4, 2}\Player2\parent_14.txt" />
     <None Include="Assets\Scripts\AI\ShotHistory\ShotHistory_2.txt" />
+    <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 5, 2}\GenerationCards\GenerationCard_12_6_2022 10,57,00 PM.txt" />
     <None Include="Assets\Scripts\AI\ShotHistory\Player2\2.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 5, 2}\Player1\parent_2.txt" />
     <None Include="Assets\Scripts\AI\Clay FeedForward\BestNets\{5, 4, 2}\GenerationCards\Player1\parent_3.txt" />
