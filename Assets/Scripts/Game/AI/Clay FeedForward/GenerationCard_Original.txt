@@ -1,0 +1,712 @@
+Player1 Generation: 0 
+ Avg Fitness of top 20% = -249.2773 
+ Number of Hits in the top 20% = 53
+
+Player2 Generation: 0 
+ Avg Fitness of top 20% = -359.9666 
+ Number of Hits in the top 20% = 32
+
+------------------------------------------
+
+Player1 Generation: 1 
+ Avg Fitness of top 20% = -184.3503 
+ Number of Hits in the top 20% = 69
+
+Player2 Generation: 1 
+ Avg Fitness of top 20% = -265.7889 
+ Number of Hits in the top 20% = 45
+
+------------------------------------------
+
+Player1 Generation: 2 
+ Avg Fitness of top 20% = -172.3634 
+ Number of Hits in the top 20% = 77
+
+Player2 Generation: 2 
+ Avg Fitness of top 20% = -245.1828 
+ Number of Hits in the top 20% = 48
+
+------------------------------------------
+
+Player1 Generation: 3 
+ Avg Fitness of top 20% = -159.4854 
+ Number of Hits in the top 20% = 79
+
+Player2 Generation: 3 
+ Avg Fitness of top 20% = -213.4097 
+ Number of Hits in the top 20% = 54
+
+------------------------------------------
+
+Player1 Generation: 4 
+ Avg Fitness of top 20% = -157.4226 
+ Number of Hits in the top 20% = 73
+
+Player2 Generation: 4 
+ Avg Fitness of top 20% = -198.8636 
+ Number of Hits in the top 20% = 60
+
+------------------------------------------
+
+Player1 Generation: 5 
+ Avg Fitness of top 20% = -147.7447 
+ Number of Hits in the top 20% = 74
+
+Player2 Generation: 5 
+ Avg Fitness of top 20% = -193.8779 
+ Number of Hits in the top 20% = 61
+
+------------------------------------------
+
+Player1 Generation: 6 
+ Avg Fitness of top 20% = -144.8447 
+ Number of Hits in the top 20% = 76
+
+Player2 Generation: 6 
+ Avg Fitness of top 20% = -176.1891 
+ Number of Hits in the top 20% = 70
+
+------------------------------------------
+
+Player1 Generation: 7 
+ Avg Fitness of top 20% = -135.2436 
+ Number of Hits in the top 20% = 79
+
+Player2 Generation: 7 
+ Avg Fitness of top 20% = -159.3037 
+ Number of Hits in the top 20% = 75
+
+------------------------------------------
+
+Player1 Generation: 8 
+ Avg Fitness of top 20% = -124.2888 
+ Number of Hits in the top 20% = 88
+
+Player2 Generation: 8 
+ Avg Fitness of top 20% = -157.776 
+ Number of Hits in the top 20% = 79
+
+------------------------------------------
+
+Player1 Generation: 9 
+ Avg Fitness of top 20% = -124.2888 
+ Number of Hits in the top 20% = 88
+
+Player2 Generation: 9 
+ Avg Fitness of top 20% = -152.1153 
+ Number of Hits in the top 20% = 79
+
+------------------------------------------
+
+Player1 Generation: 10 
+ Avg Fitness of top 20% = -112.8579 
+ Number of Hits in the top 20% = 97
+
+Player2 Generation: 10 
+ Avg Fitness of top 20% = -140.2923 
+ Number of Hits in the top 20% = 81
+
+------------------------------------------
+
+Player1 Generation: 11 
+ Avg Fitness of top 20% = -111.8493 
+ Number of Hits in the top 20% = 98
+
+Player2 Generation: 11 
+ Avg Fitness of top 20% = -140.2923 
+ Number of Hits in the top 20% = 81
+
+------------------------------------------
+
+Player1 Generation: 12 
+ Avg Fitness of top 20% = -109.6518 
+ Number of Hits in the top 20% = 98
+
+Player2 Generation: 12 
+ Avg Fitness of top 20% = -140.2923 
+ Number of Hits in the top 20% = 81
+
+------------------------------------------
+
+Player1 Generation: 13 
+ Avg Fitness of top 20% = -105.6575 
+ Number of Hits in the top 20% = 101
+
+Player2 Generation: 13 
+ Avg Fitness of top 20% = -130.4378 
+ Number of Hits in the top 20% = 88
+
+------------------------------------------
+
+Player1 Generation: 14 
+ Avg Fitness of top 20% = -97.27292 
+ Number of Hits in the top 20% = 106
+
+Player2 Generation: 14 
+ Avg Fitness of top 20% = -129.3341 
+ Number of Hits in the top 20% = 87
+
+------------------------------------------
+
+Player1 Generation: 15 
+ Avg Fitness of top 20% = -90.97169 
+ Number of Hits in the top 20% = 111
+
+Player2 Generation: 15 
+ Avg Fitness of top 20% = -116.7599 
+ Number of Hits in the top 20% = 94
+
+------------------------------------------
+
+Player1 Generation: 16 
+ Avg Fitness of top 20% = -88.75511 
+ Number of Hits in the top 20% = 111
+
+Player2 Generation: 16 
+ Avg Fitness of top 20% = -113.2301 
+ Number of Hits in the top 20% = 96
+
+------------------------------------------
+
+Player1 Generation: 17 
+ Avg Fitness of top 20% = -85.14722 
+ Number of Hits in the top 20% = 114
+
+Player2 Generation: 17 
+ Avg Fitness of top 20% = -112.3396 
+ Number of Hits in the top 20% = 91
+
+------------------------------------------
+
+Player1 Generation: 18 
+ Avg Fitness of top 20% = -83.57748 
+ Number of Hits in the top 20% = 115
+
+Player2 Generation: 18 
+ Avg Fitness of top 20% = -112.3396 
+ Number of Hits in the top 20% = 91
+
+------------------------------------------
+
+Player1 Generation: 19 
+ Avg Fitness of top 20% = -78.95229 
+ Number of Hits in the top 20% = 118
+
+Player2 Generation: 19 
+ Avg Fitness of top 20% = -110.57 
+ Number of Hits in the top 20% = 93
+
+------------------------------------------
+
+Player1 Generation: 20 
+ Avg Fitness of top 20% = -78.09071 
+ Number of Hits in the top 20% = 119
+
+Player2 Generation: 20 
+ Avg Fitness of top 20% = -105.9299 
+ Number of Hits in the top 20% = 97
+
+------------------------------------------
+------------------------------------------
+------------------------------------------
+
+Player1 Generation: 0 
+ Avg Fitness of top 20% = -124.5009 
+ Number of Hits in the top 20% = 82
+
+Player2 Generation: 0 
+ Avg Fitness of top 20% = -136.1654 
+ Number of Hits in the top 20% = 82
+
+------------------------------------------
+
+Player1 Generation: 1 
+ Avg Fitness of top 20% = -59.68516 
+ Number of Hits in the top 20% = 120
+
+Player2 Generation: 1 
+ Avg Fitness of top 20% = -116.2181 
+ Number of Hits in the top 20% = 90
+
+------------------------------------------
+
+Player1 Generation: 2 
+ Avg Fitness of top 20% = -49.09736 
+ Number of Hits in the top 20% = 129
+
+Player2 Generation: 2 
+ Avg Fitness of top 20% = -98.46591 
+ Number of Hits in the top 20% = 105
+
+------------------------------------------
+
+Player1 Generation: 3 
+ Avg Fitness of top 20% = -37.53299 
+ Number of Hits in the top 20% = 142
+
+Player2 Generation: 3 
+ Avg Fitness of top 20% = -95.05177 
+ Number of Hits in the top 20% = 108
+
+------------------------------------------
+
+Player1 Generation: 4 
+ Avg Fitness of top 20% = -30.03488 
+ Number of Hits in the top 20% = 151
+
+Player2 Generation: 4 
+ Avg Fitness of top 20% = -89.53581 
+ Number of Hits in the top 20% = 110
+
+------------------------------------------
+
+Player1 Generation: 5 
+ Avg Fitness of top 20% = -22.11689 
+ Number of Hits in the top 20% = 164
+
+Player2 Generation: 5 
+ Avg Fitness of top 20% = -87.80697 
+ Number of Hits in the top 20% = 113
+
+------------------------------------------
+
+Player1 Generation: 6 
+ Avg Fitness of top 20% = -15.6342 
+ Number of Hits in the top 20% = 173
+
+Player2 Generation: 6 
+ Avg Fitness of top 20% = -83.6179 
+ Number of Hits in the top 20% = 117
+
+------------------------------------------
+
+Player1 Generation: 7 
+ Avg Fitness of top 20% = -15.08351 
+ Number of Hits in the top 20% = 172
+
+Player2 Generation: 7 
+ Avg Fitness of top 20% = -81.361 
+ Number of Hits in the top 20% = 124
+
+------------------------------------------
+
+Player1 Generation: 8 
+ Avg Fitness of top 20% = -11.92343 
+ Number of Hits in the top 20% = 177
+
+Player2 Generation: 8 
+ Avg Fitness of top 20% = -78.24014 
+ Number of Hits in the top 20% = 124
+
+------------------------------------------
+
+Player1 Generation: 9 
+ Avg Fitness of top 20% = -9.748329 
+ Number of Hits in the top 20% = 181
+
+Player2 Generation: 9 
+ Avg Fitness of top 20% = -72.85049 
+ Number of Hits in the top 20% = 129
+
+------------------------------------------
+
+Player1 Generation: 10 
+ Avg Fitness of top 20% = -5.871211 
+ Number of Hits in the top 20% = 185
+
+Player2 Generation: 10 
+ Avg Fitness of top 20% = -65.04139 
+ Number of Hits in the top 20% = 134
+
+------------------------------------------
+
+Player1 Generation: 11 
+ Avg Fitness of top 20% = -3.731048 
+ Number of Hits in the top 20% = 191
+
+Player2 Generation: 11 
+ Avg Fitness of top 20% = -61.08403 
+ Number of Hits in the top 20% = 137
+
+------------------------------------------
+
+Player1 Generation: 12 
+ Avg Fitness of top 20% = -2.710449 
+ Number of Hits in the top 20% = 192
+
+Player2 Generation: 12 
+ Avg Fitness of top 20% = -57.64138 
+ Number of Hits in the top 20% = 137
+
+------------------------------------------
+
+Player1 Generation: 13 
+ Avg Fitness of top 20% = -1.884881 
+ Number of Hits in the top 20% = 194
+
+Player2 Generation: 13 
+ Avg Fitness of top 20% = -51.75541 
+ Number of Hits in the top 20% = 140
+
+------------------------------------------
+
+Player1 Generation: 14 
+ Avg Fitness of top 20% = -1.170074 
+ Number of Hits in the top 20% = 196
+
+Player2 Generation: 14 
+ Avg Fitness of top 20% = -46.48505 
+ Number of Hits in the top 20% = 144
+
+------------------------------------------
+
+Player1 Generation: 15 
+ Avg Fitness of top 20% = -0.28209 
+ Number of Hits in the top 20% = 199
+
+Player2 Generation: 15 
+ Avg Fitness of top 20% = -43.77183 
+ Number of Hits in the top 20% = 145
+
+------------------------------------------
+
+Player1 Generation: 16 
+ Avg Fitness of top 20% = -0.28209 
+ Number of Hits in the top 20% = 199
+
+Player2 Generation: 16 
+ Avg Fitness of top 20% = -41.8243 
+ Number of Hits in the top 20% = 148
+
+------------------------------------------
+
+Player1 Generation: 17 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 17 
+ Avg Fitness of top 20% = -38.59082 
+ Number of Hits in the top 20% = 148
+
+------------------------------------------
+
+Player1 Generation: 18 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 18 
+ Avg Fitness of top 20% = -37.03666 
+ Number of Hits in the top 20% = 149
+
+------------------------------------------
+
+Player1 Generation: 19 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 19 
+ Avg Fitness of top 20% = -32.02813 
+ Number of Hits in the top 20% = 154
+
+------------------------------------------
+
+Player1 Generation: 20 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 20 
+ Avg Fitness of top 20% = -30.15092 
+ Number of Hits in the top 20% = 157
+
+------------------------------------------
+
+Player1 Generation: 21 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 21 
+ Avg Fitness of top 20% = -28.0575 
+ Number of Hits in the top 20% = 160
+
+------------------------------------------
+
+Player1 Generation: 22 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 22 
+ Avg Fitness of top 20% = -25.19432 
+ Number of Hits in the top 20% = 163
+
+------------------------------------------
+
+Player1 Generation: 23 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 23 
+ Avg Fitness of top 20% = -23.29195 
+ Number of Hits in the top 20% = 167
+
+------------------------------------------
+
+Player1 Generation: 24 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 24 
+ Avg Fitness of top 20% = -22.70432 
+ Number of Hits in the top 20% = 168
+
+------------------------------------------
+
+Player1 Generation: 25 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 25 
+ Avg Fitness of top 20% = -17.75987 
+ Number of Hits in the top 20% = 172
+
+------------------------------------------
+
+Player1 Generation: 26 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 26 
+ Avg Fitness of top 20% = -14.23472 
+ Number of Hits in the top 20% = 177
+
+------------------------------------------
+
+Player1 Generation: 27 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 27 
+ Avg Fitness of top 20% = -10.77987 
+ Number of Hits in the top 20% = 179
+
+------------------------------------------
+
+Player1 Generation: 28 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 28 
+ Avg Fitness of top 20% = -10.77987 
+ Number of Hits in the top 20% = 179
+
+------------------------------------------
+
+Player1 Generation: 29 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 29 
+ Avg Fitness of top 20% = -10.52957 
+ Number of Hits in the top 20% = 180
+
+------------------------------------------
+
+Player1 Generation: 30 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 30 
+ Avg Fitness of top 20% = -7.783169 
+ Number of Hits in the top 20% = 182
+
+------------------------------------------
+
+Player1 Generation: 31 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 31 
+ Avg Fitness of top 20% = -6.874128 
+ Number of Hits in the top 20% = 184
+
+------------------------------------------
+
+Player1 Generation: 32 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 32 
+ Avg Fitness of top 20% = -5.300128 
+ Number of Hits in the top 20% = 188
+
+------------------------------------------
+
+Player1 Generation: 33 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 33 
+ Avg Fitness of top 20% = -3.952571 
+ Number of Hits in the top 20% = 191
+
+------------------------------------------
+
+Player1 Generation: 34 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 34 
+ Avg Fitness of top 20% = -3.059625 
+ Number of Hits in the top 20% = 192
+
+------------------------------------------
+
+Player1 Generation: 35 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 35 
+ Avg Fitness of top 20% = -3.014032 
+ Number of Hits in the top 20% = 192
+
+------------------------------------------
+
+Player1 Generation: 36 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 36 
+ Avg Fitness of top 20% = -0.9102852 
+ Number of Hits in the top 20% = 197
+
+------------------------------------------
+
+Player1 Generation: 37 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 37 
+ Avg Fitness of top 20% = -0.8883127 
+ Number of Hits in the top 20% = 197
+
+------------------------------------------
+
+Player1 Generation: 38 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 38 
+ Avg Fitness of top 20% = -0.2909546 
+ Number of Hits in the top 20% = 199
+
+------------------------------------------
+
+Player1 Generation: 39 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 39 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 40 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 40 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 41 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 41 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 42 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 42 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 43 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 43 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 44 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 44 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 45 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 45 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 46 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 46 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 47 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 47 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 48 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 48 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+
+Player1 Generation: 49 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+Player2 Generation: 49 
+ Avg Fitness of top 20% = 0 
+ Number of Hits in the top 20% = 200
+
+------------------------------------------
+

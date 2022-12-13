@@ -1,0 +1,6424 @@
+------------------------------------------
+
+Game Information:
+Number of Games: 100
+Time Game Started: 12/4/2022 12:45:06 AM
+
+------------------------------------------
+
+Game Distance: 166.6311
+
+Player1 Generation: 1
+	Avg Fitness of top 20% = -713.2662
+	Number of Hits in the top 20% = 12/200
+	Avg Fitness of the bottom 80% = -984.5583
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 1
+	Avg Fitness of top 20% = -1064.216
+	Number of Hits in the top 20% = 3/200
+	Avg Fitness of the bottom 80% = -1122.25
+	Number of Hits in the bottom 80% = 0/800
+
+------------------------------------------
+
+Game Distance: 166.6311
+
+Player1 Generation: 2
+	Avg Fitness of top 20% = -436.2216
+	Number of Hits in the top 20% = 26/200
+	Avg Fitness of the bottom 80% = -798.7748
+	Number of Hits in the bottom 80% = 6/800
+
+Player2 Generation: 2
+	Avg Fitness of top 20% = -953.3882
+	Number of Hits in the top 20% = 9/200
+	Avg Fitness of the bottom 80% = -1092.395
+	Number of Hits in the bottom 80% = 0/800
+
+------------------------------------------
+
+Game Distance: 166.6311
+
+Player1 Generation: 3
+	Avg Fitness of top 20% = -330.7704
+	Number of Hits in the top 20% = 35/200
+	Avg Fitness of the bottom 80% = -644.2947
+	Number of Hits in the bottom 80% = 49/800
+
+Player2 Generation: 3
+	Avg Fitness of top 20% = -620.7092
+	Number of Hits in the top 20% = 18/200
+	Avg Fitness of the bottom 80% = -1098.967
+	Number of Hits in the bottom 80% = 0/800
+
+------------------------------------------
+
+Game Distance: 166.6311
+
+Player1 Generation: 4
+	Avg Fitness of top 20% = -317.334
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -604.4947
+	Number of Hits in the bottom 80% = 46/800
+
+Player2 Generation: 4
+	Avg Fitness of top 20% = -309.7717
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -844.1116
+	Number of Hits in the bottom 80% = 41/800
+
+------------------------------------------
+
+Game Distance: 166.6311
+
+Player1 Generation: 5
+	Avg Fitness of top 20% = -308.8492
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -557.2798
+	Number of Hits in the bottom 80% = 60/800
+
+Player2 Generation: 5
+	Avg Fitness of top 20% = -259.4333
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -663.4996
+	Number of Hits in the bottom 80% = 62/800
+
+------------------------------------------
+
+Game Distance: 213.9311
+
+Player1 Generation: 6
+	Avg Fitness of top 20% = -335.0023
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -796.3256
+	Number of Hits in the bottom 80% = 62/800
+
+Player2 Generation: 6
+	Avg Fitness of top 20% = -494.0474
+	Number of Hits in the top 20% = 31/200
+	Avg Fitness of the bottom 80% = -929.2842
+	Number of Hits in the bottom 80% = 25/800
+
+------------------------------------------
+
+Game Distance: 213.9311
+
+Player1 Generation: 7
+	Avg Fitness of top 20% = -260.8721
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -696.0875
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 7
+	Avg Fitness of top 20% = -400.3074
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -860.9401
+	Number of Hits in the bottom 80% = 47/800
+
+------------------------------------------
+
+Game Distance: 213.9311
+
+Player1 Generation: 8
+	Avg Fitness of top 20% = -264.9591
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -706.4352
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 8
+	Avg Fitness of top 20% = -287.8975
+	Number of Hits in the top 20% = 59/200
+	Avg Fitness of the bottom 80% = -672.562
+	Number of Hits in the bottom 80% = 89/800
+
+------------------------------------------
+
+Game Distance: 213.9311
+
+Player1 Generation: 9
+	Avg Fitness of top 20% = -249.4414
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -635.8185
+	Number of Hits in the bottom 80% = 74/800
+
+Player2 Generation: 9
+	Avg Fitness of top 20% = -258.8473
+	Number of Hits in the top 20% = 58/200
+	Avg Fitness of the bottom 80% = -622.4003
+	Number of Hits in the bottom 80% = 90/800
+
+------------------------------------------
+
+Game Distance: 114.881
+
+Player1 Generation: 10
+	Avg Fitness of top 20% = -475.6038
+	Number of Hits in the top 20% = 20/200
+	Avg Fitness of the bottom 80% = -804.4722
+	Number of Hits in the bottom 80% = 8/800
+
+Player2 Generation: 10
+	Avg Fitness of top 20% = -584.2639
+	Number of Hits in the top 20% = 18/200
+	Avg Fitness of the bottom 80% = -755.8845
+	Number of Hits in the bottom 80% = 0/800
+
+------------------------------------------
+
+Game Distance: 114.881
+
+Player1 Generation: 11
+	Avg Fitness of top 20% = -411.3404
+	Number of Hits in the top 20% = 21/200
+	Avg Fitness of the bottom 80% = -698.4291
+	Number of Hits in the bottom 80% = 17/800
+
+Player2 Generation: 11
+	Avg Fitness of top 20% = -410.2203
+	Number of Hits in the top 20% = 23/200
+	Avg Fitness of the bottom 80% = -702.0941
+	Number of Hits in the bottom 80% = 23/800
+
+------------------------------------------
+
+Game Distance: 114.881
+
+Player1 Generation: 12
+	Avg Fitness of top 20% = -348.3085
+	Number of Hits in the top 20% = 25/200
+	Avg Fitness of the bottom 80% = -629.3848
+	Number of Hits in the bottom 80% = 33/800
+
+Player2 Generation: 12
+	Avg Fitness of top 20% = -331.2676
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -589.142
+	Number of Hits in the bottom 80% = 43/800
+
+------------------------------------------
+
+Game Distance: 114.881
+
+Player1 Generation: 13
+	Avg Fitness of top 20% = -306.4653
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -516.0472
+	Number of Hits in the bottom 80% = 46/800
+
+Player2 Generation: 13
+	Avg Fitness of top 20% = -306.5131
+	Number of Hits in the top 20% = 33/200
+	Avg Fitness of the bottom 80% = -545.7286
+	Number of Hits in the bottom 80% = 47/800
+
+------------------------------------------
+
+Game Distance: 121.4634
+
+Player1 Generation: 14
+	Avg Fitness of top 20% = -301.6446
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -490.328
+	Number of Hits in the bottom 80% = 61/800
+
+Player2 Generation: 14
+	Avg Fitness of top 20% = -273.4204
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -545.2313
+	Number of Hits in the bottom 80% = 50/800
+
+------------------------------------------
+
+Game Distance: 121.4634
+
+Player1 Generation: 15
+	Avg Fitness of top 20% = -277.2662
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -444.0551
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 15
+	Avg Fitness of top 20% = -239.6333
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -527.7419
+	Number of Hits in the bottom 80% = 65/800
+
+------------------------------------------
+
+Game Distance: 121.4634
+
+Player1 Generation: 16
+	Avg Fitness of top 20% = -267.2183
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -457.5223
+	Number of Hits in the bottom 80% = 75/800
+
+Player2 Generation: 16
+	Avg Fitness of top 20% = -234.978
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -523.8901
+	Number of Hits in the bottom 80% = 60/800
+
+------------------------------------------
+
+Game Distance: 121.4634
+
+Player1 Generation: 17
+	Avg Fitness of top 20% = -277.971
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -476.5852
+	Number of Hits in the bottom 80% = 59/800
+
+Player2 Generation: 17
+	Avg Fitness of top 20% = -242.2002
+	Number of Hits in the top 20% = 52/200
+	Avg Fitness of the bottom 80% = -504.2858
+	Number of Hits in the bottom 80% = 63/800
+
+------------------------------------------
+
+Game Distance: 184.5352
+
+Player1 Generation: 18
+	Avg Fitness of top 20% = -509.0234
+	Number of Hits in the top 20% = 25/200
+	Avg Fitness of the bottom 80% = -842.8132
+	Number of Hits in the bottom 80% = 10/800
+
+Player2 Generation: 18
+	Avg Fitness of top 20% = -389.9971
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -853.2626
+	Number of Hits in the bottom 80% = 16/800
+
+------------------------------------------
+
+Game Distance: 184.5352
+
+Player1 Generation: 19
+	Avg Fitness of top 20% = -408.1513
+	Number of Hits in the top 20% = 42/200
+	Avg Fitness of the bottom 80% = -672.029
+	Number of Hits in the bottom 80% = 49/800
+
+Player2 Generation: 19
+	Avg Fitness of top 20% = -339.3271
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -650.7429
+	Number of Hits in the bottom 80% = 58/800
+
+------------------------------------------
+
+Game Distance: 184.5352
+
+Player1 Generation: 20
+	Avg Fitness of top 20% = -375.3098
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -646.2963
+	Number of Hits in the bottom 80% = 52/800
+
+Player2 Generation: 20
+	Avg Fitness of top 20% = -289.5435
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -601.7836
+	Number of Hits in the bottom 80% = 78/800
+
+------------------------------------------
+
+Game Distance: 184.5352
+
+Player1 Generation: 21
+	Avg Fitness of top 20% = -370.0239
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -601.3798
+	Number of Hits in the bottom 80% = 61/800
+
+Player2 Generation: 21
+	Avg Fitness of top 20% = -301.3344
+	Number of Hits in the top 20% = 35/200
+	Avg Fitness of the bottom 80% = -616.2897
+	Number of Hits in the bottom 80% = 70/800
+
+------------------------------------------
+
+Game Distance: 181.2251
+
+Player1 Generation: 22
+	Avg Fitness of top 20% = -300.053
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -553.8468
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 22
+	Avg Fitness of top 20% = -263.5697
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -488.0587
+	Number of Hits in the bottom 80% = 70/800
+
+------------------------------------------
+
+Game Distance: 181.2251
+
+Player1 Generation: 23
+	Avg Fitness of top 20% = -293.1913
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -543.8712
+	Number of Hits in the bottom 80% = 66/800
+
+Player2 Generation: 23
+	Avg Fitness of top 20% = -290.5429
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -556.9884
+	Number of Hits in the bottom 80% = 57/800
+
+------------------------------------------
+
+Game Distance: 181.2251
+
+Player1 Generation: 24
+	Avg Fitness of top 20% = -256.6929
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -552.3284
+	Number of Hits in the bottom 80% = 62/800
+
+Player2 Generation: 24
+	Avg Fitness of top 20% = -229.8124
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -429.1506
+	Number of Hits in the bottom 80% = 96/800
+
+------------------------------------------
+
+Game Distance: 181.2251
+
+Player1 Generation: 25
+	Avg Fitness of top 20% = -277.5331
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -507.9161
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 25
+	Avg Fitness of top 20% = -245.3652
+	Number of Hits in the top 20% = 48/200
+	Avg Fitness of the bottom 80% = -525.4664
+	Number of Hits in the bottom 80% = 80/800
+
+------------------------------------------
+
+Game Distance: 148.9618
+
+Player1 Generation: 26
+	Avg Fitness of top 20% = -317.7117
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -814.8616
+	Number of Hits in the bottom 80% = 29/800
+
+Player2 Generation: 26
+	Avg Fitness of top 20% = -295.9753
+	Number of Hits in the top 20% = 42/200
+	Avg Fitness of the bottom 80% = -516.3722
+	Number of Hits in the bottom 80% = 70/800
+
+------------------------------------------
+
+Game Distance: 148.9618
+
+Player1 Generation: 27
+	Avg Fitness of top 20% = -275.2838
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -605.7306
+	Number of Hits in the bottom 80% = 62/800
+
+Player2 Generation: 27
+	Avg Fitness of top 20% = -310.7939
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -549.242
+	Number of Hits in the bottom 80% = 64/800
+
+------------------------------------------
+
+Game Distance: 148.9618
+
+Player1 Generation: 28
+	Avg Fitness of top 20% = -260.8654
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -615.2025
+	Number of Hits in the bottom 80% = 69/800
+
+Player2 Generation: 28
+	Avg Fitness of top 20% = -275.2545
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -526.7328
+	Number of Hits in the bottom 80% = 75/800
+
+------------------------------------------
+
+Game Distance: 148.9618
+
+Player1 Generation: 29
+	Avg Fitness of top 20% = -255.3827
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -593.4607
+	Number of Hits in the bottom 80% = 67/800
+
+Player2 Generation: 29
+	Avg Fitness of top 20% = -286.7366
+	Number of Hits in the top 20% = 50/200
+	Avg Fitness of the bottom 80% = -524.8038
+	Number of Hits in the bottom 80% = 66/800
+
+------------------------------------------
+
+Game Distance: 203.1474
+
+Player1 Generation: 30
+	Avg Fitness of top 20% = -343.1435
+	Number of Hits in the top 20% = 30/200
+	Avg Fitness of the bottom 80% = -878.9362
+	Number of Hits in the bottom 80% = 38/800
+
+Player2 Generation: 30
+	Avg Fitness of top 20% = -361.8104
+	Number of Hits in the top 20% = 30/200
+	Avg Fitness of the bottom 80% = -760.4282
+	Number of Hits in the bottom 80% = 61/800
+
+------------------------------------------
+
+Game Distance: 203.1474
+
+Player1 Generation: 31
+	Avg Fitness of top 20% = -269.9084
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -730.5393
+	Number of Hits in the bottom 80% = 54/800
+
+Player2 Generation: 31
+	Avg Fitness of top 20% = -263.3605
+	Number of Hits in the top 20% = 48/200
+	Avg Fitness of the bottom 80% = -648.8686
+	Number of Hits in the bottom 80% = 56/800
+
+------------------------------------------
+
+Game Distance: 203.1474
+
+Player1 Generation: 32
+	Avg Fitness of top 20% = -244.1858
+	Number of Hits in the top 20% = 50/200
+	Avg Fitness of the bottom 80% = -610.0243
+	Number of Hits in the bottom 80% = 65/800
+
+Player2 Generation: 32
+	Avg Fitness of top 20% = -251.7677
+	Number of Hits in the top 20% = 42/200
+	Avg Fitness of the bottom 80% = -565.9088
+	Number of Hits in the bottom 80% = 83/800
+
+------------------------------------------
+
+Game Distance: 203.1474
+
+Player1 Generation: 33
+	Avg Fitness of top 20% = -236.0686
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -545.8047
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 33
+	Avg Fitness of top 20% = -284.4426
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -598.2704
+	Number of Hits in the bottom 80% = 65/800
+
+------------------------------------------
+
+Game Distance: 139.8801
+
+Player1 Generation: 34
+	Avg Fitness of top 20% = -397.5002
+	Number of Hits in the top 20% = 31/200
+	Avg Fitness of the bottom 80% = -720.5168
+	Number of Hits in the bottom 80% = 34/800
+
+Player2 Generation: 34
+	Avg Fitness of top 20% = -473.7415
+	Number of Hits in the top 20% = 26/200
+	Avg Fitness of the bottom 80% = -850.7823
+	Number of Hits in the bottom 80% = 6/800
+
+------------------------------------------
+
+Game Distance: 139.8801
+
+Player1 Generation: 35
+	Avg Fitness of top 20% = -344.2332
+	Number of Hits in the top 20% = 35/200
+	Avg Fitness of the bottom 80% = -655.8203
+	Number of Hits in the bottom 80% = 51/800
+
+Player2 Generation: 35
+	Avg Fitness of top 20% = -422.4122
+	Number of Hits in the top 20% = 19/200
+	Avg Fitness of the bottom 80% = -731.1887
+	Number of Hits in the bottom 80% = 44/800
+
+------------------------------------------
+
+Game Distance: 139.8801
+
+Player1 Generation: 36
+	Avg Fitness of top 20% = -283.1138
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -548.9
+	Number of Hits in the bottom 80% = 75/800
+
+Player2 Generation: 36
+	Avg Fitness of top 20% = -331.8093
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -675.1055
+	Number of Hits in the bottom 80% = 49/800
+
+------------------------------------------
+
+Game Distance: 139.8801
+
+Player1 Generation: 37
+	Avg Fitness of top 20% = -312.011
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -538.4233
+	Number of Hits in the bottom 80% = 55/800
+
+Player2 Generation: 37
+	Avg Fitness of top 20% = -307.0526
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -570.8569
+	Number of Hits in the bottom 80% = 67/800
+
+------------------------------------------
+
+Game Distance: 163.7874
+
+Player1 Generation: 38
+	Avg Fitness of top 20% = -270.2166
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -546.7142
+	Number of Hits in the bottom 80% = 67/800
+
+Player2 Generation: 38
+	Avg Fitness of top 20% = -303.1751
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -513.2482
+	Number of Hits in the bottom 80% = 67/800
+
+------------------------------------------
+
+Game Distance: 163.7874
+
+Player1 Generation: 39
+	Avg Fitness of top 20% = -239.5097
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -489.7925
+	Number of Hits in the bottom 80% = 80/800
+
+Player2 Generation: 39
+	Avg Fitness of top 20% = -303.3621
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -521.5579
+	Number of Hits in the bottom 80% = 55/800
+
+------------------------------------------
+
+Game Distance: 163.7874
+
+Player1 Generation: 40
+	Avg Fitness of top 20% = -259.6738
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -528.0326
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 40
+	Avg Fitness of top 20% = -290.1043
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -491.8994
+	Number of Hits in the bottom 80% = 79/800
+
+------------------------------------------
+
+Game Distance: 163.7874
+
+Player1 Generation: 41
+	Avg Fitness of top 20% = -243.0003
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -516.5372
+	Number of Hits in the bottom 80% = 75/800
+
+Player2 Generation: 41
+	Avg Fitness of top 20% = -270.7538
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -486.1773
+	Number of Hits in the bottom 80% = 75/800
+
+------------------------------------------
+
+Game Distance: 174.7035
+
+Player1 Generation: 42
+	Avg Fitness of top 20% = -370.8745
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -635.6589
+	Number of Hits in the bottom 80% = 31/800
+
+Player2 Generation: 42
+	Avg Fitness of top 20% = -275.4023
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -666.281
+	Number of Hits in the bottom 80% = 51/800
+
+------------------------------------------
+
+Game Distance: 174.7035
+
+Player1 Generation: 43
+	Avg Fitness of top 20% = -353.3128
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -592.2992
+	Number of Hits in the bottom 80% = 51/800
+
+Player2 Generation: 43
+	Avg Fitness of top 20% = -244.9674
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -468.7923
+	Number of Hits in the bottom 80% = 84/800
+
+------------------------------------------
+
+Game Distance: 174.7035
+
+Player1 Generation: 44
+	Avg Fitness of top 20% = -360.8412
+	Number of Hits in the top 20% = 31/200
+	Avg Fitness of the bottom 80% = -570.746
+	Number of Hits in the bottom 80% = 65/800
+
+Player2 Generation: 44
+	Avg Fitness of top 20% = -242.5609
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -490.7519
+	Number of Hits in the bottom 80% = 94/800
+
+------------------------------------------
+
+Game Distance: 174.7035
+
+Player1 Generation: 45
+	Avg Fitness of top 20% = -322.2177
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -517.506
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 45
+	Avg Fitness of top 20% = -218.4098
+	Number of Hits in the top 20% = 56/200
+	Avg Fitness of the bottom 80% = -474.0379
+	Number of Hits in the bottom 80% = 81/800
+
+------------------------------------------
+
+Game Distance: 229.8265
+
+Player1 Generation: 46
+	Avg Fitness of top 20% = -326.1401
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -754.8105
+	Number of Hits in the bottom 80% = 82/800
+
+Player2 Generation: 46
+	Avg Fitness of top 20% = -360.1536
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -773.0468
+	Number of Hits in the bottom 80% = 49/800
+
+------------------------------------------
+
+Game Distance: 229.8265
+
+Player1 Generation: 47
+	Avg Fitness of top 20% = -306.256
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -624.4192
+	Number of Hits in the bottom 80% = 79/800
+
+Player2 Generation: 47
+	Avg Fitness of top 20% = -260.7641
+	Number of Hits in the top 20% = 55/200
+	Avg Fitness of the bottom 80% = -635.9586
+	Number of Hits in the bottom 80% = 75/800
+
+------------------------------------------
+
+Game Distance: 229.8265
+
+Player1 Generation: 48
+	Avg Fitness of top 20% = -248.8481
+	Number of Hits in the top 20% = 52/200
+	Avg Fitness of the bottom 80% = -489.9807
+	Number of Hits in the bottom 80% = 98/800
+
+Player2 Generation: 48
+	Avg Fitness of top 20% = -223.7472
+	Number of Hits in the top 20% = 48/200
+	Avg Fitness of the bottom 80% = -573.3934
+	Number of Hits in the bottom 80% = 87/800
+
+------------------------------------------
+
+Game Distance: 229.8265
+
+Player1 Generation: 49
+	Avg Fitness of top 20% = -232.4676
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -461.8183
+	Number of Hits in the bottom 80% = 97/800
+
+Player2 Generation: 49
+	Avg Fitness of top 20% = -192.4912
+	Number of Hits in the top 20% = 61/200
+	Avg Fitness of the bottom 80% = -458.5075
+	Number of Hits in the bottom 80% = 110/800
+
+------------------------------------------
+
+Game Distance: 173.9921
+
+Player1 Generation: 50
+	Avg Fitness of top 20% = -381.2109
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -666.3348
+	Number of Hits in the bottom 80% = 36/800
+
+Player2 Generation: 50
+	Avg Fitness of top 20% = -352.3266
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -1011.664
+	Number of Hits in the bottom 80% = 21/800
+
+------------------------------------------
+
+Game Distance: 173.9921
+
+Player1 Generation: 51
+	Avg Fitness of top 20% = -369.6494
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -608.6533
+	Number of Hits in the bottom 80% = 54/800
+
+Player2 Generation: 51
+	Avg Fitness of top 20% = -323.4534
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -710.6036
+	Number of Hits in the bottom 80% = 50/800
+
+------------------------------------------
+
+Game Distance: 173.9921
+
+Player1 Generation: 52
+	Avg Fitness of top 20% = -358.7914
+	Number of Hits in the top 20% = 20/200
+	Avg Fitness of the bottom 80% = -619.0709
+	Number of Hits in the bottom 80% = 40/800
+
+Player2 Generation: 52
+	Avg Fitness of top 20% = -259.7014
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -520.6838
+	Number of Hits in the bottom 80% = 76/800
+
+------------------------------------------
+
+Game Distance: 173.9921
+
+Player1 Generation: 53
+	Avg Fitness of top 20% = -334.5237
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -559.4334
+	Number of Hits in the bottom 80% = 63/800
+
+Player2 Generation: 53
+	Avg Fitness of top 20% = -250.4719
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -588.9103
+	Number of Hits in the bottom 80% = 67/800
+
+------------------------------------------
+
+Game Distance: 199.1746
+
+Player1 Generation: 54
+	Avg Fitness of top 20% = -278.0294
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -500.9004
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 54
+	Avg Fitness of top 20% = -190.1972
+	Number of Hits in the top 20% = 58/200
+	Avg Fitness of the bottom 80% = -444.3672
+	Number of Hits in the bottom 80% = 82/800
+
+------------------------------------------
+
+Game Distance: 199.1746
+
+Player1 Generation: 55
+	Avg Fitness of top 20% = -288.6616
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -555.8834
+	Number of Hits in the bottom 80% = 65/800
+
+Player2 Generation: 55
+	Avg Fitness of top 20% = -165.3629
+	Number of Hits in the top 20% = 79/200
+	Avg Fitness of the bottom 80% = -400.9165
+	Number of Hits in the bottom 80% = 104/800
+
+------------------------------------------
+
+Game Distance: 199.1746
+
+Player1 Generation: 56
+	Avg Fitness of top 20% = -268.2086
+	Number of Hits in the top 20% = 48/200
+	Avg Fitness of the bottom 80% = -492.5811
+	Number of Hits in the bottom 80% = 64/800
+
+Player2 Generation: 56
+	Avg Fitness of top 20% = -152.1483
+	Number of Hits in the top 20% = 69/200
+	Avg Fitness of the bottom 80% = -410.6617
+	Number of Hits in the bottom 80% = 92/800
+
+------------------------------------------
+
+Game Distance: 199.1746
+
+Player1 Generation: 57
+	Avg Fitness of top 20% = -282.5141
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -555.5619
+	Number of Hits in the bottom 80% = 66/800
+
+Player2 Generation: 57
+	Avg Fitness of top 20% = -118.8181
+	Number of Hits in the top 20% = 97/200
+	Avg Fitness of the bottom 80% = -423.1877
+	Number of Hits in the bottom 80% = 124/800
+
+------------------------------------------
+
+Game Distance: 129.6714
+
+Player1 Generation: 58
+	Avg Fitness of top 20% = -589.1286
+	Number of Hits in the top 20% = 9/200
+	Avg Fitness of the bottom 80% = -890.7241
+	Number of Hits in the bottom 80% = 9/800
+
+Player2 Generation: 58
+	Avg Fitness of top 20% = -336.1527
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -807.1892
+	Number of Hits in the bottom 80% = 2/800
+
+------------------------------------------
+
+Game Distance: 129.6714
+
+Player1 Generation: 59
+	Avg Fitness of top 20% = -445.2187
+	Number of Hits in the top 20% = 32/200
+	Avg Fitness of the bottom 80% = -740.6594
+	Number of Hits in the bottom 80% = 13/800
+
+Player2 Generation: 59
+	Avg Fitness of top 20% = -226.2321
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -515.3193
+	Number of Hits in the bottom 80% = 83/800
+
+------------------------------------------
+
+Game Distance: 129.6714
+
+Player1 Generation: 60
+	Avg Fitness of top 20% = -362.7192
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -643.107
+	Number of Hits in the bottom 80% = 57/800
+
+Player2 Generation: 60
+	Avg Fitness of top 20% = -190.3806
+	Number of Hits in the top 20% = 66/200
+	Avg Fitness of the bottom 80% = -469.8214
+	Number of Hits in the bottom 80% = 100/800
+
+------------------------------------------
+
+Game Distance: 129.6714
+
+Player1 Generation: 61
+	Avg Fitness of top 20% = -334.6415
+	Number of Hits in the top 20% = 31/200
+	Avg Fitness of the bottom 80% = -596.7379
+	Number of Hits in the bottom 80% = 60/800
+
+Player2 Generation: 61
+	Avg Fitness of top 20% = -176.42
+	Number of Hits in the top 20% = 63/200
+	Avg Fitness of the bottom 80% = -451.2464
+	Number of Hits in the bottom 80% = 113/800
+
+------------------------------------------
+
+Game Distance: 126.2998
+
+Player1 Generation: 62
+	Avg Fitness of top 20% = -301.3144
+	Number of Hits in the top 20% = 44/200
+	Avg Fitness of the bottom 80% = -553.9551
+	Number of Hits in the bottom 80% = 59/800
+
+Player2 Generation: 62
+	Avg Fitness of top 20% = -176.828
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -417.7895
+	Number of Hits in the bottom 80% = 100/800
+
+------------------------------------------
+
+Game Distance: 126.2998
+
+Player1 Generation: 63
+	Avg Fitness of top 20% = -302.9483
+	Number of Hits in the top 20% = 50/200
+	Avg Fitness of the bottom 80% = -569.995
+	Number of Hits in the bottom 80% = 47/800
+
+Player2 Generation: 63
+	Avg Fitness of top 20% = -148.4226
+	Number of Hits in the top 20% = 72/200
+	Avg Fitness of the bottom 80% = -416.4403
+	Number of Hits in the bottom 80% = 124/800
+
+------------------------------------------
+
+Game Distance: 126.2998
+
+Player1 Generation: 64
+	Avg Fitness of top 20% = -284.5281
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -562.0476
+	Number of Hits in the bottom 80% = 53/800
+
+Player2 Generation: 64
+	Avg Fitness of top 20% = -160.3758
+	Number of Hits in the top 20% = 74/200
+	Avg Fitness of the bottom 80% = -431.1414
+	Number of Hits in the bottom 80% = 86/800
+
+------------------------------------------
+
+Game Distance: 126.2998
+
+Player1 Generation: 65
+	Avg Fitness of top 20% = -291.1241
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -539.0549
+	Number of Hits in the bottom 80% = 55/800
+
+Player2 Generation: 65
+	Avg Fitness of top 20% = -150.1861
+	Number of Hits in the top 20% = 71/200
+	Avg Fitness of the bottom 80% = -376.0373
+	Number of Hits in the bottom 80% = 119/800
+
+------------------------------------------
+
+Game Distance: 166.6785
+
+Player1 Generation: 66
+	Avg Fitness of top 20% = -458.4435
+	Number of Hits in the top 20% = 18/200
+	Avg Fitness of the bottom 80% = -660.0875
+	Number of Hits in the bottom 80% = 6/800
+
+Player2 Generation: 66
+	Avg Fitness of top 20% = -136.9853
+	Number of Hits in the top 20% = 75/200
+	Avg Fitness of the bottom 80% = -497.5602
+	Number of Hits in the bottom 80% = 77/800
+
+------------------------------------------
+
+Game Distance: 166.6785
+
+Player1 Generation: 67
+	Avg Fitness of top 20% = -391.663
+	Number of Hits in the top 20% = 29/200
+	Avg Fitness of the bottom 80% = -651.0811
+	Number of Hits in the bottom 80% = 13/800
+
+Player2 Generation: 67
+	Avg Fitness of top 20% = -113.2746
+	Number of Hits in the top 20% = 92/200
+	Avg Fitness of the bottom 80% = -444.6454
+	Number of Hits in the bottom 80% = 100/800
+
+------------------------------------------
+
+Game Distance: 166.6785
+
+Player1 Generation: 68
+	Avg Fitness of top 20% = -381.5749
+	Number of Hits in the top 20% = 34/200
+	Avg Fitness of the bottom 80% = -587.2221
+	Number of Hits in the bottom 80% = 33/800
+
+Player2 Generation: 68
+	Avg Fitness of top 20% = -102.6849
+	Number of Hits in the top 20% = 99/200
+	Avg Fitness of the bottom 80% = -473.98
+	Number of Hits in the bottom 80% = 99/800
+
+------------------------------------------
+
+Game Distance: 166.6785
+
+Player1 Generation: 69
+	Avg Fitness of top 20% = -372.2935
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -560.519
+	Number of Hits in the bottom 80% = 43/800
+
+Player2 Generation: 69
+	Avg Fitness of top 20% = -76.246
+	Number of Hits in the top 20% = 123/200
+	Avg Fitness of the bottom 80% = -471.4193
+	Number of Hits in the bottom 80% = 122/800
+
+------------------------------------------
+
+Game Distance: 143.1185
+
+Player1 Generation: 70
+	Avg Fitness of top 20% = -300.2125
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -583.0992
+	Number of Hits in the bottom 80% = 55/800
+
+Player2 Generation: 70
+	Avg Fitness of top 20% = -75.74956
+	Number of Hits in the top 20% = 120/200
+	Avg Fitness of the bottom 80% = -362.6934
+	Number of Hits in the bottom 80% = 141/800
+
+------------------------------------------
+
+Game Distance: 143.1185
+
+Player1 Generation: 71
+	Avg Fitness of top 20% = -283.27
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -621.7091
+	Number of Hits in the bottom 80% = 50/800
+
+Player2 Generation: 71
+	Avg Fitness of top 20% = -53.80797
+	Number of Hits in the top 20% = 131/200
+	Avg Fitness of the bottom 80% = -310.7987
+	Number of Hits in the bottom 80% = 149/800
+
+------------------------------------------
+
+Game Distance: 143.1185
+
+Player1 Generation: 72
+	Avg Fitness of top 20% = -290.3777
+	Number of Hits in the top 20% = 32/200
+	Avg Fitness of the bottom 80% = -496.517
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 72
+	Avg Fitness of top 20% = -49.35872
+	Number of Hits in the top 20% = 146/200
+	Avg Fitness of the bottom 80% = -324.9287
+	Number of Hits in the bottom 80% = 178/800
+
+------------------------------------------
+
+Game Distance: 143.1185
+
+Player1 Generation: 73
+	Avg Fitness of top 20% = -262.1369
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -530.7128
+	Number of Hits in the bottom 80% = 84/800
+
+Player2 Generation: 73
+	Avg Fitness of top 20% = -35.17126
+	Number of Hits in the top 20% = 155/200
+	Avg Fitness of the bottom 80% = -315.2817
+	Number of Hits in the bottom 80% = 192/800
+
+------------------------------------------
+
+Game Distance: 237.6813
+
+Player1 Generation: 74
+	Avg Fitness of top 20% = -633.3446
+	Number of Hits in the top 20% = 26/200
+	Avg Fitness of the bottom 80% = -1249.421
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 74
+	Avg Fitness of top 20% = -300.259
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -701.8693
+	Number of Hits in the bottom 80% = 14/800
+
+------------------------------------------
+
+Game Distance: 237.6813
+
+Player1 Generation: 75
+	Avg Fitness of top 20% = -422.8524
+	Number of Hits in the top 20% = 34/200
+	Avg Fitness of the bottom 80% = -973.4152
+	Number of Hits in the bottom 80% = 36/800
+
+Player2 Generation: 75
+	Avg Fitness of top 20% = -289.9138
+	Number of Hits in the top 20% = 35/200
+	Avg Fitness of the bottom 80% = -657.3433
+	Number of Hits in the bottom 80% = 45/800
+
+------------------------------------------
+
+Game Distance: 237.6813
+
+Player1 Generation: 76
+	Avg Fitness of top 20% = -356.6524
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -876.5297
+	Number of Hits in the bottom 80% = 38/800
+
+Player2 Generation: 76
+	Avg Fitness of top 20% = -248.3202
+	Number of Hits in the top 20% = 55/200
+	Avg Fitness of the bottom 80% = -568.3083
+	Number of Hits in the bottom 80% = 82/800
+
+------------------------------------------
+
+Game Distance: 237.6813
+
+Player1 Generation: 77
+	Avg Fitness of top 20% = -302.2176
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -569.2911
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 77
+	Avg Fitness of top 20% = -226.9164
+	Number of Hits in the top 20% = 54/200
+	Avg Fitness of the bottom 80% = -551.1112
+	Number of Hits in the bottom 80% = 107/800
+
+------------------------------------------
+
+Game Distance: 155.555
+
+Player1 Generation: 78
+	Avg Fitness of top 20% = -448.2431
+	Number of Hits in the top 20% = 24/200
+	Avg Fitness of the bottom 80% = -839.0428
+	Number of Hits in the bottom 80% = 22/800
+
+Player2 Generation: 78
+	Avg Fitness of top 20% = -389.7314
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -1032.629
+	Number of Hits in the bottom 80% = 5/800
+
+------------------------------------------
+
+Game Distance: 155.555
+
+Player1 Generation: 79
+	Avg Fitness of top 20% = -407.806
+	Number of Hits in the top 20% = 24/200
+	Avg Fitness of the bottom 80% = -712.913
+	Number of Hits in the bottom 80% = 48/800
+
+Player2 Generation: 79
+	Avg Fitness of top 20% = -220.8949
+	Number of Hits in the top 20% = 54/200
+	Avg Fitness of the bottom 80% = -683.609
+	Number of Hits in the bottom 80% = 51/800
+
+------------------------------------------
+
+Game Distance: 155.555
+
+Player1 Generation: 80
+	Avg Fitness of top 20% = -362.3479
+	Number of Hits in the top 20% = 32/200
+	Avg Fitness of the bottom 80% = -584.4572
+	Number of Hits in the bottom 80% = 49/800
+
+Player2 Generation: 80
+	Avg Fitness of top 20% = -131.1489
+	Number of Hits in the top 20% = 90/200
+	Avg Fitness of the bottom 80% = -519.9816
+	Number of Hits in the bottom 80% = 93/800
+
+------------------------------------------
+
+Game Distance: 155.555
+
+Player1 Generation: 81
+	Avg Fitness of top 20% = -344.5742
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -577.9706
+	Number of Hits in the bottom 80% = 62/800
+
+Player2 Generation: 81
+	Avg Fitness of top 20% = -103.7704
+	Number of Hits in the top 20% = 101/200
+	Avg Fitness of the bottom 80% = -470.5352
+	Number of Hits in the bottom 80% = 108/800
+
+------------------------------------------
+
+Game Distance: 223.5926
+
+Player1 Generation: 82
+	Avg Fitness of top 20% = -347.3038
+	Number of Hits in the top 20% = 37/200
+	Avg Fitness of the bottom 80% = -794.5114
+	Number of Hits in the bottom 80% = 63/800
+
+Player2 Generation: 82
+	Avg Fitness of top 20% = -222.5207
+	Number of Hits in the top 20% = 71/200
+	Avg Fitness of the bottom 80% = -559.8368
+	Number of Hits in the bottom 80% = 102/800
+
+------------------------------------------
+
+Game Distance: 223.5926
+
+Player1 Generation: 83
+	Avg Fitness of top 20% = -286.2271
+	Number of Hits in the top 20% = 35/200
+	Avg Fitness of the bottom 80% = -640.2196
+	Number of Hits in the bottom 80% = 74/800
+
+Player2 Generation: 83
+	Avg Fitness of top 20% = -196.5131
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -482.7228
+	Number of Hits in the bottom 80% = 129/800
+
+------------------------------------------
+
+Game Distance: 223.5926
+
+Player1 Generation: 84
+	Avg Fitness of top 20% = -265.2166
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -561.8834
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 84
+	Avg Fitness of top 20% = -148.823
+	Number of Hits in the top 20% = 87/200
+	Avg Fitness of the bottom 80% = -449.4855
+	Number of Hits in the bottom 80% = 125/800
+
+------------------------------------------
+
+Game Distance: 223.5926
+
+Player1 Generation: 85
+	Avg Fitness of top 20% = -263.3996
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -588.5124
+	Number of Hits in the bottom 80% = 74/800
+
+Player2 Generation: 85
+	Avg Fitness of top 20% = -148.2156
+	Number of Hits in the top 20% = 79/200
+	Avg Fitness of the bottom 80% = -415.2952
+	Number of Hits in the bottom 80% = 117/800
+
+------------------------------------------
+
+Game Distance: 119.4952
+
+Player1 Generation: 86
+	Avg Fitness of top 20% = -646.0255
+	Number of Hits in the top 20% = 3/200
+	Avg Fitness of the bottom 80% = -889.1222
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 86
+	Avg Fitness of top 20% = -280.0762
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -652.6293
+	Number of Hits in the bottom 80% = 14/800
+
+------------------------------------------
+
+Game Distance: 119.4952
+
+Player1 Generation: 87
+	Avg Fitness of top 20% = -592.5521
+	Number of Hits in the top 20% = 17/200
+	Avg Fitness of the bottom 80% = -746.5114
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 87
+	Avg Fitness of top 20% = -179.5986
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -514.6642
+	Number of Hits in the bottom 80% = 66/800
+
+------------------------------------------
+
+Game Distance: 119.4952
+
+Player1 Generation: 88
+	Avg Fitness of top 20% = -474.0396
+	Number of Hits in the top 20% = 25/200
+	Avg Fitness of the bottom 80% = -765.408
+	Number of Hits in the bottom 80% = 1/800
+
+Player2 Generation: 88
+	Avg Fitness of top 20% = -167.3247
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -449.9933
+	Number of Hits in the bottom 80% = 72/800
+
+------------------------------------------
+
+Game Distance: 119.4952
+
+Player1 Generation: 89
+	Avg Fitness of top 20% = -348.8655
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -692.1386
+	Number of Hits in the bottom 80% = 30/800
+
+Player2 Generation: 89
+	Avg Fitness of top 20% = -142.864
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -442.0427
+	Number of Hits in the bottom 80% = 82/800
+
+------------------------------------------
+
+Game Distance: 133.2984
+
+Player1 Generation: 90
+	Avg Fitness of top 20% = -272.4116
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -634.4751
+	Number of Hits in the bottom 80% = 52/800
+
+Player2 Generation: 90
+	Avg Fitness of top 20% = -124.806
+	Number of Hits in the top 20% = 81/200
+	Avg Fitness of the bottom 80% = -398.6455
+	Number of Hits in the bottom 80% = 83/800
+
+------------------------------------------
+
+Game Distance: 133.2984
+
+Player1 Generation: 91
+	Avg Fitness of top 20% = -256.3358
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -535.5463
+	Number of Hits in the bottom 80% = 76/800
+
+Player2 Generation: 91
+	Avg Fitness of top 20% = -101.842
+	Number of Hits in the top 20% = 105/200
+	Avg Fitness of the bottom 80% = -372.4087
+	Number of Hits in the bottom 80% = 107/800
+
+------------------------------------------
+
+Game Distance: 133.2984
+
+Player1 Generation: 92
+	Avg Fitness of top 20% = -245.1593
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -495.3918
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 92
+	Avg Fitness of top 20% = -82.40058
+	Number of Hits in the top 20% = 112/200
+	Avg Fitness of the bottom 80% = -385.5247
+	Number of Hits in the bottom 80% = 113/800
+
+------------------------------------------
+
+Game Distance: 133.2984
+
+Player1 Generation: 93
+	Avg Fitness of top 20% = -256.7855
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -516.6993
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 93
+	Avg Fitness of top 20% = -81.86324
+	Number of Hits in the top 20% = 113/200
+	Avg Fitness of the bottom 80% = -328.8619
+	Number of Hits in the bottom 80% = 152/800
+
+------------------------------------------
+
+Game Distance: 198.4533
+
+Player1 Generation: 94
+	Avg Fitness of top 20% = -579.6132
+	Number of Hits in the top 20% = 30/200
+	Avg Fitness of the bottom 80% = -983.5436
+	Number of Hits in the bottom 80% = 7/800
+
+Player2 Generation: 94
+	Avg Fitness of top 20% = -164.701
+	Number of Hits in the top 20% = 61/200
+	Avg Fitness of the bottom 80% = -506.07
+	Number of Hits in the bottom 80% = 30/800
+
+------------------------------------------
+
+Game Distance: 198.4533
+
+Player1 Generation: 95
+	Avg Fitness of top 20% = -417.7304
+	Number of Hits in the top 20% = 30/200
+	Avg Fitness of the bottom 80% = -849.3335
+	Number of Hits in the bottom 80% = 37/800
+
+Player2 Generation: 95
+	Avg Fitness of top 20% = -140.479
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -500.6983
+	Number of Hits in the bottom 80% = 87/800
+
+------------------------------------------
+
+Game Distance: 198.4533
+
+Player1 Generation: 96
+	Avg Fitness of top 20% = -379.114
+	Number of Hits in the top 20% = 29/200
+	Avg Fitness of the bottom 80% = -688.8659
+	Number of Hits in the bottom 80% = 54/800
+
+Player2 Generation: 96
+	Avg Fitness of top 20% = -96.46165
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -382.7727
+	Number of Hits in the bottom 80% = 137/800
+
+------------------------------------------
+
+Game Distance: 198.4533
+
+Player1 Generation: 97
+	Avg Fitness of top 20% = -336.743
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -617.72
+	Number of Hits in the bottom 80% = 67/800
+
+Player2 Generation: 97
+	Avg Fitness of top 20% = -80.16524
+	Number of Hits in the top 20% = 107/200
+	Avg Fitness of the bottom 80% = -425.0788
+	Number of Hits in the bottom 80% = 136/800
+
+------------------------------------------
+
+Game Distance: 185.4211
+
+Player1 Generation: 98
+	Avg Fitness of top 20% = -314.5958
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -558.0233
+	Number of Hits in the bottom 80% = 66/800
+
+Player2 Generation: 98
+	Avg Fitness of top 20% = -76.85565
+	Number of Hits in the top 20% = 114/200
+	Avg Fitness of the bottom 80% = -382.529
+	Number of Hits in the bottom 80% = 156/800
+
+------------------------------------------
+
+Game Distance: 185.4211
+
+Player1 Generation: 99
+	Avg Fitness of top 20% = -287.5109
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -591.2752
+	Number of Hits in the bottom 80% = 64/800
+
+Player2 Generation: 99
+	Avg Fitness of top 20% = -62.87765
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -379.8221
+	Number of Hits in the bottom 80% = 160/800
+
+------------------------------------------
+
+Game Distance: 185.4211
+
+Player1 Generation: 100
+	Avg Fitness of top 20% = -287.355
+	Number of Hits in the top 20% = 40/200
+	Avg Fitness of the bottom 80% = -513.1515
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 100
+	Avg Fitness of top 20% = -60.24549
+	Number of Hits in the top 20% = 128/200
+	Avg Fitness of the bottom 80% = -328.3535
+	Number of Hits in the bottom 80% = 176/800
+
+------------------------------------------
+
+Game Distance: 185.4211
+
+Player1 Generation: 101
+	Avg Fitness of top 20% = -227.5466
+	Number of Hits in the top 20% = 60/200
+	Avg Fitness of the bottom 80% = -530.6824
+	Number of Hits in the bottom 80% = 82/800
+
+Player2 Generation: 101
+	Avg Fitness of top 20% = -47.87144
+	Number of Hits in the top 20% = 134/200
+	Avg Fitness of the bottom 80% = -342.2872
+	Number of Hits in the bottom 80% = 169/800
+
+------------------------------------------
+
+Game Distance: 174.6369
+
+Player1 Generation: 102
+	Avg Fitness of top 20% = -304.8146
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -553.8578
+	Number of Hits in the bottom 80% = 66/800
+
+Player2 Generation: 102
+	Avg Fitness of top 20% = -112.7715
+	Number of Hits in the top 20% = 95/200
+	Avg Fitness of the bottom 80% = -548.849
+	Number of Hits in the bottom 80% = 142/800
+
+------------------------------------------
+
+Game Distance: 174.6369
+
+Player1 Generation: 103
+	Avg Fitness of top 20% = -321.8152
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -572.4199
+	Number of Hits in the bottom 80% = 55/800
+
+Player2 Generation: 103
+	Avg Fitness of top 20% = -56.13234
+	Number of Hits in the top 20% = 129/200
+	Avg Fitness of the bottom 80% = -441.4689
+	Number of Hits in the bottom 80% = 147/800
+
+------------------------------------------
+
+Game Distance: 174.6369
+
+Player1 Generation: 104
+	Avg Fitness of top 20% = -299.6041
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -556.8467
+	Number of Hits in the bottom 80% = 67/800
+
+Player2 Generation: 104
+	Avg Fitness of top 20% = -28.8801
+	Number of Hits in the top 20% = 155/200
+	Avg Fitness of the bottom 80% = -351.5112
+	Number of Hits in the bottom 80% = 193/800
+
+------------------------------------------
+
+Game Distance: 174.6369
+
+Player1 Generation: 105
+	Avg Fitness of top 20% = -281.4604
+	Number of Hits in the top 20% = 50/200
+	Avg Fitness of the bottom 80% = -561.275
+	Number of Hits in the bottom 80% = 64/800
+
+Player2 Generation: 105
+	Avg Fitness of top 20% = -21.97453
+	Number of Hits in the top 20% = 164/200
+	Avg Fitness of the bottom 80% = -329.815
+	Number of Hits in the bottom 80% = 229/800
+
+------------------------------------------
+
+Game Distance: 190.6573
+
+Player1 Generation: 106
+	Avg Fitness of top 20% = -297.5062
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -592.3854
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 106
+	Avg Fitness of top 20% = -33.58008
+	Number of Hits in the top 20% = 161/200
+	Avg Fitness of the bottom 80% = -292.0063
+	Number of Hits in the bottom 80% = 231/800
+
+------------------------------------------
+
+Game Distance: 190.6573
+
+Player1 Generation: 107
+	Avg Fitness of top 20% = -289.8585
+	Number of Hits in the top 20% = 55/200
+	Avg Fitness of the bottom 80% = -588.3156
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 107
+	Avg Fitness of top 20% = -26.81709
+	Number of Hits in the top 20% = 164/200
+	Avg Fitness of the bottom 80% = -308.4226
+	Number of Hits in the bottom 80% = 243/800
+
+------------------------------------------
+
+Game Distance: 190.6573
+
+Player1 Generation: 108
+	Avg Fitness of top 20% = -289.7401
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -533.9857
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 108
+	Avg Fitness of top 20% = -31.10459
+	Number of Hits in the top 20% = 162/200
+	Avg Fitness of the bottom 80% = -309.6237
+	Number of Hits in the bottom 80% = 247/800
+
+------------------------------------------
+
+Game Distance: 190.6573
+
+Player1 Generation: 109
+	Avg Fitness of top 20% = -253.7734
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -538.0458
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 109
+	Avg Fitness of top 20% = -33.69429
+	Number of Hits in the top 20% = 159/200
+	Avg Fitness of the bottom 80% = -315.8176
+	Number of Hits in the bottom 80% = 228/800
+
+------------------------------------------
+
+Game Distance: 171.8042
+
+Player1 Generation: 110
+	Avg Fitness of top 20% = -377.056
+	Number of Hits in the top 20% = 33/200
+	Avg Fitness of the bottom 80% = -585.0677
+	Number of Hits in the bottom 80% = 24/800
+
+Player2 Generation: 110
+	Avg Fitness of top 20% = -318.6691
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -812.5261
+	Number of Hits in the bottom 80% = 122/800
+
+------------------------------------------
+
+Game Distance: 171.8042
+
+Player1 Generation: 111
+	Avg Fitness of top 20% = -386.9984
+	Number of Hits in the top 20% = 33/200
+	Avg Fitness of the bottom 80% = -564.0679
+	Number of Hits in the bottom 80% = 42/800
+
+Player2 Generation: 111
+	Avg Fitness of top 20% = -211.492
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -695.5232
+	Number of Hits in the bottom 80% = 131/800
+
+------------------------------------------
+
+Game Distance: 171.8042
+
+Player1 Generation: 112
+	Avg Fitness of top 20% = -348.493
+	Number of Hits in the top 20% = 43/200
+	Avg Fitness of the bottom 80% = -554.6657
+	Number of Hits in the bottom 80% = 42/800
+
+Player2 Generation: 112
+	Avg Fitness of top 20% = -136.3156
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -549.7778
+	Number of Hits in the bottom 80% = 90/800
+
+------------------------------------------
+
+Game Distance: 171.8042
+
+Player1 Generation: 113
+	Avg Fitness of top 20% = -387.881
+	Number of Hits in the top 20% = 31/200
+	Avg Fitness of the bottom 80% = -591.3842
+	Number of Hits in the bottom 80% = 31/800
+
+Player2 Generation: 113
+	Avg Fitness of top 20% = -99.0607
+	Number of Hits in the top 20% = 108/200
+	Avg Fitness of the bottom 80% = -421.1814
+	Number of Hits in the bottom 80% = 108/800
+
+------------------------------------------
+
+Game Distance: 145.4989
+
+Player1 Generation: 114
+	Avg Fitness of top 20% = -330.5886
+	Number of Hits in the top 20% = 20/200
+	Avg Fitness of the bottom 80% = -758.1862
+	Number of Hits in the bottom 80% = 34/800
+
+Player2 Generation: 114
+	Avg Fitness of top 20% = -87.13878
+	Number of Hits in the top 20% = 110/200
+	Avg Fitness of the bottom 80% = -353.9597
+	Number of Hits in the bottom 80% = 146/800
+
+------------------------------------------
+
+Game Distance: 145.4989
+
+Player1 Generation: 115
+	Avg Fitness of top 20% = -238.456
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -530.454
+	Number of Hits in the bottom 80% = 56/800
+
+Player2 Generation: 115
+	Avg Fitness of top 20% = -76.87144
+	Number of Hits in the top 20% = 118/200
+	Avg Fitness of the bottom 80% = -348.2379
+	Number of Hits in the bottom 80% = 164/800
+
+------------------------------------------
+
+Game Distance: 145.4989
+
+Player1 Generation: 116
+	Avg Fitness of top 20% = -227.9262
+	Number of Hits in the top 20% = 48/200
+	Avg Fitness of the bottom 80% = -496.5673
+	Number of Hits in the bottom 80% = 74/800
+
+Player2 Generation: 116
+	Avg Fitness of top 20% = -72.73563
+	Number of Hits in the top 20% = 114/200
+	Avg Fitness of the bottom 80% = -360.5612
+	Number of Hits in the bottom 80% = 152/800
+
+------------------------------------------
+
+Game Distance: 145.4989
+
+Player1 Generation: 117
+	Avg Fitness of top 20% = -198.9082
+	Number of Hits in the top 20% = 54/200
+	Avg Fitness of the bottom 80% = -443.0114
+	Number of Hits in the bottom 80% = 96/800
+
+Player2 Generation: 117
+	Avg Fitness of top 20% = -63.20741
+	Number of Hits in the top 20% = 117/200
+	Avg Fitness of the bottom 80% = -354.8402
+	Number of Hits in the bottom 80% = 179/800
+
+------------------------------------------
+
+Game Distance: 113.4508
+
+Player1 Generation: 118
+	Avg Fitness of top 20% = -289.286
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -524.0441
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 118
+	Avg Fitness of top 20% = -127.6088
+	Number of Hits in the top 20% = 90/200
+	Avg Fitness of the bottom 80% = -415.3282
+	Number of Hits in the bottom 80% = 121/800
+
+------------------------------------------
+
+Game Distance: 113.4508
+
+Player1 Generation: 119
+	Avg Fitness of top 20% = -268.1205
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -495.5862
+	Number of Hits in the bottom 80% = 53/800
+
+Player2 Generation: 119
+	Avg Fitness of top 20% = -119.7677
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -424.1955
+	Number of Hits in the bottom 80% = 121/800
+
+------------------------------------------
+
+Game Distance: 113.4508
+
+Player1 Generation: 120
+	Avg Fitness of top 20% = -267.361
+	Number of Hits in the top 20% = 36/200
+	Avg Fitness of the bottom 80% = -530.8993
+	Number of Hits in the bottom 80% = 50/800
+
+Player2 Generation: 120
+	Avg Fitness of top 20% = -120.9638
+	Number of Hits in the top 20% = 82/200
+	Avg Fitness of the bottom 80% = -407.5563
+	Number of Hits in the bottom 80% = 116/800
+
+------------------------------------------
+
+Game Distance: 113.4508
+
+Player1 Generation: 121
+	Avg Fitness of top 20% = -274.4665
+	Number of Hits in the top 20% = 39/200
+	Avg Fitness of the bottom 80% = -532.7661
+	Number of Hits in the bottom 80% = 45/800
+
+Player2 Generation: 121
+	Avg Fitness of top 20% = -100.6795
+	Number of Hits in the top 20% = 88/200
+	Avg Fitness of the bottom 80% = -381.1262
+	Number of Hits in the bottom 80% = 138/800
+
+------------------------------------------
+
+Game Distance: 167.0602
+
+Player1 Generation: 122
+	Avg Fitness of top 20% = -247.6257
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -669.8906
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 122
+	Avg Fitness of top 20% = -53.39913
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -305.0569
+	Number of Hits in the bottom 80% = 139/800
+
+------------------------------------------
+
+Game Distance: 167.0602
+
+Player1 Generation: 123
+	Avg Fitness of top 20% = -224.5417
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -589.0831
+	Number of Hits in the bottom 80% = 87/800
+
+Player2 Generation: 123
+	Avg Fitness of top 20% = -34.95888
+	Number of Hits in the top 20% = 146/200
+	Avg Fitness of the bottom 80% = -337.8214
+	Number of Hits in the bottom 80% = 162/800
+
+------------------------------------------
+
+Game Distance: 167.0602
+
+Player1 Generation: 124
+	Avg Fitness of top 20% = -207.5152
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -546.9655
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 124
+	Avg Fitness of top 20% = -27.3272
+	Number of Hits in the top 20% = 157/200
+	Avg Fitness of the bottom 80% = -265.6376
+	Number of Hits in the bottom 80% = 215/800
+
+------------------------------------------
+
+Game Distance: 167.0602
+
+Player1 Generation: 125
+	Avg Fitness of top 20% = -225.5467
+	Number of Hits in the top 20% = 52/200
+	Avg Fitness of the bottom 80% = -548.6886
+	Number of Hits in the bottom 80% = 69/800
+
+Player2 Generation: 125
+	Avg Fitness of top 20% = -19.29982
+	Number of Hits in the top 20% = 170/200
+	Avg Fitness of the bottom 80% = -318.06
+	Number of Hits in the bottom 80% = 227/800
+
+------------------------------------------
+
+Game Distance: 151.1117
+
+Player1 Generation: 126
+	Avg Fitness of top 20% = -165.2383
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -492.1109
+	Number of Hits in the bottom 80% = 83/800
+
+Player2 Generation: 126
+	Avg Fitness of top 20% = -33.52962
+	Number of Hits in the top 20% = 163/200
+	Avg Fitness of the bottom 80% = -311.7556
+	Number of Hits in the bottom 80% = 192/800
+
+------------------------------------------
+
+Game Distance: 151.1117
+
+Player1 Generation: 127
+	Avg Fitness of top 20% = -124.6453
+	Number of Hits in the top 20% = 74/200
+	Avg Fitness of the bottom 80% = -424.6823
+	Number of Hits in the bottom 80% = 110/800
+
+Player2 Generation: 127
+	Avg Fitness of top 20% = -23.94658
+	Number of Hits in the top 20% = 175/200
+	Avg Fitness of the bottom 80% = -338.7569
+	Number of Hits in the bottom 80% = 237/800
+
+------------------------------------------
+
+Game Distance: 151.1117
+
+Player1 Generation: 128
+	Avg Fitness of top 20% = -122.4639
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -385.9289
+	Number of Hits in the bottom 80% = 116/800
+
+Player2 Generation: 128
+	Avg Fitness of top 20% = -35.60061
+	Number of Hits in the top 20% = 162/200
+	Avg Fitness of the bottom 80% = -320.4214
+	Number of Hits in the bottom 80% = 213/800
+
+------------------------------------------
+
+Game Distance: 151.1117
+
+Player1 Generation: 129
+	Avg Fitness of top 20% = -110.4027
+	Number of Hits in the top 20% = 91/200
+	Avg Fitness of the bottom 80% = -497.959
+	Number of Hits in the bottom 80% = 94/800
+
+Player2 Generation: 129
+	Avg Fitness of top 20% = -16.6552
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -298.8382
+	Number of Hits in the bottom 80% = 254/800
+
+------------------------------------------
+
+Game Distance: 162.3734
+
+Player1 Generation: 130
+	Avg Fitness of top 20% = -135.6806
+	Number of Hits in the top 20% = 75/200
+	Avg Fitness of the bottom 80% = -428.5786
+	Number of Hits in the bottom 80% = 104/800
+
+Player2 Generation: 130
+	Avg Fitness of top 20% = -16.14799
+	Number of Hits in the top 20% = 175/200
+	Avg Fitness of the bottom 80% = -292.7467
+	Number of Hits in the bottom 80% = 250/800
+
+------------------------------------------
+
+Game Distance: 162.3734
+
+Player1 Generation: 131
+	Avg Fitness of top 20% = -124.7137
+	Number of Hits in the top 20% = 76/200
+	Avg Fitness of the bottom 80% = -453.5824
+	Number of Hits in the bottom 80% = 111/800
+
+Player2 Generation: 131
+	Avg Fitness of top 20% = -8.845367
+	Number of Hits in the top 20% = 184/200
+	Avg Fitness of the bottom 80% = -268.1982
+	Number of Hits in the bottom 80% = 302/800
+
+------------------------------------------
+
+Game Distance: 162.3734
+
+Player1 Generation: 132
+	Avg Fitness of top 20% = -123.7637
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -408.6491
+	Number of Hits in the bottom 80% = 131/800
+
+Player2 Generation: 132
+	Avg Fitness of top 20% = -7.651686
+	Number of Hits in the top 20% = 186/200
+	Avg Fitness of the bottom 80% = -305.0381
+	Number of Hits in the bottom 80% = 263/800
+
+------------------------------------------
+
+Game Distance: 162.3734
+
+Player1 Generation: 133
+	Avg Fitness of top 20% = -113.2346
+	Number of Hits in the top 20% = 95/200
+	Avg Fitness of the bottom 80% = -395.7697
+	Number of Hits in the bottom 80% = 128/800
+
+Player2 Generation: 133
+	Avg Fitness of top 20% = -11.47101
+	Number of Hits in the top 20% = 180/200
+	Avg Fitness of the bottom 80% = -274.2559
+	Number of Hits in the bottom 80% = 270/800
+
+------------------------------------------
+
+Game Distance: 225.5446
+
+Player1 Generation: 134
+	Avg Fitness of top 20% = -614.6624
+	Number of Hits in the top 20% = 28/200
+	Avg Fitness of the bottom 80% = -1166.113
+	Number of Hits in the bottom 80% = 1/800
+
+Player2 Generation: 134
+	Avg Fitness of top 20% = -161.9377
+	Number of Hits in the top 20% = 56/200
+	Avg Fitness of the bottom 80% = -527.8279
+	Number of Hits in the bottom 80% = 42/800
+
+------------------------------------------
+
+Game Distance: 225.5446
+
+Player1 Generation: 135
+	Avg Fitness of top 20% = -367.7265
+	Number of Hits in the top 20% = 33/200
+	Avg Fitness of the bottom 80% = -1053.049
+	Number of Hits in the bottom 80% = 19/800
+
+Player2 Generation: 135
+	Avg Fitness of top 20% = -162.7328
+	Number of Hits in the top 20% = 74/200
+	Avg Fitness of the bottom 80% = -505.6713
+	Number of Hits in the bottom 80% = 70/800
+
+------------------------------------------
+
+Game Distance: 225.5446
+
+Player1 Generation: 136
+	Avg Fitness of top 20% = -236.6016
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -790.7621
+	Number of Hits in the bottom 80% = 48/800
+
+Player2 Generation: 136
+	Avg Fitness of top 20% = -125.3286
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -438.9655
+	Number of Hits in the bottom 80% = 97/800
+
+------------------------------------------
+
+Game Distance: 225.5446
+
+Player1 Generation: 137
+	Avg Fitness of top 20% = -160.0095
+	Number of Hits in the top 20% = 66/200
+	Avg Fitness of the bottom 80% = -627.8964
+	Number of Hits in the bottom 80% = 84/800
+
+Player2 Generation: 137
+	Avg Fitness of top 20% = -100.1879
+	Number of Hits in the top 20% = 109/200
+	Avg Fitness of the bottom 80% = -363.6832
+	Number of Hits in the bottom 80% = 154/800
+
+------------------------------------------
+
+Game Distance: 156.7218
+
+Player1 Generation: 138
+	Avg Fitness of top 20% = -184.384
+	Number of Hits in the top 20% = 59/200
+	Avg Fitness of the bottom 80% = -609.4046
+	Number of Hits in the bottom 80% = 39/800
+
+Player2 Generation: 138
+	Avg Fitness of top 20% = -127.617
+	Number of Hits in the top 20% = 66/200
+	Avg Fitness of the bottom 80% = -423.8646
+	Number of Hits in the bottom 80% = 42/800
+
+------------------------------------------
+
+Game Distance: 156.7218
+
+Player1 Generation: 139
+	Avg Fitness of top 20% = -153.465
+	Number of Hits in the top 20% = 66/200
+	Avg Fitness of the bottom 80% = -523.9858
+	Number of Hits in the bottom 80% = 61/800
+
+Player2 Generation: 139
+	Avg Fitness of top 20% = -66.23666
+	Number of Hits in the top 20% = 120/200
+	Avg Fitness of the bottom 80% = -343.5257
+	Number of Hits in the bottom 80% = 132/800
+
+------------------------------------------
+
+Game Distance: 156.7218
+
+Player1 Generation: 140
+	Avg Fitness of top 20% = -146.3721
+	Number of Hits in the top 20% = 67/200
+	Avg Fitness of the bottom 80% = -487.6086
+	Number of Hits in the bottom 80% = 89/800
+
+Player2 Generation: 140
+	Avg Fitness of top 20% = -34.84072
+	Number of Hits in the top 20% = 147/200
+	Avg Fitness of the bottom 80% = -351.564
+	Number of Hits in the bottom 80% = 156/800
+
+------------------------------------------
+
+Game Distance: 156.7218
+
+Player1 Generation: 141
+	Avg Fitness of top 20% = -157.6496
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -517.1705
+	Number of Hits in the bottom 80% = 79/800
+
+Player2 Generation: 141
+	Avg Fitness of top 20% = -16.80468
+	Number of Hits in the top 20% = 174/200
+	Avg Fitness of the bottom 80% = -305.4601
+	Number of Hits in the bottom 80% = 222/800
+
+------------------------------------------
+
+Game Distance: 139.808
+
+Player1 Generation: 142
+	Avg Fitness of top 20% = -154.2217
+	Number of Hits in the top 20% = 76/200
+	Avg Fitness of the bottom 80% = -537.6774
+	Number of Hits in the bottom 80% = 50/800
+
+Player2 Generation: 142
+	Avg Fitness of top 20% = -65.144
+	Number of Hits in the top 20% = 123/200
+	Avg Fitness of the bottom 80% = -405.3817
+	Number of Hits in the bottom 80% = 143/800
+
+------------------------------------------
+
+Game Distance: 139.808
+
+Player1 Generation: 143
+	Avg Fitness of top 20% = -171.461
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -592.8907
+	Number of Hits in the bottom 80% = 53/800
+
+Player2 Generation: 143
+	Avg Fitness of top 20% = -49.81869
+	Number of Hits in the top 20% = 127/200
+	Avg Fitness of the bottom 80% = -346.5284
+	Number of Hits in the bottom 80% = 183/800
+
+------------------------------------------
+
+Game Distance: 139.808
+
+Player1 Generation: 144
+	Avg Fitness of top 20% = -158.0004
+	Number of Hits in the top 20% = 73/200
+	Avg Fitness of the bottom 80% = -546.4802
+	Number of Hits in the bottom 80% = 67/800
+
+Player2 Generation: 144
+	Avg Fitness of top 20% = -52.54491
+	Number of Hits in the top 20% = 127/200
+	Avg Fitness of the bottom 80% = -386.4463
+	Number of Hits in the bottom 80% = 156/800
+
+------------------------------------------
+
+Game Distance: 139.808
+
+Player1 Generation: 145
+	Avg Fitness of top 20% = -138.7322
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -472.9356
+	Number of Hits in the bottom 80% = 97/800
+
+Player2 Generation: 145
+	Avg Fitness of top 20% = -44.54829
+	Number of Hits in the top 20% = 132/200
+	Avg Fitness of the bottom 80% = -356.9151
+	Number of Hits in the bottom 80% = 181/800
+
+------------------------------------------
+
+Game Distance: 161.4358
+
+Player1 Generation: 146
+	Avg Fitness of top 20% = -147.5423
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -482.1647
+	Number of Hits in the bottom 80% = 73/800
+
+Player2 Generation: 146
+	Avg Fitness of top 20% = -61.29752
+	Number of Hits in the top 20% = 128/200
+	Avg Fitness of the bottom 80% = -425.3508
+	Number of Hits in the bottom 80% = 132/800
+
+------------------------------------------
+
+Game Distance: 161.4358
+
+Player1 Generation: 147
+	Avg Fitness of top 20% = -137.1172
+	Number of Hits in the top 20% = 71/200
+	Avg Fitness of the bottom 80% = -465.1668
+	Number of Hits in the bottom 80% = 86/800
+
+Player2 Generation: 147
+	Avg Fitness of top 20% = -34.73135
+	Number of Hits in the top 20% = 160/200
+	Avg Fitness of the bottom 80% = -376.8839
+	Number of Hits in the bottom 80% = 159/800
+
+------------------------------------------
+
+Game Distance: 161.4358
+
+Player1 Generation: 148
+	Avg Fitness of top 20% = -141.8532
+	Number of Hits in the top 20% = 72/200
+	Avg Fitness of the bottom 80% = -461.9366
+	Number of Hits in the bottom 80% = 90/800
+
+Player2 Generation: 148
+	Avg Fitness of top 20% = -22.70438
+	Number of Hits in the top 20% = 167/200
+	Avg Fitness of the bottom 80% = -333.197
+	Number of Hits in the bottom 80% = 214/800
+
+------------------------------------------
+
+Game Distance: 161.4358
+
+Player1 Generation: 149
+	Avg Fitness of top 20% = -131.3585
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -492.9408
+	Number of Hits in the bottom 80% = 92/800
+
+Player2 Generation: 149
+	Avg Fitness of top 20% = -12.49553
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -335.4637
+	Number of Hits in the bottom 80% = 222/800
+
+------------------------------------------
+
+Game Distance: 141.5467
+
+Player1 Generation: 150
+	Avg Fitness of top 20% = -199.2895
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -429.4413
+	Number of Hits in the bottom 80% = 77/800
+
+Player2 Generation: 150
+	Avg Fitness of top 20% = -84.08772
+	Number of Hits in the top 20% = 126/200
+	Avg Fitness of the bottom 80% = -513.6417
+	Number of Hits in the bottom 80% = 168/800
+
+------------------------------------------
+
+Game Distance: 141.5467
+
+Player1 Generation: 151
+	Avg Fitness of top 20% = -185.9203
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -433.5576
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 151
+	Avg Fitness of top 20% = -32.49719
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -466.5004
+	Number of Hits in the bottom 80% = 157/800
+
+------------------------------------------
+
+Game Distance: 141.5467
+
+Player1 Generation: 152
+	Avg Fitness of top 20% = -178.7535
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -487.3241
+	Number of Hits in the bottom 80% = 62/800
+
+Player2 Generation: 152
+	Avg Fitness of top 20% = -20.60583
+	Number of Hits in the top 20% = 167/200
+	Avg Fitness of the bottom 80% = -368.2617
+	Number of Hits in the bottom 80% = 225/800
+
+------------------------------------------
+
+Game Distance: 141.5467
+
+Player1 Generation: 153
+	Avg Fitness of top 20% = -213.4346
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -466.6177
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 153
+	Avg Fitness of top 20% = -16.93451
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -313.288
+	Number of Hits in the bottom 80% = 224/800
+
+------------------------------------------
+
+Game Distance: 144.0349
+
+Player1 Generation: 154
+	Avg Fitness of top 20% = -132.5237
+	Number of Hits in the top 20% = 81/200
+	Avg Fitness of the bottom 80% = -368.3915
+	Number of Hits in the bottom 80% = 123/800
+
+Player2 Generation: 154
+	Avg Fitness of top 20% = -17.22813
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -270.1467
+	Number of Hits in the bottom 80% = 267/800
+
+------------------------------------------
+
+Game Distance: 144.0349
+
+Player1 Generation: 155
+	Avg Fitness of top 20% = -112.9122
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -388.6349
+	Number of Hits in the bottom 80% = 116/800
+
+Player2 Generation: 155
+	Avg Fitness of top 20% = -17.45565
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -276.1287
+	Number of Hits in the bottom 80% = 257/800
+
+------------------------------------------
+
+Game Distance: 144.0349
+
+Player1 Generation: 156
+	Avg Fitness of top 20% = -108.1383
+	Number of Hits in the top 20% = 83/200
+	Avg Fitness of the bottom 80% = -393.6329
+	Number of Hits in the bottom 80% = 118/800
+
+Player2 Generation: 156
+	Avg Fitness of top 20% = -13.18717
+	Number of Hits in the top 20% = 174/200
+	Avg Fitness of the bottom 80% = -336.4625
+	Number of Hits in the bottom 80% = 226/800
+
+------------------------------------------
+
+Game Distance: 144.0349
+
+Player1 Generation: 157
+	Avg Fitness of top 20% = -102.3107
+	Number of Hits in the top 20% = 89/200
+	Avg Fitness of the bottom 80% = -361.3747
+	Number of Hits in the bottom 80% = 151/800
+
+Player2 Generation: 157
+	Avg Fitness of top 20% = -16.19225
+	Number of Hits in the top 20% = 172/200
+	Avg Fitness of the bottom 80% = -298.6328
+	Number of Hits in the bottom 80% = 219/800
+
+------------------------------------------
+
+Game Distance: 173.4472
+
+Player1 Generation: 158
+	Avg Fitness of top 20% = -178.1319
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -588.8792
+	Number of Hits in the bottom 80% = 45/800
+
+Player2 Generation: 158
+	Avg Fitness of top 20% = -35.20948
+	Number of Hits in the top 20% = 158/200
+	Avg Fitness of the bottom 80% = -298.3227
+	Number of Hits in the bottom 80% = 235/800
+
+------------------------------------------
+
+Game Distance: 173.4472
+
+Player1 Generation: 159
+	Avg Fitness of top 20% = -138.9469
+	Number of Hits in the top 20% = 76/200
+	Avg Fitness of the bottom 80% = -535.1793
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 159
+	Avg Fitness of top 20% = -35.98543
+	Number of Hits in the top 20% = 151/200
+	Avg Fitness of the bottom 80% = -318.1962
+	Number of Hits in the bottom 80% = 224/800
+
+------------------------------------------
+
+Game Distance: 173.4472
+
+Player1 Generation: 160
+	Avg Fitness of top 20% = -120.8388
+	Number of Hits in the top 20% = 79/200
+	Avg Fitness of the bottom 80% = -548.1432
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 160
+	Avg Fitness of top 20% = -46.92208
+	Number of Hits in the top 20% = 149/200
+	Avg Fitness of the bottom 80% = -292.6712
+	Number of Hits in the bottom 80% = 213/800
+
+------------------------------------------
+
+Game Distance: 173.4472
+
+Player1 Generation: 161
+	Avg Fitness of top 20% = -106.1047
+	Number of Hits in the top 20% = 82/200
+	Avg Fitness of the bottom 80% = -512.3288
+	Number of Hits in the bottom 80% = 92/800
+
+Player2 Generation: 161
+	Avg Fitness of top 20% = -35.46663
+	Number of Hits in the top 20% = 157/200
+	Avg Fitness of the bottom 80% = -341.9949
+	Number of Hits in the bottom 80% = 210/800
+
+------------------------------------------
+
+Game Distance: 184.7133
+
+Player1 Generation: 162
+	Avg Fitness of top 20% = -258.2565
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -724.332
+	Number of Hits in the bottom 80% = 46/800
+
+Player2 Generation: 162
+	Avg Fitness of top 20% = -49.93135
+	Number of Hits in the top 20% = 148/200
+	Avg Fitness of the bottom 80% = -306.4554
+	Number of Hits in the bottom 80% = 209/800
+
+------------------------------------------
+
+Game Distance: 184.7133
+
+Player1 Generation: 163
+	Avg Fitness of top 20% = -152.218
+	Number of Hits in the top 20% = 75/200
+	Avg Fitness of the bottom 80% = -552.2592
+	Number of Hits in the bottom 80% = 96/800
+
+Player2 Generation: 163
+	Avg Fitness of top 20% = -53.9285
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -325.0383
+	Number of Hits in the bottom 80% = 204/800
+
+------------------------------------------
+
+Game Distance: 184.7133
+
+Player1 Generation: 164
+	Avg Fitness of top 20% = -117.2882
+	Number of Hits in the top 20% = 87/200
+	Avg Fitness of the bottom 80% = -554.2797
+	Number of Hits in the bottom 80% = 97/800
+
+Player2 Generation: 164
+	Avg Fitness of top 20% = -62.41824
+	Number of Hits in the top 20% = 136/200
+	Avg Fitness of the bottom 80% = -374.9407
+	Number of Hits in the bottom 80% = 185/800
+
+------------------------------------------
+
+Game Distance: 184.7133
+
+Player1 Generation: 165
+	Avg Fitness of top 20% = -118.6888
+	Number of Hits in the top 20% = 76/200
+	Avg Fitness of the bottom 80% = -491.1618
+	Number of Hits in the bottom 80% = 109/800
+
+Player2 Generation: 165
+	Avg Fitness of top 20% = -43.46346
+	Number of Hits in the top 20% = 144/200
+	Avg Fitness of the bottom 80% = -353.0354
+	Number of Hits in the bottom 80% = 188/800
+
+------------------------------------------
+
+Game Distance: 144.3312
+
+Player1 Generation: 166
+	Avg Fitness of top 20% = -309.0947
+	Number of Hits in the top 20% = 24/200
+	Avg Fitness of the bottom 80% = -542.9926
+	Number of Hits in the bottom 80% = 34/800
+
+Player2 Generation: 166
+	Avg Fitness of top 20% = -161.7701
+	Number of Hits in the top 20% = 98/200
+	Avg Fitness of the bottom 80% = -624.5096
+	Number of Hits in the bottom 80% = 115/800
+
+------------------------------------------
+
+Game Distance: 144.3312
+
+Player1 Generation: 167
+	Avg Fitness of top 20% = -222.5105
+	Number of Hits in the top 20% = 50/200
+	Avg Fitness of the bottom 80% = -497.8268
+	Number of Hits in the bottom 80% = 52/800
+
+Player2 Generation: 167
+	Avg Fitness of top 20% = -63.09105
+	Number of Hits in the top 20% = 114/200
+	Avg Fitness of the bottom 80% = -481.5553
+	Number of Hits in the bottom 80% = 144/800
+
+------------------------------------------
+
+Game Distance: 144.3312
+
+Player1 Generation: 168
+	Avg Fitness of top 20% = -223.582
+	Number of Hits in the top 20% = 52/200
+	Avg Fitness of the bottom 80% = -479.7023
+	Number of Hits in the bottom 80% = 60/800
+
+Player2 Generation: 168
+	Avg Fitness of top 20% = -43.4272
+	Number of Hits in the top 20% = 137/200
+	Avg Fitness of the bottom 80% = -387.9604
+	Number of Hits in the bottom 80% = 159/800
+
+------------------------------------------
+
+Game Distance: 144.3312
+
+Player1 Generation: 169
+	Avg Fitness of top 20% = -188.1541
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -473.6819
+	Number of Hits in the bottom 80% = 76/800
+
+Player2 Generation: 169
+	Avg Fitness of top 20% = -45.29545
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -408.1862
+	Number of Hits in the bottom 80% = 161/800
+
+------------------------------------------
+
+Game Distance: 210.7864
+
+Player1 Generation: 170
+	Avg Fitness of top 20% = -357.2579
+	Number of Hits in the top 20% = 17/200
+	Avg Fitness of the bottom 80% = -896.1135
+	Number of Hits in the bottom 80% = 11/800
+
+Player2 Generation: 170
+	Avg Fitness of top 20% = -136.9539
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -414.0533
+	Number of Hits in the bottom 80% = 159/800
+
+------------------------------------------
+
+Game Distance: 210.7864
+
+Player1 Generation: 171
+	Avg Fitness of top 20% = -213.5867
+	Number of Hits in the top 20% = 58/200
+	Avg Fitness of the bottom 80% = -746.9462
+	Number of Hits in the bottom 80% = 26/800
+
+Player2 Generation: 171
+	Avg Fitness of top 20% = -120.6491
+	Number of Hits in the top 20% = 109/200
+	Avg Fitness of the bottom 80% = -434.4447
+	Number of Hits in the bottom 80% = 163/800
+
+------------------------------------------
+
+Game Distance: 210.7864
+
+Player1 Generation: 172
+	Avg Fitness of top 20% = -147.2752
+	Number of Hits in the top 20% = 63/200
+	Avg Fitness of the bottom 80% = -554.238
+	Number of Hits in the bottom 80% = 80/800
+
+Player2 Generation: 172
+	Avg Fitness of top 20% = -147.0791
+	Number of Hits in the top 20% = 92/200
+	Avg Fitness of the bottom 80% = -429.8533
+	Number of Hits in the bottom 80% = 137/800
+
+------------------------------------------
+
+Game Distance: 210.7864
+
+Player1 Generation: 173
+	Avg Fitness of top 20% = -125.6199
+	Number of Hits in the top 20% = 79/200
+	Avg Fitness of the bottom 80% = -487.5269
+	Number of Hits in the bottom 80% = 100/800
+
+Player2 Generation: 173
+	Avg Fitness of top 20% = -114.1853
+	Number of Hits in the top 20% = 117/200
+	Avg Fitness of the bottom 80% = -493.603
+	Number of Hits in the bottom 80% = 149/800
+
+------------------------------------------
+
+Game Distance: 139.6606
+
+Player1 Generation: 174
+	Avg Fitness of top 20% = -284.7833
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -779.4777
+	Number of Hits in the bottom 80% = 11/800
+
+Player2 Generation: 174
+	Avg Fitness of top 20% = -55.31254
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -406.8528
+	Number of Hits in the bottom 80% = 125/800
+
+------------------------------------------
+
+Game Distance: 139.6606
+
+Player1 Generation: 175
+	Avg Fitness of top 20% = -190.8216
+	Number of Hits in the top 20% = 61/200
+	Avg Fitness of the bottom 80% = -616.5292
+	Number of Hits in the bottom 80% = 38/800
+
+Player2 Generation: 175
+	Avg Fitness of top 20% = -36.17833
+	Number of Hits in the top 20% = 148/200
+	Avg Fitness of the bottom 80% = -397.5373
+	Number of Hits in the bottom 80% = 142/800
+
+------------------------------------------
+
+Game Distance: 139.6606
+
+Player1 Generation: 176
+	Avg Fitness of top 20% = -143.4728
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -516.7813
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 176
+	Avg Fitness of top 20% = -34.04372
+	Number of Hits in the top 20% = 142/200
+	Avg Fitness of the bottom 80% = -342.8472
+	Number of Hits in the bottom 80% = 186/800
+
+------------------------------------------
+
+Game Distance: 139.6606
+
+Player1 Generation: 177
+	Avg Fitness of top 20% = -132.3722
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -418.9294
+	Number of Hits in the bottom 80% = 105/800
+
+Player2 Generation: 177
+	Avg Fitness of top 20% = -42.54538
+	Number of Hits in the top 20% = 132/200
+	Avg Fitness of the bottom 80% = -339.6918
+	Number of Hits in the bottom 80% = 192/800
+
+------------------------------------------
+
+Game Distance: 156.2441
+
+Player1 Generation: 178
+	Avg Fitness of top 20% = -201.8461
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -511.4114
+	Number of Hits in the bottom 80% = 83/800
+
+Player2 Generation: 178
+	Avg Fitness of top 20% = -28.17286
+	Number of Hits in the top 20% = 151/200
+	Avg Fitness of the bottom 80% = -386.5573
+	Number of Hits in the bottom 80% = 179/800
+
+------------------------------------------
+
+Game Distance: 156.2441
+
+Player1 Generation: 179
+	Avg Fitness of top 20% = -164.5172
+	Number of Hits in the top 20% = 61/200
+	Avg Fitness of the bottom 80% = -462.8366
+	Number of Hits in the bottom 80% = 116/800
+
+Player2 Generation: 179
+	Avg Fitness of top 20% = -22.9386
+	Number of Hits in the top 20% = 161/200
+	Avg Fitness of the bottom 80% = -344.649
+	Number of Hits in the bottom 80% = 220/800
+
+------------------------------------------
+
+Game Distance: 156.2441
+
+Player1 Generation: 180
+	Avg Fitness of top 20% = -164.2274
+	Number of Hits in the top 20% = 76/200
+	Avg Fitness of the bottom 80% = -428.6505
+	Number of Hits in the bottom 80% = 95/800
+
+Player2 Generation: 180
+	Avg Fitness of top 20% = -18.91589
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -351.5236
+	Number of Hits in the bottom 80% = 224/800
+
+------------------------------------------
+
+Game Distance: 156.2441
+
+Player1 Generation: 181
+	Avg Fitness of top 20% = -154.8232
+	Number of Hits in the top 20% = 69/200
+	Avg Fitness of the bottom 80% = -410.3703
+	Number of Hits in the bottom 80% = 107/800
+
+Player2 Generation: 181
+	Avg Fitness of top 20% = -22.1147
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -381.5465
+	Number of Hits in the bottom 80% = 203/800
+
+------------------------------------------
+
+Game Distance: 176.1687
+
+Player1 Generation: 182
+	Avg Fitness of top 20% = -131.3212
+	Number of Hits in the top 20% = 72/200
+	Avg Fitness of the bottom 80% = -428.6542
+	Number of Hits in the bottom 80% = 125/800
+
+Player2 Generation: 182
+	Avg Fitness of top 20% = -38.0673
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -350.4112
+	Number of Hits in the bottom 80% = 167/800
+
+------------------------------------------
+
+Game Distance: 176.1687
+
+Player1 Generation: 183
+	Avg Fitness of top 20% = -108.0658
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -441.2027
+	Number of Hits in the bottom 80% = 107/800
+
+Player2 Generation: 183
+	Avg Fitness of top 20% = -39.30049
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -381.6092
+	Number of Hits in the bottom 80% = 174/800
+
+------------------------------------------
+
+Game Distance: 176.1687
+
+Player1 Generation: 184
+	Avg Fitness of top 20% = -100.9729
+	Number of Hits in the top 20% = 92/200
+	Avg Fitness of the bottom 80% = -426.1991
+	Number of Hits in the bottom 80% = 126/800
+
+Player2 Generation: 184
+	Avg Fitness of top 20% = -43.73146
+	Number of Hits in the top 20% = 148/200
+	Avg Fitness of the bottom 80% = -291.1338
+	Number of Hits in the bottom 80% = 231/800
+
+------------------------------------------
+
+Game Distance: 176.1687
+
+Player1 Generation: 185
+	Avg Fitness of top 20% = -112.4527
+	Number of Hits in the top 20% = 77/200
+	Avg Fitness of the bottom 80% = -382.5661
+	Number of Hits in the bottom 80% = 130/800
+
+Player2 Generation: 185
+	Avg Fitness of top 20% = -39.46989
+	Number of Hits in the top 20% = 156/200
+	Avg Fitness of the bottom 80% = -291.4112
+	Number of Hits in the bottom 80% = 236/800
+
+------------------------------------------
+
+Game Distance: 169.2244
+
+Player1 Generation: 186
+	Avg Fitness of top 20% = -99.98013
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -296.2888
+	Number of Hits in the bottom 80% = 182/800
+
+Player2 Generation: 186
+	Avg Fitness of top 20% = -26.92401
+	Number of Hits in the top 20% = 161/200
+	Avg Fitness of the bottom 80% = -254.925
+	Number of Hits in the bottom 80% = 252/800
+
+------------------------------------------
+
+Game Distance: 169.2244
+
+Player1 Generation: 187
+	Avg Fitness of top 20% = -102.4965
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -341.6324
+	Number of Hits in the bottom 80% = 158/800
+
+Player2 Generation: 187
+	Avg Fitness of top 20% = -25.10996
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -321.5225
+	Number of Hits in the bottom 80% = 210/800
+
+------------------------------------------
+
+Game Distance: 169.2244
+
+Player1 Generation: 188
+	Avg Fitness of top 20% = -108.7452
+	Number of Hits in the top 20% = 80/200
+	Avg Fitness of the bottom 80% = -318.8331
+	Number of Hits in the bottom 80% = 134/800
+
+Player2 Generation: 188
+	Avg Fitness of top 20% = -26.5141
+	Number of Hits in the top 20% = 165/200
+	Avg Fitness of the bottom 80% = -295.5344
+	Number of Hits in the bottom 80% = 207/800
+
+------------------------------------------
+
+Game Distance: 169.2244
+
+Player1 Generation: 189
+	Avg Fitness of top 20% = -108.8581
+	Number of Hits in the top 20% = 89/200
+	Avg Fitness of the bottom 80% = -353.245
+	Number of Hits in the bottom 80% = 129/800
+
+Player2 Generation: 189
+	Avg Fitness of top 20% = -14.86055
+	Number of Hits in the top 20% = 180/200
+	Avg Fitness of the bottom 80% = -310.6207
+	Number of Hits in the bottom 80% = 225/800
+
+------------------------------------------
+
+Game Distance: 169.1127
+
+Player1 Generation: 190
+	Avg Fitness of top 20% = -103.4475
+	Number of Hits in the top 20% = 95/200
+	Avg Fitness of the bottom 80% = -334.7124
+	Number of Hits in the bottom 80% = 132/800
+
+Player2 Generation: 190
+	Avg Fitness of top 20% = -19.99528
+	Number of Hits in the top 20% = 173/200
+	Avg Fitness of the bottom 80% = -350.8372
+	Number of Hits in the bottom 80% = 190/800
+
+------------------------------------------
+
+Game Distance: 169.1127
+
+Player1 Generation: 191
+	Avg Fitness of top 20% = -120.9092
+	Number of Hits in the top 20% = 79/200
+	Avg Fitness of the bottom 80% = -352.338
+	Number of Hits in the bottom 80% = 128/800
+
+Player2 Generation: 191
+	Avg Fitness of top 20% = -26.76513
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -335.053
+	Number of Hits in the bottom 80% = 199/800
+
+------------------------------------------
+
+Game Distance: 169.1127
+
+Player1 Generation: 192
+	Avg Fitness of top 20% = -121.1779
+	Number of Hits in the top 20% = 71/200
+	Avg Fitness of the bottom 80% = -384.6613
+	Number of Hits in the bottom 80% = 134/800
+
+Player2 Generation: 192
+	Avg Fitness of top 20% = -20.00375
+	Number of Hits in the top 20% = 170/200
+	Avg Fitness of the bottom 80% = -347.0337
+	Number of Hits in the bottom 80% = 205/800
+
+------------------------------------------
+
+Game Distance: 169.1127
+
+Player1 Generation: 193
+	Avg Fitness of top 20% = -99.4684
+	Number of Hits in the top 20% = 93/200
+	Avg Fitness of the bottom 80% = -282.2804
+	Number of Hits in the bottom 80% = 162/800
+
+Player2 Generation: 193
+	Avg Fitness of top 20% = -24.44944
+	Number of Hits in the top 20% = 161/200
+	Avg Fitness of the bottom 80% = -345.3136
+	Number of Hits in the bottom 80% = 197/800
+
+------------------------------------------
+
+Game Distance: 172.6943
+
+Player1 Generation: 194
+	Avg Fitness of top 20% = -133.3744
+	Number of Hits in the top 20% = 82/200
+	Avg Fitness of the bottom 80% = -392.0928
+	Number of Hits in the bottom 80% = 136/800
+
+Player2 Generation: 194
+	Avg Fitness of top 20% = -23.56086
+	Number of Hits in the top 20% = 160/200
+	Avg Fitness of the bottom 80% = -377.5084
+	Number of Hits in the bottom 80% = 198/800
+
+------------------------------------------
+
+Game Distance: 172.6943
+
+Player1 Generation: 195
+	Avg Fitness of top 20% = -126.1646
+	Number of Hits in the top 20% = 73/200
+	Avg Fitness of the bottom 80% = -319.6971
+	Number of Hits in the bottom 80% = 144/800
+
+Player2 Generation: 195
+	Avg Fitness of top 20% = -34.22694
+	Number of Hits in the top 20% = 155/200
+	Avg Fitness of the bottom 80% = -386.6467
+	Number of Hits in the bottom 80% = 198/800
+
+------------------------------------------
+
+Game Distance: 172.6943
+
+Player1 Generation: 196
+	Avg Fitness of top 20% = -133.0798
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -349.1564
+	Number of Hits in the bottom 80% = 166/800
+
+Player2 Generation: 196
+	Avg Fitness of top 20% = -12.44605
+	Number of Hits in the top 20% = 181/200
+	Avg Fitness of the bottom 80% = -411.5085
+	Number of Hits in the bottom 80% = 209/800
+
+------------------------------------------
+
+Game Distance: 172.6943
+
+Player1 Generation: 197
+	Avg Fitness of top 20% = -119.2521
+	Number of Hits in the top 20% = 88/200
+	Avg Fitness of the bottom 80% = -368.9306
+	Number of Hits in the bottom 80% = 140/800
+
+Player2 Generation: 197
+	Avg Fitness of top 20% = -16.19892
+	Number of Hits in the top 20% = 174/200
+	Avg Fitness of the bottom 80% = -411.1287
+	Number of Hits in the bottom 80% = 183/800
+
+------------------------------------------
+
+Game Distance: 143.2109
+
+Player1 Generation: 198
+	Avg Fitness of top 20% = -180.0122
+	Number of Hits in the top 20% = 65/200
+	Avg Fitness of the bottom 80% = -508.6215
+	Number of Hits in the bottom 80% = 57/800
+
+Player2 Generation: 198
+	Avg Fitness of top 20% = -24.10054
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -315.2754
+	Number of Hits in the bottom 80% = 227/800
+
+------------------------------------------
+
+Game Distance: 143.2109
+
+Player1 Generation: 199
+	Avg Fitness of top 20% = -124.819
+	Number of Hits in the top 20% = 80/200
+	Avg Fitness of the bottom 80% = -365.7071
+	Number of Hits in the bottom 80% = 113/800
+
+Player2 Generation: 199
+	Avg Fitness of top 20% = -17.42385
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -330.4124
+	Number of Hits in the bottom 80% = 197/800
+
+------------------------------------------
+
+Game Distance: 143.2109
+
+Player1 Generation: 200
+	Avg Fitness of top 20% = -112.5031
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -346.1875
+	Number of Hits in the bottom 80% = 128/800
+
+Player2 Generation: 200
+	Avg Fitness of top 20% = -15.46523
+	Number of Hits in the top 20% = 176/200
+	Avg Fitness of the bottom 80% = -306.0929
+	Number of Hits in the bottom 80% = 232/800
+
+------------------------------------------
+
+Game Distance: 143.2109
+
+Player1 Generation: 201
+	Avg Fitness of top 20% = -107.1273
+	Number of Hits in the top 20% = 83/200
+	Avg Fitness of the bottom 80% = -366.4679
+	Number of Hits in the bottom 80% = 115/800
+
+Player2 Generation: 201
+	Avg Fitness of top 20% = -19.8874
+	Number of Hits in the top 20% = 167/200
+	Avg Fitness of the bottom 80% = -322.8038
+	Number of Hits in the bottom 80% = 208/800
+
+------------------------------------------
+
+Game Distance: 173.6351
+
+Player1 Generation: 202
+	Avg Fitness of top 20% = -172.3575
+	Number of Hits in the top 20% = 54/200
+	Avg Fitness of the bottom 80% = -498.6265
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 202
+	Avg Fitness of top 20% = -33.92891
+	Number of Hits in the top 20% = 158/200
+	Avg Fitness of the bottom 80% = -303.3821
+	Number of Hits in the bottom 80% = 222/800
+
+------------------------------------------
+
+Game Distance: 173.6351
+
+Player1 Generation: 203
+	Avg Fitness of top 20% = -126.3667
+	Number of Hits in the top 20% = 82/200
+	Avg Fitness of the bottom 80% = -391.3909
+	Number of Hits in the bottom 80% = 115/800
+
+Player2 Generation: 203
+	Avg Fitness of top 20% = -23.59222
+	Number of Hits in the top 20% = 165/200
+	Avg Fitness of the bottom 80% = -312.8705
+	Number of Hits in the bottom 80% = 224/800
+
+------------------------------------------
+
+Game Distance: 173.6351
+
+Player1 Generation: 204
+	Avg Fitness of top 20% = -99.65546
+	Number of Hits in the top 20% = 102/200
+	Avg Fitness of the bottom 80% = -391.7672
+	Number of Hits in the bottom 80% = 99/800
+
+Player2 Generation: 204
+	Avg Fitness of top 20% = -22.27145
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -358.8373
+	Number of Hits in the bottom 80% = 196/800
+
+------------------------------------------
+
+Game Distance: 173.6351
+
+Player1 Generation: 205
+	Avg Fitness of top 20% = -86.23035
+	Number of Hits in the top 20% = 106/200
+	Avg Fitness of the bottom 80% = -329.7646
+	Number of Hits in the bottom 80% = 155/800
+
+Player2 Generation: 205
+	Avg Fitness of top 20% = -26.77889
+	Number of Hits in the top 20% = 162/200
+	Avg Fitness of the bottom 80% = -335.1328
+	Number of Hits in the bottom 80% = 226/800
+
+------------------------------------------
+
+Game Distance: 191.5376
+
+Player1 Generation: 206
+	Avg Fitness of top 20% = -236.6545
+	Number of Hits in the top 20% = 58/200
+	Avg Fitness of the bottom 80% = -732.9581
+	Number of Hits in the bottom 80% = 33/800
+
+Player2 Generation: 206
+	Avg Fitness of top 20% = -79.4218
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -485.5023
+	Number of Hits in the bottom 80% = 140/800
+
+------------------------------------------
+
+Game Distance: 191.5376
+
+Player1 Generation: 207
+	Avg Fitness of top 20% = -181.0228
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -559.2332
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 207
+	Avg Fitness of top 20% = -63.61174
+	Number of Hits in the top 20% = 134/200
+	Avg Fitness of the bottom 80% = -433.5883
+	Number of Hits in the bottom 80% = 140/800
+
+------------------------------------------
+
+Game Distance: 191.5376
+
+Player1 Generation: 208
+	Avg Fitness of top 20% = -136.3258
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -490.2084
+	Number of Hits in the bottom 80% = 97/800
+
+Player2 Generation: 208
+	Avg Fitness of top 20% = -58.05236
+	Number of Hits in the top 20% = 144/200
+	Avg Fitness of the bottom 80% = -504.4035
+	Number of Hits in the bottom 80% = 152/800
+
+------------------------------------------
+
+Game Distance: 191.5376
+
+Player1 Generation: 209
+	Avg Fitness of top 20% = -118.6672
+	Number of Hits in the top 20% = 90/200
+	Avg Fitness of the bottom 80% = -415.6861
+	Number of Hits in the bottom 80% = 119/800
+
+Player2 Generation: 209
+	Avg Fitness of top 20% = -54.37853
+	Number of Hits in the top 20% = 147/200
+	Avg Fitness of the bottom 80% = -424.8731
+	Number of Hits in the bottom 80% = 169/800
+
+------------------------------------------
+
+Game Distance: 204.9731
+
+Player1 Generation: 210
+	Avg Fitness of top 20% = -94.65804
+	Number of Hits in the top 20% = 100/200
+	Avg Fitness of the bottom 80% = -362.7292
+	Number of Hits in the bottom 80% = 139/800
+
+Player2 Generation: 210
+	Avg Fitness of top 20% = -85.64732
+	Number of Hits in the top 20% = 131/200
+	Avg Fitness of the bottom 80% = -405.0656
+	Number of Hits in the bottom 80% = 157/800
+
+------------------------------------------
+
+Game Distance: 204.9731
+
+Player1 Generation: 211
+	Avg Fitness of top 20% = -95.8323
+	Number of Hits in the top 20% = 113/200
+	Avg Fitness of the bottom 80% = -382.7215
+	Number of Hits in the bottom 80% = 107/800
+
+Player2 Generation: 211
+	Avg Fitness of top 20% = -56.28999
+	Number of Hits in the top 20% = 149/200
+	Avg Fitness of the bottom 80% = -382.1966
+	Number of Hits in the bottom 80% = 179/800
+
+------------------------------------------
+
+Game Distance: 204.9731
+
+Player1 Generation: 212
+	Avg Fitness of top 20% = -92.83651
+	Number of Hits in the top 20% = 110/200
+	Avg Fitness of the bottom 80% = -374.124
+	Number of Hits in the bottom 80% = 133/800
+
+Player2 Generation: 212
+	Avg Fitness of top 20% = -49.4965
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -377.6385
+	Number of Hits in the bottom 80% = 184/800
+
+------------------------------------------
+
+Game Distance: 204.9731
+
+Player1 Generation: 213
+	Avg Fitness of top 20% = -103.5367
+	Number of Hits in the top 20% = 95/200
+	Avg Fitness of the bottom 80% = -419.8136
+	Number of Hits in the bottom 80% = 119/800
+
+Player2 Generation: 213
+	Avg Fitness of top 20% = -46.70783
+	Number of Hits in the top 20% = 149/200
+	Avg Fitness of the bottom 80% = -408.8117
+	Number of Hits in the bottom 80% = 211/800
+
+------------------------------------------
+
+Game Distance: 184.8363
+
+Player1 Generation: 214
+	Avg Fitness of top 20% = -102.8556
+	Number of Hits in the top 20% = 98/200
+	Avg Fitness of the bottom 80% = -365.3274
+	Number of Hits in the bottom 80% = 99/800
+
+Player2 Generation: 214
+	Avg Fitness of top 20% = -19.62999
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -308.0669
+	Number of Hits in the bottom 80% = 200/800
+
+------------------------------------------
+
+Game Distance: 184.8363
+
+Player1 Generation: 215
+	Avg Fitness of top 20% = -119.5774
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -368.9512
+	Number of Hits in the bottom 80% = 104/800
+
+Player2 Generation: 215
+	Avg Fitness of top 20% = -14.02284
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -399.5361
+	Number of Hits in the bottom 80% = 189/800
+
+------------------------------------------
+
+Game Distance: 184.8363
+
+Player1 Generation: 216
+	Avg Fitness of top 20% = -80.09191
+	Number of Hits in the top 20% = 119/200
+	Avg Fitness of the bottom 80% = -334.6039
+	Number of Hits in the bottom 80% = 143/800
+
+Player2 Generation: 216
+	Avg Fitness of top 20% = -6.366401
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -276.7549
+	Number of Hits in the bottom 80% = 294/800
+
+------------------------------------------
+
+Game Distance: 184.8363
+
+Player1 Generation: 217
+	Avg Fitness of top 20% = -100.3852
+	Number of Hits in the top 20% = 97/200
+	Avg Fitness of the bottom 80% = -353.0516
+	Number of Hits in the bottom 80% = 141/800
+
+Player2 Generation: 217
+	Avg Fitness of top 20% = -14.78295
+	Number of Hits in the top 20% = 173/200
+	Avg Fitness of the bottom 80% = -329.1507
+	Number of Hits in the bottom 80% = 229/800
+
+------------------------------------------
+
+Game Distance: 152.1118
+
+Player1 Generation: 218
+	Avg Fitness of top 20% = -200.5284
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -444.4287
+	Number of Hits in the bottom 80% = 58/800
+
+Player2 Generation: 218
+	Avg Fitness of top 20% = -145.6635
+	Number of Hits in the top 20% = 98/200
+	Avg Fitness of the bottom 80% = -551.8964
+	Number of Hits in the bottom 80% = 137/800
+
+------------------------------------------
+
+Game Distance: 152.1118
+
+Player1 Generation: 219
+	Avg Fitness of top 20% = -146.6561
+	Number of Hits in the top 20% = 65/200
+	Avg Fitness of the bottom 80% = -398.9293
+	Number of Hits in the bottom 80% = 79/800
+
+Player2 Generation: 219
+	Avg Fitness of top 20% = -130.6681
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -437.7318
+	Number of Hits in the bottom 80% = 187/800
+
+------------------------------------------
+
+Game Distance: 152.1118
+
+Player1 Generation: 220
+	Avg Fitness of top 20% = -115.5073
+	Number of Hits in the top 20% = 94/200
+	Avg Fitness of the bottom 80% = -407.5828
+	Number of Hits in the bottom 80% = 102/800
+
+Player2 Generation: 220
+	Avg Fitness of top 20% = -89.78441
+	Number of Hits in the top 20% = 85/200
+	Avg Fitness of the bottom 80% = -513.6178
+	Number of Hits in the bottom 80% = 137/800
+
+------------------------------------------
+
+Game Distance: 152.1118
+
+Player1 Generation: 221
+	Avg Fitness of top 20% = -97.27763
+	Number of Hits in the top 20% = 95/200
+	Avg Fitness of the bottom 80% = -395.9474
+	Number of Hits in the bottom 80% = 113/800
+
+Player2 Generation: 221
+	Avg Fitness of top 20% = -98.08308
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -359.9005
+	Number of Hits in the bottom 80% = 127/800
+
+------------------------------------------
+
+Game Distance: 199.612
+
+Player1 Generation: 222
+	Avg Fitness of top 20% = -270.59
+	Number of Hits in the top 20% = 22/200
+	Avg Fitness of the bottom 80% = -696.0209
+	Number of Hits in the bottom 80% = 16/800
+
+Player2 Generation: 222
+	Avg Fitness of top 20% = -36.4421
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -356.9318
+	Number of Hits in the bottom 80% = 174/800
+
+------------------------------------------
+
+Game Distance: 199.612
+
+Player1 Generation: 223
+	Avg Fitness of top 20% = -145.4589
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -515.606
+	Number of Hits in the bottom 80% = 54/800
+
+Player2 Generation: 223
+	Avg Fitness of top 20% = -22.99276
+	Number of Hits in the top 20% = 173/200
+	Avg Fitness of the bottom 80% = -295.6382
+	Number of Hits in the bottom 80% = 231/800
+
+------------------------------------------
+
+Game Distance: 199.612
+
+Player1 Generation: 224
+	Avg Fitness of top 20% = -108.5643
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -417.4876
+	Number of Hits in the bottom 80% = 98/800
+
+Player2 Generation: 224
+	Avg Fitness of top 20% = -34.31873
+	Number of Hits in the top 20% = 156/200
+	Avg Fitness of the bottom 80% = -320.1513
+	Number of Hits in the bottom 80% = 236/800
+
+------------------------------------------
+
+Game Distance: 199.612
+
+Player1 Generation: 225
+	Avg Fitness of top 20% = -100.248
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -391.065
+	Number of Hits in the bottom 80% = 135/800
+
+Player2 Generation: 225
+	Avg Fitness of top 20% = -32.92929
+	Number of Hits in the top 20% = 160/200
+	Avg Fitness of the bottom 80% = -382.3983
+	Number of Hits in the bottom 80% = 236/800
+
+------------------------------------------
+
+Game Distance: 202.489
+
+Player1 Generation: 226
+	Avg Fitness of top 20% = -91.49507
+	Number of Hits in the top 20% = 92/200
+	Avg Fitness of the bottom 80% = -352.547
+	Number of Hits in the bottom 80% = 145/800
+
+Player2 Generation: 226
+	Avg Fitness of top 20% = -60.19274
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -343.309
+	Number of Hits in the bottom 80% = 230/800
+
+------------------------------------------
+
+Game Distance: 202.489
+
+Player1 Generation: 227
+	Avg Fitness of top 20% = -81.0022
+	Number of Hits in the top 20% = 106/200
+	Avg Fitness of the bottom 80% = -417.6474
+	Number of Hits in the bottom 80% = 151/800
+
+Player2 Generation: 227
+	Avg Fitness of top 20% = -52.86161
+	Number of Hits in the top 20% = 136/200
+	Avg Fitness of the bottom 80% = -304.2336
+	Number of Hits in the bottom 80% = 229/800
+
+------------------------------------------
+
+Game Distance: 202.489
+
+Player1 Generation: 228
+	Avg Fitness of top 20% = -61.19046
+	Number of Hits in the top 20% = 126/200
+	Avg Fitness of the bottom 80% = -306.0071
+	Number of Hits in the bottom 80% = 177/800
+
+Player2 Generation: 228
+	Avg Fitness of top 20% = -28.73837
+	Number of Hits in the top 20% = 167/200
+	Avg Fitness of the bottom 80% = -321.9327
+	Number of Hits in the bottom 80% = 206/800
+
+------------------------------------------
+
+Game Distance: 202.489
+
+Player1 Generation: 229
+	Avg Fitness of top 20% = -48.3618
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -421.6274
+	Number of Hits in the bottom 80% = 171/800
+
+Player2 Generation: 229
+	Avg Fitness of top 20% = -34.19028
+	Number of Hits in the top 20% = 151/200
+	Avg Fitness of the bottom 80% = -333.0786
+	Number of Hits in the bottom 80% = 229/800
+
+------------------------------------------
+
+Game Distance: 150.2501
+
+Player1 Generation: 230
+	Avg Fitness of top 20% = -378.5698
+	Number of Hits in the top 20% = 15/200
+	Avg Fitness of the bottom 80% = -674.7516
+	Number of Hits in the bottom 80% = 4/800
+
+Player2 Generation: 230
+	Avg Fitness of top 20% = -90.38417
+	Number of Hits in the top 20% = 93/200
+	Avg Fitness of the bottom 80% = -361.1829
+	Number of Hits in the bottom 80% = 162/800
+
+------------------------------------------
+
+Game Distance: 150.2501
+
+Player1 Generation: 231
+	Avg Fitness of top 20% = -192.2547
+	Number of Hits in the top 20% = 57/200
+	Avg Fitness of the bottom 80% = -558.2135
+	Number of Hits in the bottom 80% = 24/800
+
+Player2 Generation: 231
+	Avg Fitness of top 20% = -58.63416
+	Number of Hits in the top 20% = 118/200
+	Avg Fitness of the bottom 80% = -339.7964
+	Number of Hits in the bottom 80% = 161/800
+
+------------------------------------------
+
+Game Distance: 150.2501
+
+Player1 Generation: 232
+	Avg Fitness of top 20% = -147.8567
+	Number of Hits in the top 20% = 83/200
+	Avg Fitness of the bottom 80% = -482.6161
+	Number of Hits in the bottom 80% = 86/800
+
+Player2 Generation: 232
+	Avg Fitness of top 20% = -70.06979
+	Number of Hits in the top 20% = 105/200
+	Avg Fitness of the bottom 80% = -339.0776
+	Number of Hits in the bottom 80% = 165/800
+
+------------------------------------------
+
+Game Distance: 150.2501
+
+Player1 Generation: 233
+	Avg Fitness of top 20% = -110.2399
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -404.492
+	Number of Hits in the bottom 80% = 136/800
+
+Player2 Generation: 233
+	Avg Fitness of top 20% = -67.08765
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -379.8439
+	Number of Hits in the bottom 80% = 128/800
+
+------------------------------------------
+
+Game Distance: 129.1414
+
+Player1 Generation: 234
+	Avg Fitness of top 20% = -161.9726
+	Number of Hits in the top 20% = 77/200
+	Avg Fitness of the bottom 80% = -579.2312
+	Number of Hits in the bottom 80% = 47/800
+
+Player2 Generation: 234
+	Avg Fitness of top 20% = -133.8504
+	Number of Hits in the top 20% = 69/200
+	Avg Fitness of the bottom 80% = -375.3574
+	Number of Hits in the bottom 80% = 95/800
+
+------------------------------------------
+
+Game Distance: 129.1414
+
+Player1 Generation: 235
+	Avg Fitness of top 20% = -77.37999
+	Number of Hits in the top 20% = 129/200
+	Avg Fitness of the bottom 80% = -458.2851
+	Number of Hits in the bottom 80% = 82/800
+
+Player2 Generation: 235
+	Avg Fitness of top 20% = -101.8252
+	Number of Hits in the top 20% = 99/200
+	Avg Fitness of the bottom 80% = -376.7765
+	Number of Hits in the bottom 80% = 127/800
+
+------------------------------------------
+
+Game Distance: 129.1414
+
+Player1 Generation: 236
+	Avg Fitness of top 20% = -58.91849
+	Number of Hits in the top 20% = 128/200
+	Avg Fitness of the bottom 80% = -496.2082
+	Number of Hits in the bottom 80% = 98/800
+
+Player2 Generation: 236
+	Avg Fitness of top 20% = -92.04311
+	Number of Hits in the top 20% = 97/200
+	Avg Fitness of the bottom 80% = -339.2766
+	Number of Hits in the bottom 80% = 131/800
+
+------------------------------------------
+
+Game Distance: 129.1414
+
+Player1 Generation: 237
+	Avg Fitness of top 20% = -59.62445
+	Number of Hits in the top 20% = 118/200
+	Avg Fitness of the bottom 80% = -475.6411
+	Number of Hits in the bottom 80% = 103/800
+
+Player2 Generation: 237
+	Avg Fitness of top 20% = -85.89977
+	Number of Hits in the top 20% = 98/200
+	Avg Fitness of the bottom 80% = -354.5389
+	Number of Hits in the bottom 80% = 142/800
+
+------------------------------------------
+
+Game Distance: 189.0909
+
+Player1 Generation: 238
+	Avg Fitness of top 20% = -337.4721
+	Number of Hits in the top 20% = 19/200
+	Avg Fitness of the bottom 80% = -976.6182
+	Number of Hits in the bottom 80% = 1/800
+
+Player2 Generation: 238
+	Avg Fitness of top 20% = -72.80101
+	Number of Hits in the top 20% = 115/200
+	Avg Fitness of the bottom 80% = -378.9448
+	Number of Hits in the bottom 80% = 143/800
+
+------------------------------------------
+
+Game Distance: 189.0909
+
+Player1 Generation: 239
+	Avg Fitness of top 20% = -175.5069
+	Number of Hits in the top 20% = 54/200
+	Avg Fitness of the bottom 80% = -745.486
+	Number of Hits in the bottom 80% = 19/800
+
+Player2 Generation: 239
+	Avg Fitness of top 20% = -62.92887
+	Number of Hits in the top 20% = 121/200
+	Avg Fitness of the bottom 80% = -331.6969
+	Number of Hits in the bottom 80% = 168/800
+
+------------------------------------------
+
+Game Distance: 189.0909
+
+Player1 Generation: 240
+	Avg Fitness of top 20% = -100.4768
+	Number of Hits in the top 20% = 91/200
+	Avg Fitness of the bottom 80% = -624.0481
+	Number of Hits in the bottom 80% = 44/800
+
+Player2 Generation: 240
+	Avg Fitness of top 20% = -39.42053
+	Number of Hits in the top 20% = 146/200
+	Avg Fitness of the bottom 80% = -344.1267
+	Number of Hits in the bottom 80% = 169/800
+
+------------------------------------------
+
+Game Distance: 189.0909
+
+Player1 Generation: 241
+	Avg Fitness of top 20% = -73.9037
+	Number of Hits in the top 20% = 110/200
+	Avg Fitness of the bottom 80% = -594.9032
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 241
+	Avg Fitness of top 20% = -24.82556
+	Number of Hits in the top 20% = 160/200
+	Avg Fitness of the bottom 80% = -299.6345
+	Number of Hits in the bottom 80% = 209/800
+
+------------------------------------------
+
+Game Distance: 160.6585
+
+Player1 Generation: 242
+	Avg Fitness of top 20% = -165.5644
+	Number of Hits in the top 20% = 46/200
+	Avg Fitness of the bottom 80% = -618.5043
+	Number of Hits in the bottom 80% = 33/800
+
+Player2 Generation: 242
+	Avg Fitness of top 20% = -29.57475
+	Number of Hits in the top 20% = 150/200
+	Avg Fitness of the bottom 80% = -410.7365
+	Number of Hits in the bottom 80% = 159/800
+
+------------------------------------------
+
+Game Distance: 160.6585
+
+Player1 Generation: 243
+	Avg Fitness of top 20% = -105.2305
+	Number of Hits in the top 20% = 98/200
+	Avg Fitness of the bottom 80% = -547.3393
+	Number of Hits in the bottom 80% = 65/800
+
+Player2 Generation: 243
+	Avg Fitness of top 20% = -24.89296
+	Number of Hits in the top 20% = 156/200
+	Avg Fitness of the bottom 80% = -298.9134
+	Number of Hits in the bottom 80% = 256/800
+
+------------------------------------------
+
+Game Distance: 160.6585
+
+Player1 Generation: 244
+	Avg Fitness of top 20% = -67.0471
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -557.9979
+	Number of Hits in the bottom 80% = 73/800
+
+Player2 Generation: 244
+	Avg Fitness of top 20% = -24.41572
+	Number of Hits in the top 20% = 157/200
+	Avg Fitness of the bottom 80% = -418.5998
+	Number of Hits in the bottom 80% = 190/800
+
+------------------------------------------
+
+Game Distance: 160.6585
+
+Player1 Generation: 245
+	Avg Fitness of top 20% = -33.22767
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -476.2853
+	Number of Hits in the bottom 80% = 125/800
+
+Player2 Generation: 245
+	Avg Fitness of top 20% = -15.8761
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -305.7439
+	Number of Hits in the bottom 80% = 237/800
+
+------------------------------------------
+
+Game Distance: 162.187
+
+Player1 Generation: 246
+	Avg Fitness of top 20% = -30.25915
+	Number of Hits in the top 20% = 153/200
+	Avg Fitness of the bottom 80% = -600.5201
+	Number of Hits in the bottom 80% = 115/800
+
+Player2 Generation: 246
+	Avg Fitness of top 20% = -13.81156
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -321.8488
+	Number of Hits in the bottom 80% = 195/800
+
+------------------------------------------
+
+Game Distance: 162.187
+
+Player1 Generation: 247
+	Avg Fitness of top 20% = -26.03574
+	Number of Hits in the top 20% = 155/200
+	Avg Fitness of the bottom 80% = -569.2502
+	Number of Hits in the bottom 80% = 143/800
+
+Player2 Generation: 247
+	Avg Fitness of top 20% = -8.355482
+	Number of Hits in the top 20% = 186/200
+	Avg Fitness of the bottom 80% = -285.1707
+	Number of Hits in the bottom 80% = 248/800
+
+------------------------------------------
+
+Game Distance: 162.187
+
+Player1 Generation: 248
+	Avg Fitness of top 20% = -22.08256
+	Number of Hits in the top 20% = 162/200
+	Avg Fitness of the bottom 80% = -579.0104
+	Number of Hits in the bottom 80% = 147/800
+
+Player2 Generation: 248
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 200/200
+	Avg Fitness of the bottom 80% = -219.2865
+	Number of Hits in the bottom 80% = 371/800
+
+------------------------------------------
+
+Game Distance: 162.187
+
+Player1 Generation: 249
+	Avg Fitness of top 20% = -23.82343
+	Number of Hits in the top 20% = 164/200
+	Avg Fitness of the bottom 80% = -566.3642
+	Number of Hits in the bottom 80% = 170/800
+
+Player2 Generation: 249
+	Avg Fitness of top 20% = -1.929811
+	Number of Hits in the top 20% = 194/200
+	Avg Fitness of the bottom 80% = -300.7191
+	Number of Hits in the bottom 80% = 304/800
+
+------------------------------------------
+
+Game Distance: 202.5866
+
+Player1 Generation: 250
+	Avg Fitness of top 20% = -220.9231
+	Number of Hits in the top 20% = 33/200
+	Avg Fitness of the bottom 80% = -933.6628
+	Number of Hits in the bottom 80% = 0/800
+
+Player2 Generation: 250
+	Avg Fitness of top 20% = -58.41975
+	Number of Hits in the top 20% = 148/200
+	Avg Fitness of the bottom 80% = -414.9391
+	Number of Hits in the bottom 80% = 185/800
+
+------------------------------------------
+
+Game Distance: 202.5866
+
+Player1 Generation: 251
+	Avg Fitness of top 20% = -111.8489
+	Number of Hits in the top 20% = 75/200
+	Avg Fitness of the bottom 80% = -653.5728
+	Number of Hits in the bottom 80% = 59/800
+
+Player2 Generation: 251
+	Avg Fitness of top 20% = -70.14977
+	Number of Hits in the top 20% = 137/200
+	Avg Fitness of the bottom 80% = -374.9633
+	Number of Hits in the bottom 80% = 211/800
+
+------------------------------------------
+
+Game Distance: 202.5866
+
+Player1 Generation: 252
+	Avg Fitness of top 20% = -77.44511
+	Number of Hits in the top 20% = 113/200
+	Avg Fitness of the bottom 80% = -717.6406
+	Number of Hits in the bottom 80% = 78/800
+
+Player2 Generation: 252
+	Avg Fitness of top 20% = -54.15664
+	Number of Hits in the top 20% = 146/200
+	Avg Fitness of the bottom 80% = -411.6219
+	Number of Hits in the bottom 80% = 218/800
+
+------------------------------------------
+
+Game Distance: 202.5866
+
+Player1 Generation: 253
+	Avg Fitness of top 20% = -65.28725
+	Number of Hits in the top 20% = 116/200
+	Avg Fitness of the bottom 80% = -577.1602
+	Number of Hits in the bottom 80% = 120/800
+
+Player2 Generation: 253
+	Avg Fitness of top 20% = -72.29152
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -357.1736
+	Number of Hits in the bottom 80% = 201/800
+
+------------------------------------------
+
+Game Distance: 171.3999
+
+Player1 Generation: 254
+	Avg Fitness of top 20% = -122.313
+	Number of Hits in the top 20% = 95/200
+	Avg Fitness of the bottom 80% = -568.7327
+	Number of Hits in the bottom 80% = 32/800
+
+Player2 Generation: 254
+	Avg Fitness of top 20% = -9.158063
+	Number of Hits in the top 20% = 181/200
+	Avg Fitness of the bottom 80% = -374.7811
+	Number of Hits in the bottom 80% = 215/800
+
+------------------------------------------
+
+Game Distance: 171.3999
+
+Player1 Generation: 255
+	Avg Fitness of top 20% = -74.95117
+	Number of Hits in the top 20% = 111/200
+	Avg Fitness of the bottom 80% = -587.3172
+	Number of Hits in the bottom 80% = 67/800
+
+Player2 Generation: 255
+	Avg Fitness of top 20% = -8.534517
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -316.8146
+	Number of Hits in the bottom 80% = 243/800
+
+------------------------------------------
+
+Game Distance: 171.3999
+
+Player1 Generation: 256
+	Avg Fitness of top 20% = -56.16813
+	Number of Hits in the top 20% = 126/200
+	Avg Fitness of the bottom 80% = -508.8253
+	Number of Hits in the bottom 80% = 116/800
+
+Player2 Generation: 256
+	Avg Fitness of top 20% = -8.684778
+	Number of Hits in the top 20% = 184/200
+	Avg Fitness of the bottom 80% = -268.4507
+	Number of Hits in the bottom 80% = 277/800
+
+------------------------------------------
+
+Game Distance: 171.3999
+
+Player1 Generation: 257
+	Avg Fitness of top 20% = -47.29131
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -496.1249
+	Number of Hits in the bottom 80% = 99/800
+
+Player2 Generation: 257
+	Avg Fitness of top 20% = -6.293519
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -410.5674
+	Number of Hits in the bottom 80% = 216/800
+
+------------------------------------------
+
+Game Distance: 194.7047
+
+Player1 Generation: 258
+	Avg Fitness of top 20% = -170.3642
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -802.1476
+	Number of Hits in the bottom 80% = 11/800
+
+Player2 Generation: 258
+	Avg Fitness of top 20% = -46.42646
+	Number of Hits in the top 20% = 146/200
+	Avg Fitness of the bottom 80% = -578.1483
+	Number of Hits in the bottom 80% = 212/800
+
+------------------------------------------
+
+Game Distance: 194.7047
+
+Player1 Generation: 259
+	Avg Fitness of top 20% = -114.52
+	Number of Hits in the top 20% = 88/200
+	Avg Fitness of the bottom 80% = -640.8314
+	Number of Hits in the bottom 80% = 68/800
+
+Player2 Generation: 259
+	Avg Fitness of top 20% = -45.37122
+	Number of Hits in the top 20% = 144/200
+	Avg Fitness of the bottom 80% = -440.8373
+	Number of Hits in the bottom 80% = 204/800
+
+------------------------------------------
+
+Game Distance: 194.7047
+
+Player1 Generation: 260
+	Avg Fitness of top 20% = -63.69335
+	Number of Hits in the top 20% = 133/200
+	Avg Fitness of the bottom 80% = -576.7338
+	Number of Hits in the bottom 80% = 98/800
+
+Player2 Generation: 260
+	Avg Fitness of top 20% = -36.99667
+	Number of Hits in the top 20% = 151/200
+	Avg Fitness of the bottom 80% = -487.2257
+	Number of Hits in the bottom 80% = 179/800
+
+------------------------------------------
+
+Game Distance: 194.7047
+
+Player1 Generation: 261
+	Avg Fitness of top 20% = -57.32582
+	Number of Hits in the top 20% = 130/200
+	Avg Fitness of the bottom 80% = -547.6042
+	Number of Hits in the bottom 80% = 100/800
+
+Player2 Generation: 261
+	Avg Fitness of top 20% = -48.84698
+	Number of Hits in the top 20% = 147/200
+	Avg Fitness of the bottom 80% = -583.0781
+	Number of Hits in the bottom 80% = 128/800
+
+------------------------------------------
+
+Game Distance: 182.9606
+
+Player1 Generation: 262
+	Avg Fitness of top 20% = -44.04628
+	Number of Hits in the top 20% = 149/200
+	Avg Fitness of the bottom 80% = -498.1437
+	Number of Hits in the bottom 80% = 96/800
+
+Player2 Generation: 262
+	Avg Fitness of top 20% = -13.71407
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -385.1383
+	Number of Hits in the bottom 80% = 191/800
+
+------------------------------------------
+
+Game Distance: 182.9606
+
+Player1 Generation: 263
+	Avg Fitness of top 20% = -41.0294
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -481.5486
+	Number of Hits in the bottom 80% = 101/800
+
+Player2 Generation: 263
+	Avg Fitness of top 20% = -15.40999
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -383.9961
+	Number of Hits in the bottom 80% = 227/800
+
+------------------------------------------
+
+Game Distance: 182.9606
+
+Player1 Generation: 264
+	Avg Fitness of top 20% = -45.20469
+	Number of Hits in the top 20% = 142/200
+	Avg Fitness of the bottom 80% = -546.4952
+	Number of Hits in the bottom 80% = 100/800
+
+Player2 Generation: 264
+	Avg Fitness of top 20% = -15.58674
+	Number of Hits in the top 20% = 178/200
+	Avg Fitness of the bottom 80% = -336.5229
+	Number of Hits in the bottom 80% = 266/800
+
+------------------------------------------
+
+Game Distance: 182.9606
+
+Player1 Generation: 265
+	Avg Fitness of top 20% = -33.73331
+	Number of Hits in the top 20% = 153/200
+	Avg Fitness of the bottom 80% = -524.2914
+	Number of Hits in the bottom 80% = 130/800
+
+Player2 Generation: 265
+	Avg Fitness of top 20% = -17.36102
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -424.298
+	Number of Hits in the bottom 80% = 198/800
+
+------------------------------------------
+
+Game Distance: 160.7513
+
+Player1 Generation: 266
+	Avg Fitness of top 20% = -175.6681
+	Number of Hits in the top 20% = 38/200
+	Avg Fitness of the bottom 80% = -536.1177
+	Number of Hits in the bottom 80% = 19/800
+
+Player2 Generation: 266
+	Avg Fitness of top 20% = -7.676202
+	Number of Hits in the top 20% = 187/200
+	Avg Fitness of the bottom 80% = -409.2388
+	Number of Hits in the bottom 80% = 237/800
+
+------------------------------------------
+
+Game Distance: 160.7513
+
+Player1 Generation: 267
+	Avg Fitness of top 20% = -120.9907
+	Number of Hits in the top 20% = 79/200
+	Avg Fitness of the bottom 80% = -531.5364
+	Number of Hits in the bottom 80% = 34/800
+
+Player2 Generation: 267
+	Avg Fitness of top 20% = -6.908609
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -310.2411
+	Number of Hits in the bottom 80% = 248/800
+
+------------------------------------------
+
+Game Distance: 160.7513
+
+Player1 Generation: 268
+	Avg Fitness of top 20% = -54.51357
+	Number of Hits in the top 20% = 136/200
+	Avg Fitness of the bottom 80% = -477.3949
+	Number of Hits in the bottom 80% = 76/800
+
+Player2 Generation: 268
+	Avg Fitness of top 20% = -7.869182
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -349.2408
+	Number of Hits in the bottom 80% = 227/800
+
+------------------------------------------
+
+Game Distance: 160.7513
+
+Player1 Generation: 269
+	Avg Fitness of top 20% = -48.65879
+	Number of Hits in the top 20% = 141/200
+	Avg Fitness of the bottom 80% = -452.2842
+	Number of Hits in the bottom 80% = 115/800
+
+Player2 Generation: 269
+	Avg Fitness of top 20% = -3.646585
+	Number of Hits in the top 20% = 191/200
+	Avg Fitness of the bottom 80% = -306.6409
+	Number of Hits in the bottom 80% = 272/800
+
+------------------------------------------
+
+Game Distance: 161.8963
+
+Player1 Generation: 270
+	Avg Fitness of top 20% = -73.03162
+	Number of Hits in the top 20% = 117/200
+	Avg Fitness of the bottom 80% = -539.5059
+	Number of Hits in the bottom 80% = 91/800
+
+Player2 Generation: 270
+	Avg Fitness of top 20% = -52.04155
+	Number of Hits in the top 20% = 159/200
+	Avg Fitness of the bottom 80% = -511.6576
+	Number of Hits in the bottom 80% = 196/800
+
+------------------------------------------
+
+Game Distance: 161.8963
+
+Player1 Generation: 271
+	Avg Fitness of top 20% = -60.60209
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -509.0485
+	Number of Hits in the bottom 80% = 98/800
+
+Player2 Generation: 271
+	Avg Fitness of top 20% = -69.15221
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -583.7001
+	Number of Hits in the bottom 80% = 166/800
+
+------------------------------------------
+
+Game Distance: 161.8963
+
+Player1 Generation: 272
+	Avg Fitness of top 20% = -56.77074
+	Number of Hits in the top 20% = 129/200
+	Avg Fitness of the bottom 80% = -470.8443
+	Number of Hits in the bottom 80% = 96/800
+
+Player2 Generation: 272
+	Avg Fitness of top 20% = -70.75388
+	Number of Hits in the top 20% = 111/200
+	Avg Fitness of the bottom 80% = -467.6827
+	Number of Hits in the bottom 80% = 209/800
+
+------------------------------------------
+
+Game Distance: 161.8963
+
+Player1 Generation: 273
+	Avg Fitness of top 20% = -44.83104
+	Number of Hits in the top 20% = 141/200
+	Avg Fitness of the bottom 80% = -519.2262
+	Number of Hits in the bottom 80% = 73/800
+
+Player2 Generation: 273
+	Avg Fitness of top 20% = -38.36494
+	Number of Hits in the top 20% = 130/200
+	Avg Fitness of the bottom 80% = -450.554
+	Number of Hits in the bottom 80% = 164/800
+
+------------------------------------------
+
+Game Distance: 179.1078
+
+Player1 Generation: 274
+	Avg Fitness of top 20% = -88.00343
+	Number of Hits in the top 20% = 97/200
+	Avg Fitness of the bottom 80% = -617.1627
+	Number of Hits in the bottom 80% = 42/800
+
+Player2 Generation: 274
+	Avg Fitness of top 20% = -27.14628
+	Number of Hits in the top 20% = 163/200
+	Avg Fitness of the bottom 80% = -423.5123
+	Number of Hits in the bottom 80% = 148/800
+
+------------------------------------------
+
+Game Distance: 179.1078
+
+Player1 Generation: 275
+	Avg Fitness of top 20% = -40.32497
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -560.5197
+	Number of Hits in the bottom 80% = 93/800
+
+Player2 Generation: 275
+	Avg Fitness of top 20% = -33.50317
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -396.7682
+	Number of Hits in the bottom 80% = 191/800
+
+------------------------------------------
+
+Game Distance: 179.1078
+
+Player1 Generation: 276
+	Avg Fitness of top 20% = -54.8796
+	Number of Hits in the top 20% = 127/200
+	Avg Fitness of the bottom 80% = -635.9055
+	Number of Hits in the bottom 80% = 77/800
+
+Player2 Generation: 276
+	Avg Fitness of top 20% = -33.25971
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -474.5198
+	Number of Hits in the bottom 80% = 171/800
+
+------------------------------------------
+
+Game Distance: 179.1078
+
+Player1 Generation: 277
+	Avg Fitness of top 20% = -55.27549
+	Number of Hits in the top 20% = 118/200
+	Avg Fitness of the bottom 80% = -564.6397
+	Number of Hits in the bottom 80% = 81/800
+
+Player2 Generation: 277
+	Avg Fitness of top 20% = -15.11407
+	Number of Hits in the top 20% = 177/200
+	Avg Fitness of the bottom 80% = -360.6487
+	Number of Hits in the bottom 80% = 201/800
+
+------------------------------------------
+
+Game Distance: 154.3443
+
+Player1 Generation: 278
+	Avg Fitness of top 20% = -182.7747
+	Number of Hits in the top 20% = 47/200
+	Avg Fitness of the bottom 80% = -650.0739
+	Number of Hits in the bottom 80% = 24/800
+
+Player2 Generation: 278
+	Avg Fitness of top 20% = -19.83329
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -301.5954
+	Number of Hits in the bottom 80% = 210/800
+
+------------------------------------------
+
+Game Distance: 154.3443
+
+Player1 Generation: 279
+	Avg Fitness of top 20% = -105.4439
+	Number of Hits in the top 20% = 90/200
+	Avg Fitness of the bottom 80% = -578.5952
+	Number of Hits in the bottom 80% = 36/800
+
+Player2 Generation: 279
+	Avg Fitness of top 20% = -11.34822
+	Number of Hits in the top 20% = 177/200
+	Avg Fitness of the bottom 80% = -362.0837
+	Number of Hits in the bottom 80% = 194/800
+
+------------------------------------------
+
+Game Distance: 154.3443
+
+Player1 Generation: 280
+	Avg Fitness of top 20% = -74.49308
+	Number of Hits in the top 20% = 115/200
+	Avg Fitness of the bottom 80% = -628.7494
+	Number of Hits in the bottom 80% = 52/800
+
+Player2 Generation: 280
+	Avg Fitness of top 20% = -14.91427
+	Number of Hits in the top 20% = 172/200
+	Avg Fitness of the bottom 80% = -316.0247
+	Number of Hits in the bottom 80% = 241/800
+
+------------------------------------------
+
+Game Distance: 154.3443
+
+Player1 Generation: 281
+	Avg Fitness of top 20% = -65.55065
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -524.1147
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 281
+	Avg Fitness of top 20% = -11.76935
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -345.7398
+	Number of Hits in the bottom 80% = 226/800
+
+------------------------------------------
+
+Game Distance: 130.8879
+
+Player1 Generation: 282
+	Avg Fitness of top 20% = -166.4117
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -539.4955
+	Number of Hits in the bottom 80% = 21/800
+
+Player2 Generation: 282
+	Avg Fitness of top 20% = -65.04186
+	Number of Hits in the top 20% = 127/200
+	Avg Fitness of the bottom 80% = -386.2834
+	Number of Hits in the bottom 80% = 144/800
+
+------------------------------------------
+
+Game Distance: 130.8879
+
+Player1 Generation: 283
+	Avg Fitness of top 20% = -88.66547
+	Number of Hits in the top 20% = 107/200
+	Avg Fitness of the bottom 80% = -475.1559
+	Number of Hits in the bottom 80% = 75/800
+
+Player2 Generation: 283
+	Avg Fitness of top 20% = -66.29909
+	Number of Hits in the top 20% = 131/200
+	Avg Fitness of the bottom 80% = -364.2925
+	Number of Hits in the bottom 80% = 160/800
+
+------------------------------------------
+
+Game Distance: 130.8879
+
+Player1 Generation: 284
+	Avg Fitness of top 20% = -61.73047
+	Number of Hits in the top 20% = 128/200
+	Avg Fitness of the bottom 80% = -418.8178
+	Number of Hits in the bottom 80% = 106/800
+
+Player2 Generation: 284
+	Avg Fitness of top 20% = -54.46935
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -354.0155
+	Number of Hits in the bottom 80% = 176/800
+
+------------------------------------------
+
+Game Distance: 130.8879
+
+Player1 Generation: 285
+	Avg Fitness of top 20% = -50.4065
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -387.5535
+	Number of Hits in the bottom 80% = 104/800
+
+Player2 Generation: 285
+	Avg Fitness of top 20% = -60.53025
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -407.3922
+	Number of Hits in the bottom 80% = 147/800
+
+------------------------------------------
+
+Game Distance: 187.8938
+
+Player1 Generation: 286
+	Avg Fitness of top 20% = -277.4864
+	Number of Hits in the top 20% = 20/200
+	Avg Fitness of the bottom 80% = -805.7994
+	Number of Hits in the bottom 80% = 5/800
+
+Player2 Generation: 286
+	Avg Fitness of top 20% = -33.80473
+	Number of Hits in the top 20% = 163/200
+	Avg Fitness of the bottom 80% = -371.6677
+	Number of Hits in the bottom 80% = 185/800
+
+------------------------------------------
+
+Game Distance: 187.8938
+
+Player1 Generation: 287
+	Avg Fitness of top 20% = -145.8227
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -652.8927
+	Number of Hits in the bottom 80% = 24/800
+
+Player2 Generation: 287
+	Avg Fitness of top 20% = -27.99343
+	Number of Hits in the top 20% = 165/200
+	Avg Fitness of the bottom 80% = -396.9559
+	Number of Hits in the bottom 80% = 221/800
+
+------------------------------------------
+
+Game Distance: 187.8938
+
+Player1 Generation: 288
+	Avg Fitness of top 20% = -87.97256
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -611.3044
+	Number of Hits in the bottom 80% = 54/800
+
+Player2 Generation: 288
+	Avg Fitness of top 20% = -30.08548
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -386.3607
+	Number of Hits in the bottom 80% = 200/800
+
+------------------------------------------
+
+Game Distance: 187.8938
+
+Player1 Generation: 289
+	Avg Fitness of top 20% = -95.9337
+	Number of Hits in the top 20% = 85/200
+	Avg Fitness of the bottom 80% = -583.877
+	Number of Hits in the bottom 80% = 75/800
+
+Player2 Generation: 289
+	Avg Fitness of top 20% = -22.70058
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -293.5159
+	Number of Hits in the bottom 80% = 274/800
+
+------------------------------------------
+
+Game Distance: 166.5661
+
+Player1 Generation: 290
+	Avg Fitness of top 20% = -72.46254
+	Number of Hits in the top 20% = 116/200
+	Avg Fitness of the bottom 80% = -453.9845
+	Number of Hits in the bottom 80% = 91/800
+
+Player2 Generation: 290
+	Avg Fitness of top 20% = -8.216021
+	Number of Hits in the top 20% = 182/200
+	Avg Fitness of the bottom 80% = -329.3922
+	Number of Hits in the bottom 80% = 246/800
+
+------------------------------------------
+
+Game Distance: 166.5661
+
+Player1 Generation: 291
+	Avg Fitness of top 20% = -48.51105
+	Number of Hits in the top 20% = 126/200
+	Avg Fitness of the bottom 80% = -414.7563
+	Number of Hits in the bottom 80% = 111/800
+
+Player2 Generation: 291
+	Avg Fitness of top 20% = -5.427475
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -274.3058
+	Number of Hits in the bottom 80% = 288/800
+
+------------------------------------------
+
+Game Distance: 166.5661
+
+Player1 Generation: 292
+	Avg Fitness of top 20% = -25.9586
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -301.0247
+	Number of Hits in the bottom 80% = 174/800
+
+Player2 Generation: 292
+	Avg Fitness of top 20% = -0.9191124
+	Number of Hits in the top 20% = 197/200
+	Avg Fitness of the bottom 80% = -286.2313
+	Number of Hits in the bottom 80% = 318/800
+
+------------------------------------------
+
+Game Distance: 166.5661
+
+Player1 Generation: 293
+	Avg Fitness of top 20% = -26.91506
+	Number of Hits in the top 20% = 145/200
+	Avg Fitness of the bottom 80% = -353.5516
+	Number of Hits in the bottom 80% = 189/800
+
+Player2 Generation: 293
+	Avg Fitness of top 20% = -1.996466
+	Number of Hits in the top 20% = 194/200
+	Avg Fitness of the bottom 80% = -301.9073
+	Number of Hits in the bottom 80% = 282/800
+
+------------------------------------------
+
+Game Distance: 172.443
+
+Player1 Generation: 294
+	Avg Fitness of top 20% = -24.62922
+	Number of Hits in the top 20% = 154/200
+	Avg Fitness of the bottom 80% = -435.8407
+	Number of Hits in the bottom 80% = 107/800
+
+Player2 Generation: 294
+	Avg Fitness of top 20% = -8.429752
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -272.1554
+	Number of Hits in the bottom 80% = 290/800
+
+------------------------------------------
+
+Game Distance: 172.443
+
+Player1 Generation: 295
+	Avg Fitness of top 20% = -25.98257
+	Number of Hits in the top 20% = 153/200
+	Avg Fitness of the bottom 80% = -448.9996
+	Number of Hits in the bottom 80% = 132/800
+
+Player2 Generation: 295
+	Avg Fitness of top 20% = -3.58645
+	Number of Hits in the top 20% = 192/200
+	Avg Fitness of the bottom 80% = -275.6467
+	Number of Hits in the bottom 80% = 314/800
+
+------------------------------------------
+
+Game Distance: 172.443
+
+Player1 Generation: 296
+	Avg Fitness of top 20% = -26.94287
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -429.338
+	Number of Hits in the bottom 80% = 133/800
+
+Player2 Generation: 296
+	Avg Fitness of top 20% = -2.825694
+	Number of Hits in the top 20% = 194/200
+	Avg Fitness of the bottom 80% = -250.4496
+	Number of Hits in the bottom 80% = 329/800
+
+------------------------------------------
+
+Game Distance: 172.443
+
+Player1 Generation: 297
+	Avg Fitness of top 20% = -24.42055
+	Number of Hits in the top 20% = 156/200
+	Avg Fitness of the bottom 80% = -396.8022
+	Number of Hits in the bottom 80% = 181/800
+
+Player2 Generation: 297
+	Avg Fitness of top 20% = -5.673939
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -331.2347
+	Number of Hits in the bottom 80% = 250/800
+
+------------------------------------------
+
+Game Distance: 216.7363
+
+Player1 Generation: 298
+	Avg Fitness of top 20% = -316.7775
+	Number of Hits in the top 20% = 34/200
+	Avg Fitness of the bottom 80% = -992.883
+	Number of Hits in the bottom 80% = 5/800
+
+Player2 Generation: 298
+	Avg Fitness of top 20% = -98.75739
+	Number of Hits in the top 20% = 126/200
+	Avg Fitness of the bottom 80% = -463.5566
+	Number of Hits in the bottom 80% = 186/800
+
+------------------------------------------
+
+Game Distance: 216.7363
+
+Player1 Generation: 299
+	Avg Fitness of top 20% = -162.0201
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -809.545
+	Number of Hits in the bottom 80% = 28/800
+
+Player2 Generation: 299
+	Avg Fitness of top 20% = -111.1013
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -510.8649
+	Number of Hits in the bottom 80% = 149/800
+
+------------------------------------------
+
+Game Distance: 216.7363
+
+Player1 Generation: 300
+	Avg Fitness of top 20% = -100.8155
+	Number of Hits in the top 20% = 88/200
+	Avg Fitness of the bottom 80% = -627.9388
+	Number of Hits in the bottom 80% = 75/800
+
+Player2 Generation: 300
+	Avg Fitness of top 20% = -104.3108
+	Number of Hits in the top 20% = 120/200
+	Avg Fitness of the bottom 80% = -530.6065
+	Number of Hits in the bottom 80% = 173/800
+
+------------------------------------------
+
+Game Distance: 216.7363
+
+Player1 Generation: 301
+	Avg Fitness of top 20% = -65.79196
+	Number of Hits in the top 20% = 121/200
+	Avg Fitness of the bottom 80% = -477.6906
+	Number of Hits in the bottom 80% = 116/800
+
+Player2 Generation: 301
+	Avg Fitness of top 20% = -110.9489
+	Number of Hits in the top 20% = 112/200
+	Avg Fitness of the bottom 80% = -493.6928
+	Number of Hits in the bottom 80% = 154/800
+
+------------------------------------------
+
+Game Distance: 160.0382
+
+Player1 Generation: 302
+	Avg Fitness of top 20% = -332.3438
+	Number of Hits in the top 20% = 17/200
+	Avg Fitness of the bottom 80% = -778.1009
+	Number of Hits in the bottom 80% = 15/800
+
+Player2 Generation: 302
+	Avg Fitness of top 20% = -5.963101
+	Number of Hits in the top 20% = 190/200
+	Avg Fitness of the bottom 80% = -361.7647
+	Number of Hits in the bottom 80% = 199/800
+
+------------------------------------------
+
+Game Distance: 160.0382
+
+Player1 Generation: 303
+	Avg Fitness of top 20% = -180.7459
+	Number of Hits in the top 20% = 64/200
+	Avg Fitness of the bottom 80% = -598.4615
+	Number of Hits in the bottom 80% = 35/800
+
+Player2 Generation: 303
+	Avg Fitness of top 20% = -2.084143
+	Number of Hits in the top 20% = 194/200
+	Avg Fitness of the bottom 80% = -276.5536
+	Number of Hits in the bottom 80% = 299/800
+
+------------------------------------------
+
+Game Distance: 160.0382
+
+Player1 Generation: 304
+	Avg Fitness of top 20% = -100.4535
+	Number of Hits in the top 20% = 100/200
+	Avg Fitness of the bottom 80% = -484.4066
+	Number of Hits in the bottom 80% = 65/800
+
+Player2 Generation: 304
+	Avg Fitness of top 20% = -1.501966
+	Number of Hits in the top 20% = 196/200
+	Avg Fitness of the bottom 80% = -276.6564
+	Number of Hits in the bottom 80% = 321/800
+
+------------------------------------------
+
+Game Distance: 160.0382
+
+Player1 Generation: 305
+	Avg Fitness of top 20% = -52.03925
+	Number of Hits in the top 20% = 128/200
+	Avg Fitness of the bottom 80% = -440.6141
+	Number of Hits in the bottom 80% = 126/800
+
+Player2 Generation: 305
+	Avg Fitness of top 20% = -0.6899078
+	Number of Hits in the top 20% = 198/200
+	Avg Fitness of the bottom 80% = -273.0236
+	Number of Hits in the bottom 80% = 340/800
+
+------------------------------------------
+
+Game Distance: 223.1296
+
+Player1 Generation: 306
+	Avg Fitness of top 20% = -379.256
+	Number of Hits in the top 20% = 4/200
+	Avg Fitness of the bottom 80% = -1043.993
+	Number of Hits in the bottom 80% = 1/800
+
+Player2 Generation: 306
+	Avg Fitness of top 20% = -135.5268
+	Number of Hits in the top 20% = 100/200
+	Avg Fitness of the bottom 80% = -559.6338
+	Number of Hits in the bottom 80% = 152/800
+
+------------------------------------------
+
+Game Distance: 223.1296
+
+Player1 Generation: 307
+	Avg Fitness of top 20% = -166.7111
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -743.0867
+	Number of Hits in the bottom 80% = 11/800
+
+Player2 Generation: 307
+	Avg Fitness of top 20% = -133.5291
+	Number of Hits in the top 20% = 94/200
+	Avg Fitness of the bottom 80% = -444.7997
+	Number of Hits in the bottom 80% = 168/800
+
+------------------------------------------
+
+Game Distance: 223.1296
+
+Player1 Generation: 308
+	Avg Fitness of top 20% = -132.4414
+	Number of Hits in the top 20% = 66/200
+	Avg Fitness of the bottom 80% = -559.254
+	Number of Hits in the bottom 80% = 41/800
+
+Player2 Generation: 308
+	Avg Fitness of top 20% = -132.2329
+	Number of Hits in the top 20% = 99/200
+	Avg Fitness of the bottom 80% = -500.4485
+	Number of Hits in the bottom 80% = 142/800
+
+------------------------------------------
+
+Game Distance: 223.1296
+
+Player1 Generation: 309
+	Avg Fitness of top 20% = -103.4659
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -620.7127
+	Number of Hits in the bottom 80% = 74/800
+
+Player2 Generation: 309
+	Avg Fitness of top 20% = -145.4232
+	Number of Hits in the top 20% = 90/200
+	Avg Fitness of the bottom 80% = -486.9525
+	Number of Hits in the bottom 80% = 171/800
+
+------------------------------------------
+
+Game Distance: 173.7008
+
+Player1 Generation: 310
+	Avg Fitness of top 20% = -213.9521
+	Number of Hits in the top 20% = 54/200
+	Avg Fitness of the bottom 80% = -730.3439
+	Number of Hits in the bottom 80% = 24/800
+
+Player2 Generation: 310
+	Avg Fitness of top 20% = -22.76082
+	Number of Hits in the top 20% = 166/200
+	Avg Fitness of the bottom 80% = -387.2843
+	Number of Hits in the bottom 80% = 146/800
+
+------------------------------------------
+
+Game Distance: 173.7008
+
+Player1 Generation: 311
+	Avg Fitness of top 20% = -106.9521
+	Number of Hits in the top 20% = 82/200
+	Avg Fitness of the bottom 80% = -472.8692
+	Number of Hits in the bottom 80% = 85/800
+
+Player2 Generation: 311
+	Avg Fitness of top 20% = -6.448537
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -340.8471
+	Number of Hits in the bottom 80% = 254/800
+
+------------------------------------------
+
+Game Distance: 173.7008
+
+Player1 Generation: 312
+	Avg Fitness of top 20% = -76.89185
+	Number of Hits in the top 20% = 109/200
+	Avg Fitness of the bottom 80% = -468.591
+	Number of Hits in the bottom 80% = 91/800
+
+Player2 Generation: 312
+	Avg Fitness of top 20% = -1.322885
+	Number of Hits in the top 20% = 196/200
+	Avg Fitness of the bottom 80% = -277.4298
+	Number of Hits in the bottom 80% = 322/800
+
+------------------------------------------
+
+Game Distance: 173.7008
+
+Player1 Generation: 313
+	Avg Fitness of top 20% = -67.14061
+	Number of Hits in the top 20% = 113/200
+	Avg Fitness of the bottom 80% = -458.3224
+	Number of Hits in the bottom 80% = 92/800
+
+Player2 Generation: 313
+	Avg Fitness of top 20% = -3.441592
+	Number of Hits in the top 20% = 192/200
+	Avg Fitness of the bottom 80% = -326.7879
+	Number of Hits in the bottom 80% = 285/800
+
+------------------------------------------
+
+Game Distance: 173.439
+
+Player1 Generation: 314
+	Avg Fitness of top 20% = -56.21256
+	Number of Hits in the top 20% = 121/200
+	Avg Fitness of the bottom 80% = -394.7387
+	Number of Hits in the bottom 80% = 138/800
+
+Player2 Generation: 314
+	Avg Fitness of top 20% = -90.08906
+	Number of Hits in the top 20% = 154/200
+	Avg Fitness of the bottom 80% = -567.4717
+	Number of Hits in the bottom 80% = 260/800
+
+------------------------------------------
+
+Game Distance: 173.439
+
+Player1 Generation: 315
+	Avg Fitness of top 20% = -50.64881
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -429.8553
+	Number of Hits in the bottom 80% = 143/800
+
+Player2 Generation: 315
+	Avg Fitness of top 20% = -60.04431
+	Number of Hits in the top 20% = 129/200
+	Avg Fitness of the bottom 80% = -506.2292
+	Number of Hits in the bottom 80% = 229/800
+
+------------------------------------------
+
+Game Distance: 173.439
+
+Player1 Generation: 316
+	Avg Fitness of top 20% = -49.44286
+	Number of Hits in the top 20% = 129/200
+	Avg Fitness of the bottom 80% = -431.8126
+	Number of Hits in the bottom 80% = 161/800
+
+Player2 Generation: 316
+	Avg Fitness of top 20% = -41.69874
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -417.4595
+	Number of Hits in the bottom 80% = 172/800
+
+------------------------------------------
+
+Game Distance: 173.439
+
+Player1 Generation: 317
+	Avg Fitness of top 20% = -44.1502
+	Number of Hits in the top 20% = 128/200
+	Avg Fitness of the bottom 80% = -432.5685
+	Number of Hits in the bottom 80% = 130/800
+
+Player2 Generation: 317
+	Avg Fitness of top 20% = -35.18981
+	Number of Hits in the top 20% = 142/200
+	Avg Fitness of the bottom 80% = -395.1164
+	Number of Hits in the bottom 80% = 163/800
+
+------------------------------------------
+
+Game Distance: 197.606
+
+Player1 Generation: 318
+	Avg Fitness of top 20% = -79.67616
+	Number of Hits in the top 20% = 86/200
+	Avg Fitness of the bottom 80% = -491.684
+	Number of Hits in the bottom 80% = 49/800
+
+Player2 Generation: 318
+	Avg Fitness of top 20% = -39.75131
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -293.8066
+	Number of Hits in the bottom 80% = 213/800
+
+------------------------------------------
+
+Game Distance: 197.606
+
+Player1 Generation: 319
+	Avg Fitness of top 20% = -56.43035
+	Number of Hits in the top 20% = 119/200
+	Avg Fitness of the bottom 80% = -509.4423
+	Number of Hits in the bottom 80% = 86/800
+
+Player2 Generation: 319
+	Avg Fitness of top 20% = -32.7707
+	Number of Hits in the top 20% = 159/200
+	Avg Fitness of the bottom 80% = -339.3886
+	Number of Hits in the bottom 80% = 218/800
+
+------------------------------------------
+
+Game Distance: 197.606
+
+Player1 Generation: 320
+	Avg Fitness of top 20% = -50.76475
+	Number of Hits in the top 20% = 126/200
+	Avg Fitness of the bottom 80% = -408.1487
+	Number of Hits in the bottom 80% = 133/800
+
+Player2 Generation: 320
+	Avg Fitness of top 20% = -23.75987
+	Number of Hits in the top 20% = 170/200
+	Avg Fitness of the bottom 80% = -310.8858
+	Number of Hits in the bottom 80% = 277/800
+
+------------------------------------------
+
+Game Distance: 197.606
+
+Player1 Generation: 321
+	Avg Fitness of top 20% = -48.05915
+	Number of Hits in the top 20% = 116/200
+	Avg Fitness of the bottom 80% = -456.3573
+	Number of Hits in the bottom 80% = 133/800
+
+Player2 Generation: 321
+	Avg Fitness of top 20% = -18.67887
+	Number of Hits in the top 20% = 175/200
+	Avg Fitness of the bottom 80% = -271.2943
+	Number of Hits in the bottom 80% = 249/800
+
+------------------------------------------
+
+Game Distance: 220.4898
+
+Player1 Generation: 322
+	Avg Fitness of top 20% = -141.7132
+	Number of Hits in the top 20% = 56/200
+	Avg Fitness of the bottom 80% = -631.841
+	Number of Hits in the bottom 80% = 26/800
+
+Player2 Generation: 322
+	Avg Fitness of top 20% = -67.54949
+	Number of Hits in the top 20% = 139/200
+	Avg Fitness of the bottom 80% = -428.3817
+	Number of Hits in the bottom 80% = 217/800
+
+------------------------------------------
+
+Game Distance: 220.4898
+
+Player1 Generation: 323
+	Avg Fitness of top 20% = -86.86542
+	Number of Hits in the top 20% = 82/200
+	Avg Fitness of the bottom 80% = -577.8175
+	Number of Hits in the bottom 80% = 62/800
+
+Player2 Generation: 323
+	Avg Fitness of top 20% = -78.19395
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -383.8721
+	Number of Hits in the bottom 80% = 183/800
+
+------------------------------------------
+
+Game Distance: 220.4898
+
+Player1 Generation: 324
+	Avg Fitness of top 20% = -70.96422
+	Number of Hits in the top 20% = 109/200
+	Avg Fitness of the bottom 80% = -417.4091
+	Number of Hits in the bottom 80% = 112/800
+
+Player2 Generation: 324
+	Avg Fitness of top 20% = -74.19096
+	Number of Hits in the top 20% = 133/200
+	Avg Fitness of the bottom 80% = -341.1039
+	Number of Hits in the bottom 80% = 214/800
+
+------------------------------------------
+
+Game Distance: 220.4898
+
+Player1 Generation: 325
+	Avg Fitness of top 20% = -59.65148
+	Number of Hits in the top 20% = 113/200
+	Avg Fitness of the bottom 80% = -473.7797
+	Number of Hits in the bottom 80% = 122/800
+
+Player2 Generation: 325
+	Avg Fitness of top 20% = -67.31396
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -333.9554
+	Number of Hits in the bottom 80% = 186/800
+
+------------------------------------------
+
+Game Distance: 156.616
+
+Player1 Generation: 326
+	Avg Fitness of top 20% = -257.277
+	Number of Hits in the top 20% = 41/200
+	Avg Fitness of the bottom 80% = -716.9874
+	Number of Hits in the bottom 80% = 3/800
+
+Player2 Generation: 326
+	Avg Fitness of top 20% = -46.80534
+	Number of Hits in the top 20% = 138/200
+	Avg Fitness of the bottom 80% = -346.7972
+	Number of Hits in the bottom 80% = 190/800
+
+------------------------------------------
+
+Game Distance: 156.616
+
+Player1 Generation: 327
+	Avg Fitness of top 20% = -136.2748
+	Number of Hits in the top 20% = 66/200
+	Avg Fitness of the bottom 80% = -510.1818
+	Number of Hits in the bottom 80% = 56/800
+
+Player2 Generation: 327
+	Avg Fitness of top 20% = -35.86958
+	Number of Hits in the top 20% = 155/200
+	Avg Fitness of the bottom 80% = -342.0678
+	Number of Hits in the bottom 80% = 185/800
+
+------------------------------------------
+
+Game Distance: 156.616
+
+Player1 Generation: 328
+	Avg Fitness of top 20% = -94.77937
+	Number of Hits in the top 20% = 88/200
+	Avg Fitness of the bottom 80% = -556.8336
+	Number of Hits in the bottom 80% = 56/800
+
+Player2 Generation: 328
+	Avg Fitness of top 20% = -42.53091
+	Number of Hits in the top 20% = 137/200
+	Avg Fitness of the bottom 80% = -318.0989
+	Number of Hits in the bottom 80% = 208/800
+
+------------------------------------------
+
+Game Distance: 156.616
+
+Player1 Generation: 329
+	Avg Fitness of top 20% = -66.17696
+	Number of Hits in the top 20% = 114/200
+	Avg Fitness of the bottom 80% = -405.5507
+	Number of Hits in the bottom 80% = 121/800
+
+Player2 Generation: 329
+	Avg Fitness of top 20% = -41.63975
+	Number of Hits in the top 20% = 151/200
+	Avg Fitness of the bottom 80% = -312.4989
+	Number of Hits in the bottom 80% = 191/800
+
+------------------------------------------
+
+Game Distance: 178.6071
+
+Player1 Generation: 330
+	Avg Fitness of top 20% = -95.30032
+	Number of Hits in the top 20% = 83/200
+	Avg Fitness of the bottom 80% = -426.0699
+	Number of Hits in the bottom 80% = 84/800
+
+Player2 Generation: 330
+	Avg Fitness of top 20% = -10.78219
+	Number of Hits in the top 20% = 181/200
+	Avg Fitness of the bottom 80% = -289.7207
+	Number of Hits in the bottom 80% = 293/800
+
+------------------------------------------
+
+Game Distance: 178.6071
+
+Player1 Generation: 331
+	Avg Fitness of top 20% = -73.73311
+	Number of Hits in the top 20% = 107/200
+	Avg Fitness of the bottom 80% = -453.1013
+	Number of Hits in the bottom 80% = 107/800
+
+Player2 Generation: 331
+	Avg Fitness of top 20% = -10.13998
+	Number of Hits in the top 20% = 183/200
+	Avg Fitness of the bottom 80% = -253.0272
+	Number of Hits in the bottom 80% = 291/800
+
+------------------------------------------
+
+Game Distance: 178.6071
+
+Player1 Generation: 332
+	Avg Fitness of top 20% = -54.84371
+	Number of Hits in the top 20% = 117/200
+	Avg Fitness of the bottom 80% = -343.2357
+	Number of Hits in the bottom 80% = 139/800
+
+Player2 Generation: 332
+	Avg Fitness of top 20% = -5.321476
+	Number of Hits in the top 20% = 191/200
+	Avg Fitness of the bottom 80% = -291.9995
+	Number of Hits in the bottom 80% = 321/800
+
+------------------------------------------
+
+Game Distance: 178.6071
+
+Player1 Generation: 333
+	Avg Fitness of top 20% = -54.88561
+	Number of Hits in the top 20% = 115/200
+	Avg Fitness of the bottom 80% = -416.2979
+	Number of Hits in the bottom 80% = 123/800
+
+Player2 Generation: 333
+	Avg Fitness of top 20% = -10.17143
+	Number of Hits in the top 20% = 181/200
+	Avg Fitness of the bottom 80% = -264.1935
+	Number of Hits in the bottom 80% = 307/800
+
+------------------------------------------
+
+Game Distance: 173.603
+
+Player1 Generation: 334
+	Avg Fitness of top 20% = -53.90353
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -417.0955
+	Number of Hits in the bottom 80% = 126/800
+
+Player2 Generation: 334
+	Avg Fitness of top 20% = -9.137267
+	Number of Hits in the top 20% = 182/200
+	Avg Fitness of the bottom 80% = -303.4939
+	Number of Hits in the bottom 80% = 267/800
+
+------------------------------------------
+
+Game Distance: 173.603
+
+Player1 Generation: 335
+	Avg Fitness of top 20% = -46.94158
+	Number of Hits in the top 20% = 125/200
+	Avg Fitness of the bottom 80% = -381.6897
+	Number of Hits in the bottom 80% = 121/800
+
+Player2 Generation: 335
+	Avg Fitness of top 20% = -9.823497
+	Number of Hits in the top 20% = 181/200
+	Avg Fitness of the bottom 80% = -245.3125
+	Number of Hits in the bottom 80% = 285/800
+
+------------------------------------------
+
+Game Distance: 173.603
+
+Player1 Generation: 336
+	Avg Fitness of top 20% = -40.48726
+	Number of Hits in the top 20% = 136/200
+	Avg Fitness of the bottom 80% = -365.5151
+	Number of Hits in the bottom 80% = 168/800
+
+Player2 Generation: 336
+	Avg Fitness of top 20% = -7.942862
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -292.0169
+	Number of Hits in the bottom 80% = 256/800
+
+------------------------------------------
+
+Game Distance: 173.603
+
+Player1 Generation: 337
+	Avg Fitness of top 20% = -44.64528
+	Number of Hits in the top 20% = 129/200
+	Avg Fitness of the bottom 80% = -417.6202
+	Number of Hits in the bottom 80% = 152/800
+
+Player2 Generation: 337
+	Avg Fitness of top 20% = -10.52233
+	Number of Hits in the top 20% = 180/200
+	Avg Fitness of the bottom 80% = -265.7454
+	Number of Hits in the bottom 80% = 283/800
+
+------------------------------------------
+
+Game Distance: 162.359
+
+Player1 Generation: 338
+	Avg Fitness of top 20% = -55.61212
+	Number of Hits in the top 20% = 122/200
+	Avg Fitness of the bottom 80% = -353.5327
+	Number of Hits in the bottom 80% = 133/800
+
+Player2 Generation: 338
+	Avg Fitness of top 20% = -18.64221
+	Number of Hits in the top 20% = 172/200
+	Avg Fitness of the bottom 80% = -290.4823
+	Number of Hits in the bottom 80% = 236/800
+
+------------------------------------------
+
+Game Distance: 162.359
+
+Player1 Generation: 339
+	Avg Fitness of top 20% = -38.38219
+	Number of Hits in the top 20% = 144/200
+	Avg Fitness of the bottom 80% = -303.5136
+	Number of Hits in the bottom 80% = 183/800
+
+Player2 Generation: 339
+	Avg Fitness of top 20% = -10.17986
+	Number of Hits in the top 20% = 184/200
+	Avg Fitness of the bottom 80% = -292.9225
+	Number of Hits in the bottom 80% = 272/800
+
+------------------------------------------
+
+Game Distance: 162.359
+
+Player1 Generation: 340
+	Avg Fitness of top 20% = -38.80725
+	Number of Hits in the top 20% = 140/200
+	Avg Fitness of the bottom 80% = -355.684
+	Number of Hits in the bottom 80% = 172/800
+
+Player2 Generation: 340
+	Avg Fitness of top 20% = -8.781644
+	Number of Hits in the top 20% = 187/200
+	Avg Fitness of the bottom 80% = -287.6545
+	Number of Hits in the bottom 80% = 250/800
+
+------------------------------------------
+
+Game Distance: 162.359
+
+Player1 Generation: 341
+	Avg Fitness of top 20% = -38.58218
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -345.6367
+	Number of Hits in the bottom 80% = 187/800
+
+Player2 Generation: 341
+	Avg Fitness of top 20% = -12.61765
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -319.9136
+	Number of Hits in the bottom 80% = 272/800
+
+------------------------------------------
+
+Game Distance: 166.3075
+
+Player1 Generation: 342
+	Avg Fitness of top 20% = -47.79084
+	Number of Hits in the top 20% = 120/200
+	Avg Fitness of the bottom 80% = -422.6447
+	Number of Hits in the bottom 80% = 131/800
+
+Player2 Generation: 342
+	Avg Fitness of top 20% = -125.4583
+	Number of Hits in the top 20% = 109/200
+	Avg Fitness of the bottom 80% = -604.3831
+	Number of Hits in the bottom 80% = 220/800
+
+------------------------------------------
+
+Game Distance: 166.3075
+
+Player1 Generation: 343
+	Avg Fitness of top 20% = -42.64587
+	Number of Hits in the top 20% = 123/200
+	Avg Fitness of the bottom 80% = -421.4726
+	Number of Hits in the bottom 80% = 141/800
+
+Player2 Generation: 343
+	Avg Fitness of top 20% = -103.545
+	Number of Hits in the top 20% = 87/200
+	Avg Fitness of the bottom 80% = -547.4895
+	Number of Hits in the bottom 80% = 134/800
+
+------------------------------------------
+
+Game Distance: 166.3075
+
+Player1 Generation: 344
+	Avg Fitness of top 20% = -37.64794
+	Number of Hits in the top 20% = 135/200
+	Avg Fitness of the bottom 80% = -340.3235
+	Number of Hits in the bottom 80% = 155/800
+
+Player2 Generation: 344
+	Avg Fitness of top 20% = -61.82952
+	Number of Hits in the top 20% = 105/200
+	Avg Fitness of the bottom 80% = -447.4031
+	Number of Hits in the bottom 80% = 142/800
+
+------------------------------------------
+
+Game Distance: 166.3075
+
+Player1 Generation: 345
+	Avg Fitness of top 20% = -38.21256
+	Number of Hits in the top 20% = 130/200
+	Avg Fitness of the bottom 80% = -378.8242
+	Number of Hits in the bottom 80% = 177/800
+
+Player2 Generation: 345
+	Avg Fitness of top 20% = -41.87251
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -431.0155
+	Number of Hits in the bottom 80% = 140/800
+
+------------------------------------------
+
+Game Distance: 214.46
+
+Player1 Generation: 346
+	Avg Fitness of top 20% = -157.4413
+	Number of Hits in the top 20% = 51/200
+	Avg Fitness of the bottom 80% = -619.4095
+	Number of Hits in the bottom 80% = 21/800
+
+Player2 Generation: 346
+	Avg Fitness of top 20% = -149.3447
+	Number of Hits in the top 20% = 85/200
+	Avg Fitness of the bottom 80% = -379.5123
+	Number of Hits in the bottom 80% = 126/800
+
+------------------------------------------
+
+Game Distance: 214.46
+
+Player1 Generation: 347
+	Avg Fitness of top 20% = -81.26643
+	Number of Hits in the top 20% = 101/200
+	Avg Fitness of the bottom 80% = -524.6696
+	Number of Hits in the bottom 80% = 70/800
+
+Player2 Generation: 347
+	Avg Fitness of top 20% = -120.1056
+	Number of Hits in the top 20% = 97/200
+	Avg Fitness of the bottom 80% = -391.0138
+	Number of Hits in the bottom 80% = 134/800
+
+------------------------------------------
+
+Game Distance: 214.46
+
+Player1 Generation: 348
+	Avg Fitness of top 20% = -48.09406
+	Number of Hits in the top 20% = 137/200
+	Avg Fitness of the bottom 80% = -383.0233
+	Number of Hits in the bottom 80% = 143/800
+
+Player2 Generation: 348
+	Avg Fitness of top 20% = -97.66647
+	Number of Hits in the top 20% = 110/200
+	Avg Fitness of the bottom 80% = -338.6799
+	Number of Hits in the bottom 80% = 172/800
+
+------------------------------------------
+
+Game Distance: 214.46
+
+Player1 Generation: 349
+	Avg Fitness of top 20% = -42.29708
+	Number of Hits in the top 20% = 140/200
+	Avg Fitness of the bottom 80% = -340.2448
+	Number of Hits in the bottom 80% = 168/800
+
+Player2 Generation: 349
+	Avg Fitness of top 20% = -95.76453
+	Number of Hits in the top 20% = 100/200
+	Avg Fitness of the bottom 80% = -368.6091
+	Number of Hits in the bottom 80% = 183/800
+
+------------------------------------------
+
+Game Distance: 151.2201
+
+Player1 Generation: 350
+	Avg Fitness of top 20% = -383.446
+	Number of Hits in the top 20% = 6/200
+	Avg Fitness of the bottom 80% = -710.2104
+	Number of Hits in the bottom 80% = 3/800
+
+Player2 Generation: 350
+	Avg Fitness of top 20% = -72.97331
+	Number of Hits in the top 20% = 103/200
+	Avg Fitness of the bottom 80% = -350.9672
+	Number of Hits in the bottom 80% = 130/800
+
+------------------------------------------
+
+Game Distance: 151.2201
+
+Player1 Generation: 351
+	Avg Fitness of top 20% = -246.0609
+	Number of Hits in the top 20% = 28/200
+	Avg Fitness of the bottom 80% = -634.8903
+	Number of Hits in the bottom 80% = 16/800
+
+Player2 Generation: 351
+	Avg Fitness of top 20% = -50.24568
+	Number of Hits in the top 20% = 127/200
+	Avg Fitness of the bottom 80% = -324.2528
+	Number of Hits in the bottom 80% = 157/800
+
+------------------------------------------
+
+Game Distance: 151.2201
+
+Player1 Generation: 352
+	Avg Fitness of top 20% = -130.534
+	Number of Hits in the top 20% = 78/200
+	Avg Fitness of the bottom 80% = -464.7105
+	Number of Hits in the bottom 80% = 58/800
+
+Player2 Generation: 352
+	Avg Fitness of top 20% = -45.89985
+	Number of Hits in the top 20% = 136/200
+	Avg Fitness of the bottom 80% = -279.6118
+	Number of Hits in the bottom 80% = 200/800
+
+------------------------------------------
+
+Game Distance: 151.2201
+
+Player1 Generation: 353
+	Avg Fitness of top 20% = -110.8184
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -463.0056
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 353
+	Avg Fitness of top 20% = -35.94221
+	Number of Hits in the top 20% = 145/200
+	Avg Fitness of the bottom 80% = -273.3477
+	Number of Hits in the bottom 80% = 181/800
+
+------------------------------------------
+
+Game Distance: 153.5223
+
+Player1 Generation: 354
+	Avg Fitness of top 20% = -84.47469
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -408.0485
+	Number of Hits in the bottom 80% = 115/800
+
+Player2 Generation: 354
+	Avg Fitness of top 20% = -26.67639
+	Number of Hits in the top 20% = 157/200
+	Avg Fitness of the bottom 80% = -332.2385
+	Number of Hits in the bottom 80% = 238/800
+
+------------------------------------------
+
+Game Distance: 153.5223
+
+Player1 Generation: 355
+	Avg Fitness of top 20% = -55.95397
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -377.1592
+	Number of Hits in the bottom 80% = 133/800
+
+Player2 Generation: 355
+	Avg Fitness of top 20% = -17.48033
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -317.7626
+	Number of Hits in the bottom 80% = 241/800
+
+------------------------------------------
+
+Game Distance: 153.5223
+
+Player1 Generation: 356
+	Avg Fitness of top 20% = -42.8158
+	Number of Hits in the top 20% = 121/200
+	Avg Fitness of the bottom 80% = -399.0546
+	Number of Hits in the bottom 80% = 170/800
+
+Player2 Generation: 356
+	Avg Fitness of top 20% = -11.45681
+	Number of Hits in the top 20% = 178/200
+	Avg Fitness of the bottom 80% = -262.1798
+	Number of Hits in the bottom 80% = 276/800
+
+------------------------------------------
+
+Game Distance: 153.5223
+
+Player1 Generation: 357
+	Avg Fitness of top 20% = -35.32874
+	Number of Hits in the top 20% = 136/200
+	Avg Fitness of the bottom 80% = -415.1835
+	Number of Hits in the bottom 80% = 143/800
+
+Player2 Generation: 357
+	Avg Fitness of top 20% = -8.687038
+	Number of Hits in the top 20% = 183/200
+	Avg Fitness of the bottom 80% = -273.4312
+	Number of Hits in the bottom 80% = 281/800
+
+------------------------------------------
+
+Game Distance: 162.0038
+
+Player1 Generation: 358
+	Avg Fitness of top 20% = -29.85657
+	Number of Hits in the top 20% = 142/200
+	Avg Fitness of the bottom 80% = -326.1989
+	Number of Hits in the bottom 80% = 153/800
+
+Player2 Generation: 358
+	Avg Fitness of top 20% = -19.92918
+	Number of Hits in the top 20% = 167/200
+	Avg Fitness of the bottom 80% = -256.2404
+	Number of Hits in the bottom 80% = 244/800
+
+------------------------------------------
+
+Game Distance: 162.0038
+
+Player1 Generation: 359
+	Avg Fitness of top 20% = -22.70527
+	Number of Hits in the top 20% = 155/200
+	Avg Fitness of the bottom 80% = -360.5734
+	Number of Hits in the bottom 80% = 157/800
+
+Player2 Generation: 359
+	Avg Fitness of top 20% = -16.72515
+	Number of Hits in the top 20% = 173/200
+	Avg Fitness of the bottom 80% = -328.6933
+	Number of Hits in the bottom 80% = 197/800
+
+------------------------------------------
+
+Game Distance: 162.0038
+
+Player1 Generation: 360
+	Avg Fitness of top 20% = -26.21733
+	Number of Hits in the top 20% = 141/200
+	Avg Fitness of the bottom 80% = -436.3536
+	Number of Hits in the bottom 80% = 123/800
+
+Player2 Generation: 360
+	Avg Fitness of top 20% = -18.43432
+	Number of Hits in the top 20% = 170/200
+	Avg Fitness of the bottom 80% = -314.0171
+	Number of Hits in the bottom 80% = 220/800
+
+------------------------------------------
+
+Game Distance: 162.0038
+
+Player1 Generation: 361
+	Avg Fitness of top 20% = -13.95822
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -431.4057
+	Number of Hits in the bottom 80% = 176/800
+
+Player2 Generation: 361
+	Avg Fitness of top 20% = -16.13646
+	Number of Hits in the top 20% = 175/200
+	Avg Fitness of the bottom 80% = -300.6566
+	Number of Hits in the bottom 80% = 227/800
+
+------------------------------------------
+
+Game Distance: 206.4427
+
+Player1 Generation: 362
+	Avg Fitness of top 20% = -175.4048
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -652.7279
+	Number of Hits in the bottom 80% = 28/800
+
+Player2 Generation: 362
+	Avg Fitness of top 20% = -145.5265
+	Number of Hits in the top 20% = 70/200
+	Avg Fitness of the bottom 80% = -384.3125
+	Number of Hits in the bottom 80% = 97/800
+
+------------------------------------------
+
+Game Distance: 206.4427
+
+Player1 Generation: 363
+	Avg Fitness of top 20% = -51.47458
+	Number of Hits in the top 20% = 124/200
+	Avg Fitness of the bottom 80% = -569.103
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 363
+	Avg Fitness of top 20% = -123.0745
+	Number of Hits in the top 20% = 96/200
+	Avg Fitness of the bottom 80% = -420.4866
+	Number of Hits in the bottom 80% = 115/800
+
+------------------------------------------
+
+Game Distance: 206.4427
+
+Player1 Generation: 364
+	Avg Fitness of top 20% = -30.51209
+	Number of Hits in the top 20% = 144/200
+	Avg Fitness of the bottom 80% = -457.7479
+	Number of Hits in the bottom 80% = 136/800
+
+Player2 Generation: 364
+	Avg Fitness of top 20% = -123.3077
+	Number of Hits in the top 20% = 93/200
+	Avg Fitness of the bottom 80% = -417.95
+	Number of Hits in the bottom 80% = 141/800
+
+------------------------------------------
+
+Game Distance: 206.4427
+
+Player1 Generation: 365
+	Avg Fitness of top 20% = -34.77735
+	Number of Hits in the top 20% = 139/200
+	Avg Fitness of the bottom 80% = -389.9352
+	Number of Hits in the bottom 80% = 156/800
+
+Player2 Generation: 365
+	Avg Fitness of top 20% = -97.19553
+	Number of Hits in the top 20% = 109/200
+	Avg Fitness of the bottom 80% = -381.6564
+	Number of Hits in the bottom 80% = 176/800
+
+------------------------------------------
+
+Game Distance: 165.7322
+
+Player1 Generation: 366
+	Avg Fitness of top 20% = -171.335
+	Number of Hits in the top 20% = 55/200
+	Avg Fitness of the bottom 80% = -543.5027
+	Number of Hits in the bottom 80% = 19/800
+
+Player2 Generation: 366
+	Avg Fitness of top 20% = -35.99198
+	Number of Hits in the top 20% = 139/200
+	Avg Fitness of the bottom 80% = -302.3642
+	Number of Hits in the bottom 80% = 179/800
+
+------------------------------------------
+
+Game Distance: 165.7322
+
+Player1 Generation: 367
+	Avg Fitness of top 20% = -85.35645
+	Number of Hits in the top 20% = 84/200
+	Avg Fitness of the bottom 80% = -478.9255
+	Number of Hits in the bottom 80% = 71/800
+
+Player2 Generation: 367
+	Avg Fitness of top 20% = -17.96983
+	Number of Hits in the top 20% = 163/200
+	Avg Fitness of the bottom 80% = -311.4388
+	Number of Hits in the bottom 80% = 209/800
+
+------------------------------------------
+
+Game Distance: 165.7322
+
+Player1 Generation: 368
+	Avg Fitness of top 20% = -54.81115
+	Number of Hits in the top 20% = 116/200
+	Avg Fitness of the bottom 80% = -432.6629
+	Number of Hits in the bottom 80% = 89/800
+
+Player2 Generation: 368
+	Avg Fitness of top 20% = -16.77537
+	Number of Hits in the top 20% = 168/200
+	Avg Fitness of the bottom 80% = -252.0904
+	Number of Hits in the bottom 80% = 240/800
+
+------------------------------------------
+
+Game Distance: 165.7322
+
+Player1 Generation: 369
+	Avg Fitness of top 20% = -27.61829
+	Number of Hits in the top 20% = 154/200
+	Avg Fitness of the bottom 80% = -412.5716
+	Number of Hits in the bottom 80% = 158/800
+
+Player2 Generation: 369
+	Avg Fitness of top 20% = -6.753908
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -221.7808
+	Number of Hits in the bottom 80% = 303/800
+
+------------------------------------------
+
+Game Distance: 191.747
+
+Player1 Generation: 370
+	Avg Fitness of top 20% = -97.01207
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -541.8839
+	Number of Hits in the bottom 80% = 28/800
+
+Player2 Generation: 370
+	Avg Fitness of top 20% = -30.51082
+	Number of Hits in the top 20% = 158/200
+	Avg Fitness of the bottom 80% = -277.2966
+	Number of Hits in the bottom 80% = 233/800
+
+------------------------------------------
+
+Game Distance: 191.747
+
+Player1 Generation: 371
+	Avg Fitness of top 20% = -36.83006
+	Number of Hits in the top 20% = 132/200
+	Avg Fitness of the bottom 80% = -370.0094
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 371
+	Avg Fitness of top 20% = -24.56035
+	Number of Hits in the top 20% = 161/200
+	Avg Fitness of the bottom 80% = -299.2562
+	Number of Hits in the bottom 80% = 250/800
+
+------------------------------------------
+
+Game Distance: 191.747
+
+Player1 Generation: 372
+	Avg Fitness of top 20% = -19.6361
+	Number of Hits in the top 20% = 157/200
+	Avg Fitness of the bottom 80% = -394.0728
+	Number of Hits in the bottom 80% = 148/800
+
+Player2 Generation: 372
+	Avg Fitness of top 20% = -19.57155
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -317.0135
+	Number of Hits in the bottom 80% = 254/800
+
+------------------------------------------
+
+Game Distance: 191.747
+
+Player1 Generation: 373
+	Avg Fitness of top 20% = -8.079442
+	Number of Hits in the top 20% = 178/200
+	Avg Fitness of the bottom 80% = -384.7799
+	Number of Hits in the bottom 80% = 189/800
+
+Player2 Generation: 373
+	Avg Fitness of top 20% = -18.14595
+	Number of Hits in the top 20% = 173/200
+	Avg Fitness of the bottom 80% = -267.9178
+	Number of Hits in the bottom 80% = 276/800
+
+------------------------------------------
+
+Game Distance: 154.5289
+
+Player1 Generation: 374
+	Avg Fitness of top 20% = -138.4124
+	Number of Hits in the top 20% = 49/200
+	Avg Fitness of the bottom 80% = -458.4116
+	Number of Hits in the bottom 80% = 20/800
+
+Player2 Generation: 374
+	Avg Fitness of top 20% = -30.77687
+	Number of Hits in the top 20% = 172/200
+	Avg Fitness of the bottom 80% = -341.5221
+	Number of Hits in the bottom 80% = 212/800
+
+------------------------------------------
+
+Game Distance: 154.5289
+
+Player1 Generation: 375
+	Avg Fitness of top 20% = -68.69128
+	Number of Hits in the top 20% = 112/200
+	Avg Fitness of the bottom 80% = -474.7541
+	Number of Hits in the bottom 80% = 72/800
+
+Player2 Generation: 375
+	Avg Fitness of top 20% = -20.98168
+	Number of Hits in the top 20% = 180/200
+	Avg Fitness of the bottom 80% = -335.0252
+	Number of Hits in the bottom 80% = 216/800
+
+------------------------------------------
+
+Game Distance: 154.5289
+
+Player1 Generation: 376
+	Avg Fitness of top 20% = -41.45451
+	Number of Hits in the top 20% = 132/200
+	Avg Fitness of the bottom 80% = -365.843
+	Number of Hits in the bottom 80% = 134/800
+
+Player2 Generation: 376
+	Avg Fitness of top 20% = -23.00207
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -285.3107
+	Number of Hits in the bottom 80% = 259/800
+
+------------------------------------------
+
+Game Distance: 154.5289
+
+Player1 Generation: 377
+	Avg Fitness of top 20% = -21.76929
+	Number of Hits in the top 20% = 164/200
+	Avg Fitness of the bottom 80% = -310.3065
+	Number of Hits in the bottom 80% = 182/800
+
+Player2 Generation: 377
+	Avg Fitness of top 20% = -19.61866
+	Number of Hits in the top 20% = 176/200
+	Avg Fitness of the bottom 80% = -315.1963
+	Number of Hits in the bottom 80% = 263/800
+
+------------------------------------------
+
+Game Distance: 168.18
+
+Player1 Generation: 378
+	Avg Fitness of top 20% = -28.4008
+	Number of Hits in the top 20% = 141/200
+	Avg Fitness of the bottom 80% = -444.1794
+	Number of Hits in the bottom 80% = 139/800
+
+Player2 Generation: 378
+	Avg Fitness of top 20% = -4.562637
+	Number of Hits in the top 20% = 189/200
+	Avg Fitness of the bottom 80% = -281.0258
+	Number of Hits in the bottom 80% = 248/800
+
+------------------------------------------
+
+Game Distance: 168.18
+
+Player1 Generation: 379
+	Avg Fitness of top 20% = -18.07102
+	Number of Hits in the top 20% = 160/200
+	Avg Fitness of the bottom 80% = -383.1867
+	Number of Hits in the bottom 80% = 165/800
+
+Player2 Generation: 379
+	Avg Fitness of top 20% = -7.859828
+	Number of Hits in the top 20% = 187/200
+	Avg Fitness of the bottom 80% = -310.9741
+	Number of Hits in the bottom 80% = 231/800
+
+------------------------------------------
+
+Game Distance: 168.18
+
+Player1 Generation: 380
+	Avg Fitness of top 20% = -12.25604
+	Number of Hits in the top 20% = 177/200
+	Avg Fitness of the bottom 80% = -377.3563
+	Number of Hits in the bottom 80% = 179/800
+
+Player2 Generation: 380
+	Avg Fitness of top 20% = -2.31282
+	Number of Hits in the top 20% = 194/200
+	Avg Fitness of the bottom 80% = -237.5359
+	Number of Hits in the bottom 80% = 345/800
+
+------------------------------------------
+
+Game Distance: 168.18
+
+Player1 Generation: 381
+	Avg Fitness of top 20% = -6.922299
+	Number of Hits in the top 20% = 186/200
+	Avg Fitness of the bottom 80% = -306.6232
+	Number of Hits in the bottom 80% = 231/800
+
+Player2 Generation: 381
+	Avg Fitness of top 20% = -1.565781
+	Number of Hits in the top 20% = 195/200
+	Avg Fitness of the bottom 80% = -246.5721
+	Number of Hits in the bottom 80% = 302/800
+
+------------------------------------------
+
+Game Distance: 103.7954
+
+Player1 Generation: 382
+	Avg Fitness of top 20% = -298.3138
+	Number of Hits in the top 20% = 28/200
+	Avg Fitness of the bottom 80% = -694.5234
+	Number of Hits in the bottom 80% = 8/800
+
+Player2 Generation: 382
+	Avg Fitness of top 20% = -170.9741
+	Number of Hits in the top 20% = 60/200
+	Avg Fitness of the bottom 80% = -388.3188
+	Number of Hits in the bottom 80% = 122/800
+
+------------------------------------------
+
+Game Distance: 103.7954
+
+Player1 Generation: 383
+	Avg Fitness of top 20% = -178.5391
+	Number of Hits in the top 20% = 53/200
+	Avg Fitness of the bottom 80% = -496.1709
+	Number of Hits in the bottom 80% = 41/800
+
+Player2 Generation: 383
+	Avg Fitness of top 20% = -164.482
+	Number of Hits in the top 20% = 56/200
+	Avg Fitness of the bottom 80% = -393.429
+	Number of Hits in the bottom 80% = 118/800
+
+------------------------------------------
+
+Game Distance: 103.7954
+
+Player1 Generation: 384
+	Avg Fitness of top 20% = -124.3119
+	Number of Hits in the top 20% = 77/200
+	Avg Fitness of the bottom 80% = -453.7115
+	Number of Hits in the bottom 80% = 87/800
+
+Player2 Generation: 384
+	Avg Fitness of top 20% = -177.2983
+	Number of Hits in the top 20% = 62/200
+	Avg Fitness of the bottom 80% = -399.7825
+	Number of Hits in the bottom 80% = 114/800
+
+------------------------------------------
+
+Game Distance: 103.7954
+
+Player1 Generation: 385
+	Avg Fitness of top 20% = -87.57103
+	Number of Hits in the top 20% = 102/200
+	Avg Fitness of the bottom 80% = -350.2817
+	Number of Hits in the bottom 80% = 100/800
+
+Player2 Generation: 385
+	Avg Fitness of top 20% = -168.2374
+	Number of Hits in the top 20% = 72/200
+	Avg Fitness of the bottom 80% = -371.4869
+	Number of Hits in the bottom 80% = 98/800
+
+------------------------------------------
+
+Game Distance: 180.963
+
+Player1 Generation: 386
+	Avg Fitness of top 20% = -448.8622
+	Number of Hits in the top 20% = 13/200
+	Avg Fitness of the bottom 80% = -949.05
+	Number of Hits in the bottom 80% = 6/800
+
+Player2 Generation: 386
+	Avg Fitness of top 20% = -12.09212
+	Number of Hits in the top 20% = 177/200
+	Avg Fitness of the bottom 80% = -315.0129
+	Number of Hits in the bottom 80% = 200/800
+
+------------------------------------------
+
+Game Distance: 180.963
+
+Player1 Generation: 387
+	Avg Fitness of top 20% = -205.4044
+	Number of Hits in the top 20% = 45/200
+	Avg Fitness of the bottom 80% = -814.4908
+	Number of Hits in the bottom 80% = 11/800
+
+Player2 Generation: 387
+	Avg Fitness of top 20% = -7.792331
+	Number of Hits in the top 20% = 183/200
+	Avg Fitness of the bottom 80% = -219.8253
+	Number of Hits in the bottom 80% = 294/800
+
+------------------------------------------
+
+Game Distance: 180.963
+
+Player1 Generation: 388
+	Avg Fitness of top 20% = -105.1645
+	Number of Hits in the top 20% = 68/200
+	Avg Fitness of the bottom 80% = -538.1315
+	Number of Hits in the bottom 80% = 65/800
+
+Player2 Generation: 388
+	Avg Fitness of top 20% = -5.805408
+	Number of Hits in the top 20% = 188/200
+	Avg Fitness of the bottom 80% = -311.875
+	Number of Hits in the bottom 80% = 258/800
+
+------------------------------------------
+
+Game Distance: 180.963
+
+Player1 Generation: 389
+	Avg Fitness of top 20% = -56.83991
+	Number of Hits in the top 20% = 115/200
+	Avg Fitness of the bottom 80% = -500.5095
+	Number of Hits in the bottom 80% = 69/800
+
+Player2 Generation: 389
+	Avg Fitness of top 20% = -7.627799
+	Number of Hits in the top 20% = 185/200
+	Avg Fitness of the bottom 80% = -324.1274
+	Number of Hits in the bottom 80% = 255/800
+
+------------------------------------------
+
+Game Distance: 192.187
+
+Player1 Generation: 390
+	Avg Fitness of top 20% = -13.7047
+	Number of Hits in the top 20% = 175/200
+	Avg Fitness of the bottom 80% = -431.6692
+	Number of Hits in the bottom 80% = 125/800
+
+Player2 Generation: 390
+	Avg Fitness of top 20% = -20.46845
+	Number of Hits in the top 20% = 172/200
+	Avg Fitness of the bottom 80% = -251.8803
+	Number of Hits in the bottom 80% = 295/800
+
+------------------------------------------
+
+Game Distance: 192.187
+
+Player1 Generation: 391
+	Avg Fitness of top 20% = -3.314825
+	Number of Hits in the top 20% = 193/200
+	Avg Fitness of the bottom 80% = -302.6075
+	Number of Hits in the bottom 80% = 255/800
+
+Player2 Generation: 391
+	Avg Fitness of top 20% = -17.35617
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -183.5554
+	Number of Hits in the bottom 80% = 353/800
+
+------------------------------------------
+
+Game Distance: 192.187
+
+Player1 Generation: 392
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 200/200
+	Avg Fitness of the bottom 80% = -365.1594
+	Number of Hits in the bottom 80% = 310/800
+
+Player2 Generation: 392
+	Avg Fitness of top 20% = -16.07845
+	Number of Hits in the top 20% = 179/200
+	Avg Fitness of the bottom 80% = -281.5274
+	Number of Hits in the bottom 80% = 259/800
+
+------------------------------------------
+
+Game Distance: 192.187
+
+Player1 Generation: 393
+	Avg Fitness of top 20% = -1.89588
+	Number of Hits in the top 20% = 194/200
+	Avg Fitness of the bottom 80% = -400.9841
+	Number of Hits in the bottom 80% = 274/800
+
+Player2 Generation: 393
+	Avg Fitness of top 20% = -15.26807
+	Number of Hits in the top 20% = 176/200
+	Avg Fitness of the bottom 80% = -300.804
+	Number of Hits in the bottom 80% = 231/800
+
+------------------------------------------
+
+Game Distance: 177.6824
+
+Player1 Generation: 394
+	Avg Fitness of top 20% = -26.5466
+	Number of Hits in the top 20% = 154/200
+	Avg Fitness of the bottom 80% = -368.5968
+	Number of Hits in the bottom 80% = 167/800
+
+Player2 Generation: 394
+	Avg Fitness of top 20% = -3.743282
+	Number of Hits in the top 20% = 190/200
+	Avg Fitness of the bottom 80% = -267.2281
+	Number of Hits in the bottom 80% = 274/800
+
+------------------------------------------
+
+Game Distance: 177.6824
+
+Player1 Generation: 395
+	Avg Fitness of top 20% = -26.56105
+	Number of Hits in the top 20% = 152/200
+	Avg Fitness of the bottom 80% = -399.8869
+	Number of Hits in the bottom 80% = 172/800
+
+Player2 Generation: 395
+	Avg Fitness of top 20% = -3.982485
+	Number of Hits in the top 20% = 190/200
+	Avg Fitness of the bottom 80% = -252.0899
+	Number of Hits in the bottom 80% = 300/800
+
+------------------------------------------
+
+Game Distance: 177.6824
+
+Player1 Generation: 396
+	Avg Fitness of top 20% = -14.58177
+	Number of Hits in the top 20% = 171/200
+	Avg Fitness of the bottom 80% = -336.8518
+	Number of Hits in the bottom 80% = 172/800
+
+Player2 Generation: 396
+	Avg Fitness of top 20% = -7.616145
+	Number of Hits in the top 20% = 186/200
+	Avg Fitness of the bottom 80% = -280.707
+	Number of Hits in the bottom 80% = 309/800
+
+------------------------------------------
+
+Game Distance: 177.6824
+
+Player1 Generation: 397
+	Avg Fitness of top 20% = -8.699101
+	Number of Hits in the top 20% = 180/200
+	Avg Fitness of the bottom 80% = -419.8235
+	Number of Hits in the bottom 80% = 171/800
+
+Player2 Generation: 397
+	Avg Fitness of top 20% = -1.620343
+	Number of Hits in the top 20% = 196/200
+	Avg Fitness of the bottom 80% = -227.349
+	Number of Hits in the bottom 80% = 364/800
+
+------------------------------------------
+
+Game Distance: 181.9859
+
+Player1 Generation: 398
+	Avg Fitness of top 20% = -5.252728
+	Number of Hits in the top 20% = 187/200
+	Avg Fitness of the bottom 80% = -396.4049
+	Number of Hits in the bottom 80% = 185/800
+
+Player2 Generation: 398
+	Avg Fitness of top 20% = -2.741008
+	Number of Hits in the top 20% = 193/200
+	Avg Fitness of the bottom 80% = -247.0125
+	Number of Hits in the bottom 80% = 328/800
+
+------------------------------------------
+
+Game Distance: 181.9859
+
+Player1 Generation: 399
+	Avg Fitness of top 20% = -2.754169
+	Number of Hits in the top 20% = 193/200
+	Avg Fitness of the bottom 80% = -396.1817
+	Number of Hits in the bottom 80% = 166/800
+
+Player2 Generation: 399
+	Avg Fitness of top 20% = -3.617877
+	Number of Hits in the top 20% = 191/200
+	Avg Fitness of the bottom 80% = -283.5952
+	Number of Hits in the bottom 80% = 310/800
+
+------------------------------------------
+
+Game Distance: 181.9859
+
+Player1 Generation: 400
+	Avg Fitness of top 20% = -1.36228
+	Number of Hits in the top 20% = 196/200
+	Avg Fitness of the bottom 80% = -328.8758
+	Number of Hits in the bottom 80% = 242/800
+
+Player2 Generation: 400
+	Avg Fitness of top 20% = -3.269675
+	Number of Hits in the top 20% = 192/200
+	Avg Fitness of the bottom 80% = -263.1268
+	Number of Hits in the bottom 80% = 349/800
+
+------------------------------------------
+
+Game Distance: 181.9859
+
+Player1 Generation: 401
+	Avg Fitness of top 20% = 0
+	Number of Hits in the top 20% = 200/200
+	Avg Fitness of the bottom 80% = -403.6112
+	Number of Hits in the bottom 80% = 227/800
+
+Player2 Generation: 401
+	Avg Fitness of top 20% = -2.82952
+	Number of Hits in the top 20% = 192/200
+	Avg Fitness of the bottom 80% = -278.4115
+	Number of Hits in the bottom 80% = 298/800
+
+------------------------------------------
+
